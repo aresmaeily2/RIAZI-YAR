@@ -1,0 +1,92 @@
+{
+  "id": "quiz_final_short",
+  "title": "آزمون کوتاه پایان واحد",
+  "description": "چهار سؤال کوتاه برای دیدن پیشرفت تو؛ نتیجه‌اش فقط برای تو و مامان‌باباست.",
+  "unit": "شمارش اشیا — ارزیابی پایانی کوتاه",
+  "contentVersion": "1.0.0",
+  "kind": "quiz",
+  "teacherReviewed": false,
+  "activities": [
+    {
+      "id": "quiz_a1",
+      "type": "countAndChoose",
+      "instruction": "هر سؤال را با دقت بشمار و عدد درست را انتخاب کن.",
+      "difficulty": 2,
+      "questions": [
+        {
+          "id": "quiz_a1_q1",
+          "prompt": "چند سیب می‌بینی؟",
+          "itemShape": "apple",
+          "itemCount": 2,
+          "options": [
+            {"value": 1, "label": "۱"},
+            {"value": 2, "label": "۲"},
+            {"value": 3, "label": "۳"}
+          ],
+          "correctAnswer": 2,
+          "hints": [
+            "سیب‌ها را یکی‌یکی بشمار.",
+            "اولی «یکی»، بعدی «دو تا»."
+          ],
+          "feedbackCorrect": "درست بود! دو سیب.",
+          "feedbackWrong": "دوباره بشمار، می‌توانی!"
+        },
+        {
+          "id": "quiz_a1_q2",
+          "prompt": "چند ستاره می‌بینی؟",
+          "itemShape": "star",
+          "itemCount": 5,
+          "options": [
+            {"value": 4, "label": "۴"},
+            {"value": 5, "label": "۵"},
+            {"value": 6, "label": "۶"}
+          ],
+          "correctAnswer": 5,
+          "hints": [
+            "ستاره‌ها را با انگشت بشمار.",
+            "چهار تا که شد، شمارش را ادامه بده."
+          ],
+          "feedbackCorrect": "عالی! پنج ستاره.",
+          "feedbackWrong": "اشکالی ندارد؛ یک‌بار دیگر بشمار."
+        },
+        {
+          "id": "quiz_a1_q3",
+          "prompt": "چند ماهی می‌بینی؟",
+          "itemShape": "fish",
+          "itemCount": 7,
+          "options": [
+            {"value": 6, "label": "۶"},
+            {"value": 7, "label": "۷"},
+            {"value": 8, "label": "۸"},
+            {"value": 9, "label": "۹"}
+          ],
+          "correctAnswer": 7,
+          "hints": [
+            "ماهی‌ها را ردیف‌به‌ردیف بشمار.",
+            "اگر گم شدی، آرام از اول بشمار و هر ماهی را فقط یک‌بار بگو."
+          ],
+          "feedbackCorrect": "آفرین! هفت ماهی.",
+          "feedbackWrong": "نزدیک بودی! آرام‌تر بشمار."
+        },
+        {
+          "id": "quiz_a1_q4",
+          "prompt": "کدام دسته ۴ تا گل دارد؟",
+          "itemShape": "flower",
+          "itemCount": 4,
+          "options": [
+            {"value": 3, "label": "دسته اول"},
+            {"value": 4, "label": "دسته دوم"},
+            {"value": 5, "label": "دسته سوم"}
+          ],
+          "correctAnswer": 4,
+          "hints": [
+            "هر دسته را جدا بشمار.",
+            "دسته‌ای درست است که شمارشش با «چهار» تمام شود."
+          ],
+          "feedbackCorrect": "ایول! چهار گل بود.",
+          "feedbackWrong": "اشکالی ندارد! دسته‌ها را بشمار و با ۴ مقایسه کن."
+        }
+      ]
+    }
+  ]
+}

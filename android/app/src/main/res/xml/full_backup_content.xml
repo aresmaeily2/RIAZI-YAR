@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ممیزی ۱.۰.۱ — قواعد پشتیبان‌گیری کامل (Android 6 تا 11 / API 23 تا 30)
+  سیاست: هیچ داده‌ای از اپ در پشتیبان‌گیری خودکار گوگل قرار نمی‌گیرد.
+  (برای API 31+ فایل data_extraction_rules.xml ملاک است؛ این فایل
+  سازگاری با نسخه‌های قدیمی‌تر را صریح می‌کند.)
+-->
+<full-backup-content>
+    <exclude domain="root" path="."/>
+    <exclude domain="file" path="."/>
+    <exclude domain="database" path="."/>
+    <exclude domain="sharedpref" path="."/>
+    <exclude domain="external" path="."/>
+</full-backup-content>
