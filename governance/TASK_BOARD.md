@@ -26,14 +26,14 @@
 ## زیرساخت و تحویل
 | # | کار | وضعیت | شاهد |
 |---|---|---|---|
-| ۳-۱ | بررسی مخزن GitHub + ایجاد Private | **BLOCKED** | 404 بی‌احراز؛ بدون token/gh؛ D-108 |
-| ۳-۲ | آماده‌سازی push-ready (bundle + دستورالعمل) | **PASS** | riazi_yar_v1.0.3-exec.bundle |
+| ۳-۱ | بررسی مخزن GitHub + ایجاد Private | **PASS** | https://github.com/aresmaeily2/riazi-yar — private:true؛ D-110 |
+| ۳-۲ | push واقعی شاخه‌ها به remote | **PASS** | master@a7fb0cc + fix/audit-v1.0.3-exec@7536074؛ D-110 |
 | ۳-۳ | governance (charter/memory/decisions/board/gates/roles) | **PASS** | همین پوشه — ساخته‌شده در این مأموریت |
 | ۳-۴ | manifest هش‌ها + بسته تحویل | **PASS** | SHA256SUMS_v1.0.3-exec.txt |
 | ۳-۵ | انتشار عمومی | **BLOCKED** | QUALITY_GATES: g2/g4/g5/g6 باز |
 
 ## TODO بعدی (مالک/تیم)
-1. تأمین اعتبارنامه GitHub (token با دسترسی repo) → ساخت Private repo → push bundle.
+1. [انجام شد — D-110] مخزن Private ساخته و شاخه‌ها push شدند. بعدی: Revoke توکن پس از بازبینی مالک؛ تنظیم branch protection/همکاران در صورت نیاز.
 2. هماهنگی جلسه بازبینی با معلم پایه اول → گیت ۰-۳.
 3. اجرای چک‌لیست دستگاه (docs/LIMITATIONS) روی گوشی واقعی → گیت ۰-۴ و P2.
 4. ایجاد keystore منتشرکننده + بیلد release امضاشده → رفع BLOCKED انتشار.
