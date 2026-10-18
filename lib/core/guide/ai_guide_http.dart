@@ -23,10 +23,22 @@ import 'guide_engine.dart';
 /// سرور واسط این اپ سرویس بیرونی است، نه سرویس روی خود دستگاه؛ این
 /// قاعده سطح حمله (SSRF/اتصال به سرویس‌های داخلی دستگاه) را کمینه می‌کند.
 ///
-/// محدودیت شناخته‌شده (مستند در SECURITY_PRIVACY): این اعتبارسنجی «نام»
-/// را بررسی می‌کند؛ اگر یک نام عمومی (DNS) به IP خصوصی resolve شود،
-/// جلوگیری از اتصال نیازمند resolve و پین کردن IP در لایه سوکت است که
-/// خارج از دامنه این نسخه است.
+/// ممیزی ۱.۰.۳ (دستورکار P1-۶ — DNS rebinding): اعتبارسنجی «نام» کافی
+/// نیست؛ اگر نامی عمومی به آدرس ممنوع resolve شود، اتصال باید رد شود.
+/// اکنون:
+///  • بازه‌های IPv4 بیشتر مسدود شدند: shared/CGNAT (100.64.0.0/10)،
+///    IETF protocol assignments (192.0.0.0/24)، TEST-NET-1/2/3
+///    (192.0.2.0/24، 198.51.100.0/24، 203.0.113.0/24)، benchmarking
+///    (198.18.0.0/15)، multicast/reserved/broadcast (224/4 و بالاتر)
+///  • بازه‌های IPv6 بیشتر: documentation (2001:db8::/32) و discard-only
+///    (100::/64)
+///  • پیش از اتصال، نام سرور resolve و «همه» آدرس‌های حاصل با همان
+///    قواعد بررسی می‌شوند؛ حتی یک آدرس ممنوع → رد کل درخواست
+///  • اتصال فقط به همان آدرسِ تأییدشده «پین» می‌شود (connectionFactory
+///    سفارشی) — هیچ resolve مجددی هنگام اتصال رخ نمی‌دهد و حمله
+///    TOCTOU/DNS-rebinding بسته است
+///  • redirect دنبال نمی‌شود (followRedirects=false) تا مقصد جدید بدون
+///    اعتبارسنجی باز resolve نشود؛ هر پاسخ 3xx رد می‌شود
 Uri validateGuideEndpoint(Uri? endpoint) {
   if (endpoint == null) throw const GuideNotConfiguredException();
   if (endpoint.scheme.toLowerCase() != 'https') {
@@ -44,6 +56,10 @@ Uri validateGuideEndpoint(Uri? endpoint) {
   if (endpoint.hasFragment) {
     throw const GuideFormatException('آدرس سرور نباید بخش # داشته باشد');
   }
+  // ممیزی ۱.۰.۳: پورت صریح باید معتبر باشد (پیش‌فرض HTTPS یعنی ۴۴۳)
+  if (endpoint.hasPort && endpoint.port <= 0) {
+    throw const GuideFormatException('پورت آدرس سرور معتبر نیست');
+  }
   if (_isLocalOrPrivateHost(host)) {
     throw const GuideFormatException(
         'آدرس‌های محلی/خصوصی برای راهنمای آنلاین مجاز نیستند');
@@ -51,10 +67,25 @@ Uri validateGuideEndpoint(Uri? endpoint) {
   return endpoint;
 }
 
+/// آیا این آدرسِ مشخص (نتیجه resolve یا IP literal) ممنوع است؟
+///
+/// ممیزی ۱.۰.۳: این تابع هم برای IP literal در URL و هم برای «نتیجه
+/// resolve نام سرور» پیش از اتصال به‌کار می‌رود تا DNS rebinding رد شود.
+/// IP عمومی (مثلاً 93.184.216.34) مجاز است — فقط مقصدهای محلی/رزرو/اشتراکی
+/// ممنوع‌اند.
+bool isForbiddenAddress(InternetAddress addr) {
+  if (addr.type == InternetAddressType.IPv4) {
+    return _isPrivateIPv4Bytes(addr.rawAddress);
+  }
+  if (addr.type == InternetAddressType.IPv6) {
+    return _isPrivateIPv6Bytes(addr.rawAddress);
+  }
+  return true; // نوع ناشناخته → احتیاط: رد
+}
+
 /// آیا host یک IP محلی/خصوصی یا hostname محلی است؟
 ///
 /// بررسی صریح IP literal (IPv4 و IPv6) و سپس نام‌های محلی شناخته‌شده.
-/// IP عمومی (مثلاً 93.184.216.34) مجاز است — فقط آدرس‌های محلی ممنوع‌اند.
 bool _isLocalOrPrivateHost(String host) {
   // ۱) IP literal — از خودِ رشته شروع می‌کنیم تا حالت IPv4-mapped IPv6
   //    (مثل ::ffff:192.168.1.10) هرگز از فیلتر رد نشود.
@@ -64,9 +95,7 @@ bool _isLocalOrPrivateHost(String host) {
   }
   final addr = InternetAddress.tryParse(host);
   if (addr != null) {
-    if (addr.type == InternetAddressType.IPv4) return _isPrivateIPv4Bytes(addr.rawAddress);
-    if (addr.type == InternetAddressType.IPv6) return _isPrivateIPv6Bytes(addr.rawAddress);
-    return true; // نوع ناشناخته → احتیاط: رد
+    return isForbiddenAddress(addr);
   }
 
   // ۲) hostname محلی شناخته‌شده
@@ -84,22 +113,35 @@ bool _isPrivateIPv4String(String s) {
   return _isPrivateIPv4Bytes(a.rawAddress);
 }
 
-/// بایت‌های IPv4: loopback، خصوصی، link-local، unspecified، multicast/reserved
+/// بایت‌های IPv4: loopback، خصوصی، link-local، unspecified،
+/// shared/CGNAT، TEST-NET، benchmarking، IETF protocol، multicast/reserved
 bool _isPrivateIPv4Bytes(List<int> b) {
   if (b.length != 4) return true;
-  final o = b[0], t = b[1];
-  if (o == 127) return true; // loopback
-  if (o == 10) return true; // 10/8
-  if (o == 172 && t >= 16 && t <= 31) return true; // 172.16/12
-  if (o == 192 && t == 168) return true; // 192.168/16
-  if (o == 169 && t == 254) return true; // link-local
-  if (o == 0) return true; // unspecified (0.0.0.0/8)
+  final o = b[0], t = b[1], th = b[2];
+  if (o == 127) return true; // loopback 127.0.0.0/8
+  if (o == 10) return true; // 10/8 خصوصی
+  if (o == 172 && t >= 16 && t <= 31) return true; // 172.16/12 خصوصی
+  if (o == 192 && t == 168) return true; // 192.168/16 خصوصی
+  if (o == 169 && t == 254) return true; // link-local 169.254/16
+  if (o == 0) return true; // unspecified 0.0.0.0/8
+  // ممیزی ۱.۰.۳ — shared address space (CGNAT) 100.64.0.0/10
+  if (o == 100 && t >= 64 && t <= 127) return true;
+  // ممیزی ۱.۰.۳ — IETF protocol assignments 192.0.0.0/24 و TEST-NET-1 192.0.2.0/24
+  if (o == 192 && t == 0 && (th == 0 || th == 2)) return true;
+  // ممیزی ۱.۰.۳ — TEST-NET-2 198.51.100.0/24
+  if (o == 198 && t == 51 && th == 100) return true;
+  // ممیزی ۱.۰.۳ — TEST-NET-3 203.0.113.0/24
+  if (o == 203 && t == 0 && th == 113) return true;
+  // ممیزی ۱.۰.۳ — benchmarking 198.18.0.0/15
+  if (o == 198 && (t == 18 || t == 19)) return true;
   if (o >= 224) return true; // multicast + reserved + broadcast
   return false;
 }
 
 /// بایت‌های IPv6: loopback، link-local، ULA، multicast، unspecified،
-/// IPv4-mapped (::ffff:0:0/96) و NAT64 (64:ff9b::/96) با IPv4 محلی داخلشان
+/// IPv4-mapped (::ffff:0:0/96)، NAT64 (64:ff9b::/96)، documentation
+/// (2001:db8::/32) و discard-only (100::/64) — با بررسی IPv4 داخلیِ
+/// mapped/NAT64 توسط قواعد IPv4 (شامل CGNAT)
 bool _isPrivateIPv6Bytes(List<int> b) {
   if (b.length != 16) return true;
 
@@ -116,6 +158,14 @@ bool _isPrivateIPv6Bytes(List<int> b) {
   if ((b[0] & 0xFE) == 0xFC) return true;
   // multicast ff00::/8
   if (b[0] == 0xFF) return true;
+
+  // ممیزی ۱.۰.۳ — documentation 2001:db8::/32
+  if (b[0] == 0x20 && b[1] == 0x01 && b[2] == 0x0D && b[3] == 0xB8) return true;
+
+  // ممیزی ۱.۰.۳ — discard-only 100::/64
+  if (b[0] == 0x01 && b[1] == 0x00 && b.sublist(2, 8).every((x) => x == 0)) {
+    return true;
+  }
 
   // IPv4-mapped: ::ffff:a.b.c.d
   final mapped = b[0] == 0 && b[1] == 0 && b[2] == 0 && b[3] == 0 &&
@@ -210,15 +260,20 @@ Future<String> readCappedUtf8(
 ///    یعنی قابلیت غیرفعال است و UI صادقانه «راهنمای محلی» را نشان می‌دهد.
 ///  • فقط HTTPS؛ اعتبارسنجی کامل پیش از اتصال (validateGuideEndpoint) —
 ///    شامل رد صریح آدرس‌های محلی/خصوصی (ممیزی ۱.۰.۲).
+///  • ممیزی ۱.۰.۳ (P1-۶): قبل از اتصال، نام سرور resolve و همه آدرس‌های
+///    حاصل با isForbiddenAddress بررسی می‌شوند؛ اتصال فقط به همان
+///    آدرس تأییدشده پین می‌شود (بدون resolve مجدد هنگام اتصال)؛ redirect
+///    دنبال نمی‌شود؛ گواهی نامعتبر در هر حالت رد می‌شود.
 ///  • خواندن جریانی با سقف ۸۱۹۲ بایت (readCappedUtf8) — بدون انباشت کامل.
 ///  • محدودیت اندازه ورودی (۱۲۰ نویسه) و خروجی (۳۰۰ نویسه پس از تجزیه).
-///  • timeout قابل تنظیم (پیش‌فرض ۸ ثانیه) و گواهی‌های نامعتبر رد می‌شوند.
+///  • timeout قابل تنظیم (پیش‌فرض ۸ ثانیه).
 ///  • ممیزی ۱.۰.۲ (یافته timeout): یک deadline واحد برای «کل درخواست»
 ///    وجود دارد که همه مراحل را پوشش می‌دهد: اتصال (connectionTimeout)،
-///    headersProvider، دریافت پاسخ (close) و خواندن کامل بدنه. اگر سرور
-///    در هر مرحله‌ای (از جمله وسط بدنه) متوقف شود، عملیات در زمان محدود
-///    خاتمه می‌یابد، سوکت‌ها با client.close(force:true) بسته می‌شوند و
-///    استثنای کنترل‌شده به UI می‌رسد تا fallback محلی اجرا شود.
+///    resolve نام، headersProvider، دریافت پاسخ (close) و خواندن کامل
+///    بدنه. اگر سرور در هر مرحله‌ای (از جمله وسط بدنه) متوقف شود،
+///    عملیات در زمان محدود خاتمه می‌یابد، سوکت‌ها با client.close(force:true)
+///    بسته می‌شوند و استثنای کنترل‌شده به UI می‌رسد تا fallback محلی
+///    اجرا شود.
 ///  • خروجی باید JSON ساختاریافته {"message": "...", "action": "..."} باشد؛
 ///    در غیر این صورت GuideFormatException پرتاب می‌شود و UI به راهنمای
 ///    محلی fallback می‌کند.
@@ -226,9 +281,9 @@ Future<String> readCappedUtf8(
 /// قرارداد سرور واسط (مستند کامل در docs/AI_STT_TTS.md):
 ///   POST {endpoint}
 ///   body: {"utterance": "...", "prompt": "...", "hints": [...],
-///          "wrongStreak": 0, "lessonId": "...", "questionId": "..."}
+///          "wrongStreak": 0, "activityType": "...", "lessonId": "..."}
 ///   200 : {"message": "پیام کوتاه فارسی", "action": "showHint"}
-///   خطا : هر کد غیر ۲۰۰
+///   خطا : هر کد غیر ۲۰۰ (شامل 3xx — redirect دنبال نمی‌شود)
 class HttpAiGuideClient implements GuideEngine {
   /// آدرس سرور واسط — از بیرون تزریق می‌شود؛ null یعنی غیرفعال.
   final Uri? Function() endpointProvider;
@@ -238,13 +293,32 @@ class HttpAiGuideClient implements GuideEngine {
   /// هدرهای اختیاری (مثلاً توکن موقت سرور واسط) — از بیرون تزریق می‌شود.
   final Future<Map<String, String>> Function()? headersProvider;
 
+  /// تزریق resolve برای تست (ممیزی ۱.۰.۳) — پیش‌فرض: InternetAddress.lookup.
+  /// در محصول استفاده نمی‌شود؛ فقط تست‌های سوکت محلی.
+  final Future<List<InternetAddress>> Function(String host)? resolver;
+
+  /// تزریق کارخانه اتصال برای تست (ممیزی ۱.۰.۳) — پیش‌فرض: کارخانه
+  /// پین‌شده که «فقط» به آدرس تأییدشده وصل می‌شود و هرگز دوباره resolve
+  /// نمی‌کند. در محصول استفاده نمی‌شود.
+  final Future<ConnectionTask<Socket>> Function(Uri uri, String? proxyHost,
+      int? proxyPort)? connectionFactory;
+
+  /// تزریق رفتار گواهی برای تست (ممیزی ۱.۰.۳) — پیش‌فرض null یعنی
+  /// رفتار سخت‌گیرانه (false): هر گواهی نامعتبر/خودامضا رد می‌شود.
+  final bool Function(X509Certificate cert, String host, int port)?
+      badCertificateCallback;
+
   HttpAiGuideClient({
     required this.endpointProvider,
     this.timeout = const Duration(seconds: 8),
     this.headersProvider,
+    this.resolver,
+    this.connectionFactory,
+    this.badCertificateCallback,
   });
 
-  /// پیکربندی‌شده = آدرس ارائه‌شده و معتبر از نظر قواعد امنیتی.
+  /// پیکربندی‌شده = آدرس ارائه‌شده و معتبر از نظر قواعد امنیتی نام
+  /// (بررسی DNS فقط هنگام درخواست واقعی انجام می‌شود).
   bool get isConfigured {
     try {
       validateGuideEndpoint(endpointProvider());
@@ -257,6 +331,88 @@ class HttpAiGuideClient implements GuideEngine {
   Duration _remaining(DateTime deadline) {
     final d = deadline.difference(DateTime.now());
     return d <= Duration.zero ? const Duration(milliseconds: 1) : d;
+  }
+
+  /// ممیزی ۱.۰.۳ (P1-۶): resolve نام و اعتبارسنجی «همه» آدرس‌های حاصل؛
+  /// خروجی: آدرس پین‌شده برای اتصال. اگر حتی یک آدرس ممنوع باشد، کل
+  /// درخواست رد می‌شود (محافظه‌کارانه و ساده).
+  Future<InternetAddress> _resolveAndPin(Uri endpoint, DateTime deadline) async {
+    final literal = InternetAddress.tryParse(endpoint.host);
+    if (literal != null) {
+      // IP literal — در validateGuideEndpoint با همان قواعد رد/قبول شده است
+      return literal;
+    }
+    final lookup = resolver ?? _defaultResolver;
+    List<InternetAddress> addresses;
+    try {
+      addresses = await lookup(endpoint.host).timeout(
+            _remaining(deadline),
+            onTimeout: () => throw TimeoutException('حل نام سرور راهنما طول کشید'),
+          );
+    } on GuideFormatException {
+      rethrow;
+    } on TimeoutException {
+      rethrow;
+    } on Object {
+      throw const GuideFormatException('حل نام سرور راهنما ممکن نشد (خطای DNS)');
+    }
+    if (addresses.isEmpty) {
+      throw const GuideFormatException('نام سرور راهنما به هیچ آدرسی حل نشد');
+    }
+    for (final a in addresses) {
+      if (isForbiddenAddress(a)) {
+        throw GuideFormatException(
+            'مقصد راهنمای آنلاین به آدرس ممنوع حل شد (${a.address})');
+      }
+    }
+    return addresses.first;
+  }
+
+  static Future<List<InternetAddress>> _defaultResolver(String host) =>
+      InternetAddress.lookup(host);
+
+  /// کارخانه اتصال پیش‌فرض: پین‌شده به آدرس تأییدشده — بدون resolve مجدد.
+  ///
+  /// در dart:io هنگام کارخانه سفارشی، TLS خودکار اعمال نمی‌شود؛ بنابراین
+  /// کارخانه خودش: (۱) TCP خام به آدرسِ پین‌شده، (۲) SecureSocket.secure
+  /// با «نام اصلی» (SNI + اعتبارسنجی نام گواهی) و همان رفتار سخت‌گیرانه
+  /// گواهی. در نتیجه مقصد واقعی همان آدرس تأییدشده است و نام برای
+  /// اعتبارسنجی TLS دست‌نخورده می‌ماند (ممیزی ۱.۰.۳).
+  Future<ConnectionTask<Socket>> Function(Uri uri, String? proxyHost,
+      int? proxyPort) _factoryFor(InternetAddress pinned, Uri endpoint) {
+    final injected = connectionFactory;
+    if (injected != null) return injected;
+    final strict = badCertificateCallback ??
+        ((X509Certificate cert, String host, int port) => false);
+    return (Uri uri, String? proxyHost, int? proxyPort) {
+      if (proxyHost != null || proxyPort != null) {
+        throw const GuideFormatException('اتصال از طریق پروکسی پشتیبانی نمی‌شود');
+      }
+      if (uri.scheme.toLowerCase() != 'https') {
+        throw const GuideFormatException('فقط HTTPS پشتیبانی می‌شود');
+      }
+      final port = uri.port > 0
+          ? uri.port
+          : 443; // پیش‌فرض HTTPS
+      // TCP خام به آدرس پین‌شده، سپس TLS با نام اصلی endpoint
+      ConnectionTask<Socket>? active;
+      final Future<Socket> tls = Socket.startConnect(pinned, port).then((task) {
+        active = task;
+        return task.socket;
+      }).then((raw) => SecureSocket.secure(
+            raw,
+            host: endpoint.host,
+            onBadCertificate: (cert) => strict(cert, endpoint.host, port),
+          ));
+      return Future<ConnectionTask<Socket>>.value(
+          ConnectionTask.fromSocket(tls, () {
+        try {
+          active?.cancel();
+        } on Object {
+          // لغو در هر مرحله — بدون اثر جانبی
+        }
+      }));
+    };
   }
 
   @override
@@ -272,15 +428,27 @@ class HttpAiGuideClient implements GuideEngine {
     // deadline واحد کل درخواست (ممیزی ۱.۰.۲)
     final deadline = DateTime.now().add(timeout);
 
+    // ممیزی ۱.۰.۳ (P1-۶): resolve + بررسی همه آدرس‌ها + پین‌کردن مقصد
+    final pinned = await _resolveAndPin(endpoint, deadline);
+
     final client = HttpClient()
+      // ممیزی ۱.۰.۳ (P1-۶): اتصال فقط به آدرسِ تأییدشده پین می‌شود؛
+      // هیچ resolve مجددی هنگام اتصال رخ نمی‌دهد (ضد DNS rebinding).
+      ..connectionFactory = _factoryFor(pinned, endpoint)
+      ..findProxy = ((Uri uri) => 'DIRECT')
       ..connectionTimeout = _remaining(deadline)
-      ..badCertificateCallback = ((cert, host, port) => false); // صریحاً غیرفعال
+      // پیش‌فرض سخت‌گیرانه: گواهی نامعتبر/خودامضا رد می‌شود (ممیزی ۱.۰.۱)
+      ..badCertificateCallback = badCertificateCallback ??
+          ((cert, host, port) => false); // صریحاً غیرفعال
 
     try {
       final req = await client
           .postUrl(endpoint)
           .timeout(_remaining(deadline),
               onTimeout: () => throw TimeoutException('اتصال به راهنمای آنلاین طول کشید'));
+      // ممیزی ۱.۰.۳: redirect دنبال نمی‌شود — هر 3xx مثل خطا رد می‌شود تا
+      // مقصد جدید هرگز بدون اعتبارسنجی باز بازresolve نشود.
+      req.followRedirects = false;
       req.headers.contentType = ContentType.json;
       // headersProvider هم زیر همان deadline — ممیزی ۱.۰.۲
       final headers = headersProvider == null
