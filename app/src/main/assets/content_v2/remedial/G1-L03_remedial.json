@@ -1,0 +1,258 @@
+{
+  "lesson_id": "G1-L03",
+  "section": "remedial_practice",
+  "counts_toward_30_quota": false,
+  "actual_count": 5,
+  "questions": [
+    {
+      "question_id": "G1-L03-REM-01",
+      "lesson_id": "G1-L03",
+      "section": "remedial_practice",
+      "counts_toward_30_quota": false,
+      "target_misconception_code": "OVERCOUNT_BY_ONE",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "تمرین جبرانی ۱ (الگویابی تصویری و رنگی ساده): اگر ۵ مهره آبی داشته باشیم و ۱ مهره دیگر اضافه کنیم، در مجموع چند مهره داریم؟",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۶ شکل",
+          "value": 6
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۷ شکل",
+          "value": 7
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۵ شکل",
+          "value": 5
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۸ شکل",
+          "value": 8
+        }
+      ],
+      "correct_answer": {
+        "value": 6,
+        "option_id": "opt_1",
+        "canonical_form": "VAL_6"
+      },
+      "feedback_policy": {
+        "mode": "IMMEDIATE",
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "hint_on_first_error_fa": "عجله نکن! ابتدا دسته اول را بشمار و سپس یکی به آن اضافه کن.",
+        "scaffolded_hint_fa": "روی انگشت‌های دستت ابتدا عدد اول را نشان بده و بعد یک انگشت دیگر باز کن.",
+        "success_message_fa": "عالی بود! حالا این مهارت را خوب یاد گرفتی."
+      },
+      "skill_code": "G1_SN03",
+      "interaction_payload": {
+        "target_value": 6,
+        "items_count": 8,
+        "criteria": "الگویابی تصویری و رنگی ساده"
+      }
+    },
+    {
+      "question_id": "G1-L03-REM-02",
+      "lesson_id": "G1-L03",
+      "section": "remedial_practice",
+      "counts_toward_30_quota": false,
+      "target_misconception_code": "UNDERCOUNT_BY_ONE",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "تمرین جبرانی ۲ (الگویابی تصویری و رنگی ساده): اگر ۶ مهره آبی داشته باشیم و ۱ مهره دیگر اضافه کنیم، در مجموع چند مهره داریم؟",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۸ شکل",
+          "value": 8
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۶ شکل",
+          "value": 6
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۹ شکل",
+          "value": 9
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۷ شکل",
+          "value": 7
+        }
+      ],
+      "correct_answer": {
+        "value": 7,
+        "option_id": "opt_4",
+        "canonical_form": "VAL_7"
+      },
+      "feedback_policy": {
+        "mode": "IMMEDIATE",
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "hint_on_first_error_fa": "عجله نکن! ابتدا دسته اول را بشمار و سپس یکی به آن اضافه کن.",
+        "scaffolded_hint_fa": "روی انگشت‌های دستت ابتدا عدد اول را نشان بده و بعد یک انگشت دیگر باز کن.",
+        "success_message_fa": "عالی بود! حالا این مهارت را خوب یاد گرفتی."
+      },
+      "skill_code": "G1_SN03",
+      "interaction_payload": {
+        "target_value": 7,
+        "items_count": 9,
+        "criteria": "الگویابی تصویری و رنگی ساده"
+      }
+    },
+    {
+      "question_id": "G1-L03-REM-03",
+      "lesson_id": "G1-L03",
+      "section": "remedial_practice",
+      "counts_toward_30_quota": false,
+      "target_misconception_code": "COUNTING_START_NODE",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "تمرین جبرانی ۳ (الگویابی تصویری و رنگی ساده): اگر ۷ مهره آبی داشته باشیم و ۱ مهره دیگر اضافه کنیم، در مجموع چند مهره داریم؟",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۷ شکل",
+          "value": 7
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۱۰ شکل",
+          "value": 10
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۸ شکل",
+          "value": 8
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۹ شکل",
+          "value": 9
+        }
+      ],
+      "correct_answer": {
+        "value": 8,
+        "option_id": "opt_3",
+        "canonical_form": "VAL_8"
+      },
+      "feedback_policy": {
+        "mode": "IMMEDIATE",
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "hint_on_first_error_fa": "عجله نکن! ابتدا دسته اول را بشمار و سپس یکی به آن اضافه کن.",
+        "scaffolded_hint_fa": "روی انگشت‌های دستت ابتدا عدد اول را نشان بده و بعد یک انگشت دیگر باز کن.",
+        "success_message_fa": "عالی بود! حالا این مهارت را خوب یاد گرفتی."
+      },
+      "skill_code": "G1_SN03",
+      "interaction_payload": {
+        "target_value": 8,
+        "items_count": 10,
+        "criteria": "الگویابی تصویری و رنگی ساده"
+      }
+    },
+    {
+      "question_id": "G1-L03-REM-04",
+      "lesson_id": "G1-L03",
+      "section": "remedial_practice",
+      "counts_toward_30_quota": false,
+      "target_misconception_code": "UNBUNDLED_FIVE",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "تمرین جبرانی ۴ (الگویابی تصویری و رنگی ساده): اگر ۸ مهره آبی داشته باشیم و ۱ مهره دیگر اضافه کنیم، در مجموع چند مهره داریم؟",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۱۱ شکل",
+          "value": 11
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۹ شکل",
+          "value": 9
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۱۰ شکل",
+          "value": 10
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۸ شکل",
+          "value": 8
+        }
+      ],
+      "correct_answer": {
+        "value": 9,
+        "option_id": "opt_2",
+        "canonical_form": "VAL_9"
+      },
+      "feedback_policy": {
+        "mode": "IMMEDIATE",
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "hint_on_first_error_fa": "عجله نکن! ابتدا دسته اول را بشمار و سپس یکی به آن اضافه کن.",
+        "scaffolded_hint_fa": "روی انگشت‌های دستت ابتدا عدد اول را نشان بده و بعد یک انگشت دیگر باز کن.",
+        "success_message_fa": "عالی بود! حالا این مهارت را خوب یاد گرفتی."
+      },
+      "skill_code": "G1_SN03",
+      "interaction_payload": {
+        "target_value": 9,
+        "items_count": 11,
+        "criteria": "الگویابی تصویری و رنگی ساده"
+      }
+    },
+    {
+      "question_id": "G1-L03-REM-05",
+      "lesson_id": "G1-L03",
+      "section": "remedial_practice",
+      "counts_toward_30_quota": false,
+      "target_misconception_code": "OFF_BY_ONE_BALANCE",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "تمرین جبرانی ۵ (الگویابی تصویری و رنگی ساده): اگر ۱ مهره آبی داشته باشیم و ۱ مهره دیگر اضافه کنیم، در مجموع چند مهره داریم؟",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۲ شکل",
+          "value": 2
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۳ شکل",
+          "value": 3
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۱ شکل",
+          "value": 1
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۴ شکل",
+          "value": 4
+        }
+      ],
+      "correct_answer": {
+        "value": 2,
+        "option_id": "opt_1",
+        "canonical_form": "VAL_2"
+      },
+      "feedback_policy": {
+        "mode": "IMMEDIATE",
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "hint_on_first_error_fa": "عجله نکن! ابتدا دسته اول را بشمار و سپس یکی به آن اضافه کن.",
+        "scaffolded_hint_fa": "روی انگشت‌های دستت ابتدا عدد اول را نشان بده و بعد یک انگشت دیگر باز کن.",
+        "success_message_fa": "عالی بود! حالا این مهارت را خوب یاد گرفتی."
+      },
+      "skill_code": "G1_SN03",
+      "interaction_payload": {
+        "target_value": 2,
+        "items_count": 4,
+        "criteria": "الگویابی تصویری و رنگی ساده"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1325 @@
+{
+  "lesson_id": "G1-L29",
+  "lesson_number": 29,
+  "chapter_number": 6,
+  "title_fa": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)",
+  "grade": 1,
+  "status": {
+    "technical_validation": "TECH_VALIDATED_PASS",
+    "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+    "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+    "teacher_reviewer_id": null,
+    "last_technical_check_utc": "2026-11-19T16:22:00Z"
+  },
+  "lesson_summary": {
+    "key_concepts": [
+      "درک مفهومی و بصری آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)",
+      "کاربرد عملی آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی) در مسائل روزمره کلاس اول"
+    ],
+    "visual_takeaway": "خلاصه تصویری درس 29: یادگیری گام‌به‌گام آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی) با کمک اشیاء ملموس.",
+    "parent_tip": "توصیه به والدین: در خانه با اشیاء واقعی مانند میوه یا اسباب‌بازی مفهوم «آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)» را تمرین کنید."
+  },
+  "question_counts_audit": {
+    "worked_examples_count": 2,
+    "independent_practice_count": 30,
+    "remedial_practice_count": 5,
+    "summative_assessment_count": 5,
+    "total_items_in_lesson": 42
+  },
+  "worked_examples": [
+    {
+      "example_id": "G1-L29-EX-01",
+      "section": "worked_example",
+      "counts_toward_30_quota": false,
+      "prompt_fa": "مثال حل‌شده ۱ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): اگر در سبد اول ۱ سیب و در کنار آن ۱ سیب دیگر داشته باشیم، چطور با «آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)» به عدد کل می‌رسیم؟",
+      "step_by_step_solution_fa": [
+        "گام ۱: ابتدا ۱ شیء اول را یک‌به‌یک می‌شماریم و علامت می‌زنیم.",
+        "گام ۲: سپس ۱ شیء بعدی را به آن اضافه کرده و روی ابزار تصویر می‌کنیم.",
+        "گام ۳: نتیجه نهایی برابر با ۲ می‌شود."
+      ],
+      "final_answer": "۲ شیء (پاسخ عددی: ۲)"
+    },
+    {
+      "example_id": "G1-L29-EX-02",
+      "section": "worked_example",
+      "counts_toward_30_quota": false,
+      "prompt_fa": "مثال حل‌شده ۲ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): اگر در سبد اول ۲ سیب و در کنار آن ۱ سیب دیگر داشته باشیم، چطور با «آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)» به عدد کل می‌رسیم؟",
+      "step_by_step_solution_fa": [
+        "گام ۱: ابتدا ۲ شیء اول را یک‌به‌یک می‌شماریم و علامت می‌زنیم.",
+        "گام ۲: سپس ۱ شیء بعدی را به آن اضافه کرده و روی ابزار تصویر می‌کنیم.",
+        "گام ۳: نتیجه نهایی برابر با ۳ می‌شود."
+      ],
+      "final_answer": "۳ شیء (پاسخ عددی: ۳)"
+    },
+    {
+      "example_id": "G1-L29-EX-03",
+      "section": "worked_example",
+      "counts_toward_30_quota": false,
+      "prompt_fa": "مثال حل‌شده ۳ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): اگر در سبد اول ۳ سیب و در کنار آن ۱ سیب دیگر داشته باشیم، چطور با «آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)» به عدد کل می‌رسیم؟",
+      "step_by_step_solution_fa": [
+        "گام ۱: ابتدا ۳ شیء اول را یک‌به‌یک می‌شماریم و علامت می‌زنیم.",
+        "گام ۲: سپس ۱ شیء بعدی را به آن اضافه کرده و روی ابزار تصویر می‌کنیم.",
+        "گام ۳: نتیجه نهایی برابر با ۴ می‌شود."
+      ],
+      "final_answer": "۴ شیء (پاسخ عددی: ۴)"
+    }
+  ],
+  "independent_practice_questions": [
+    {
+      "question_id": "G1-L29-IND-01",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 1,
+      "difficulty": "easy",
+      "interaction_type": "drag_and_drop_count",
+      "prompt_fa": "تمرین ۱ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): دقیقاً ۲ سیب را به داخل سبد بکش یا لمس کن.",
+      "interaction_payload": {
+        "target_value": 2,
+        "items_count": 6,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 2,
+        "option_id": null,
+        "canonical_form": "VAL_2"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": []
+    },
+    {
+      "question_id": "G1-L29-IND-02",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 2,
+      "difficulty": "easy",
+      "interaction_type": "number_line_jump",
+      "prompt_fa": "تمرین ۲ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): روی محور اعداد از صفر شروع کن، ابتدا ۱ واحد و سپس ۲ واحد به راست بپر.",
+      "interaction_payload": {
+        "target_value": 3,
+        "items_count": 6,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 3,
+        "option_id": null,
+        "canonical_form": "VAL_3"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": []
+    },
+    {
+      "question_id": "G1-L29-IND-03",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 3,
+      "difficulty": "easy",
+      "interaction_type": "tally_mark_builder",
+      "prompt_fa": "تمرین ۳ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): عدد ۴ را با دسته‌های ۵تایی و چوب‌خط‌های تکی بساز.",
+      "interaction_payload": {
+        "target_value": 4,
+        "items_count": 7,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 4,
+        "option_id": null,
+        "canonical_form": "VAL_4"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": []
+    },
+    {
+      "question_id": "G1-L29-IND-04",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 4,
+      "difficulty": "easy",
+      "interaction_type": "pattern_completer",
+      "prompt_fa": "تمرین ۴ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): به الگوی روبه‌رو دقت کن: «⭐ 🌙 ⭐ 🌙 ⭐ ؟» — شکل بعدی در جای علامت سؤال کدام است؟",
+      "interaction_payload": {
+        "target_value": 5,
+        "items_count": 8,
+        "criteria": "⭐ 🌙 ⭐ 🌙 ⭐ ؟"
+      },
+      "correct_answer": {
+        "value": 5,
+        "option_id": "opt_2",
+        "canonical_form": "opt_2"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "⭐ ستاره",
+          "value": 6
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "🌙 ماه",
+          "value": 5
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "☀️ خورشید",
+          "value": 8
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "☁️ ابر",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "question_id": "G1-L29-IND-05",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 5,
+      "difficulty": "easy",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "تمرین ۵ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): اگر در دسته اول ۳ شکل و در دسته دوم ۳ شکل داشته باشیم، در مجموع چند شکل داریم؟ گزینه درست را انتخاب کن.",
+      "interaction_payload": {
+        "target_value": 6,
+        "items_count": 9,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 6,
+        "option_id": "opt_3",
+        "canonical_form": "VAL_6"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۵ شکل",
+          "value": 5
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۸ شکل",
+          "value": 8
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۶ شکل",
+          "value": 6
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۷ شکل",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "question_id": "G1-L29-IND-06",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 6,
+      "difficulty": "easy",
+      "interaction_type": "balance_scale_equation",
+      "prompt_fa": "تمرین ۶ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): در کفه چپ ترازو وزنه ۷ قرار دارد. در کفه راست وزنه بگذار تا ترازو کاملاً متعادل شود.",
+      "interaction_payload": {
+        "target_value": 7,
+        "items_count": 10,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 7,
+        "option_id": null,
+        "canonical_form": "VAL_7"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": []
+    },
+    {
+      "question_id": "G1-L29-IND-07",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 7,
+      "difficulty": "easy",
+      "interaction_type": "drag_and_drop_count",
+      "prompt_fa": "تمرین ۷ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): دقیقاً ۸ سیب را به داخل سبد بکش یا لمس کن.",
+      "interaction_payload": {
+        "target_value": 8,
+        "items_count": 11,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 8,
+        "option_id": null,
+        "canonical_form": "VAL_8"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": []
+    },
+    {
+      "question_id": "G1-L29-IND-08",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 8,
+      "difficulty": "easy",
+      "interaction_type": "number_line_jump",
+      "prompt_fa": "تمرین ۸ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): روی محور اعداد از صفر شروع کن، ابتدا ۴ واحد و سپس ۵ واحد به راست بپر.",
+      "interaction_payload": {
+        "target_value": 9,
+        "items_count": 12,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 9,
+        "option_id": null,
+        "canonical_form": "VAL_9"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": []
+    },
+    {
+      "question_id": "G1-L29-IND-09",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 9,
+      "difficulty": "easy",
+      "interaction_type": "tally_mark_builder",
+      "prompt_fa": "تمرین ۹ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): عدد ۱۰ را با دسته‌های ۵تایی و چوب‌خط‌های تکی بساز.",
+      "interaction_payload": {
+        "target_value": 10,
+        "items_count": 13,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 10,
+        "option_id": null,
+        "canonical_form": "VAL_10"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": []
+    },
+    {
+      "question_id": "G1-L29-IND-10",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 10,
+      "difficulty": "easy",
+      "interaction_type": "pattern_completer",
+      "prompt_fa": "تمرین ۱۰ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): به الگوی روبه‌رو دقت کن: «🟢 🟢 🟡 🟢 🟢 ؟» — شکل بعدی در جای علامت سؤال کدام است؟",
+      "interaction_payload": {
+        "target_value": 1,
+        "items_count": 6,
+        "criteria": "🟢 🟢 🟡 🟢 🟢 ؟"
+      },
+      "correct_answer": {
+        "value": 1,
+        "option_id": "opt_2",
+        "canonical_form": "opt_2"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "🟢 مهره سبز",
+          "value": 2
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "🟡 مهره زرد",
+          "value": 1
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "🔴 مهره قرمز",
+          "value": 4
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "🔵 مهره آبی",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "question_id": "G1-L29-IND-11",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 11,
+      "difficulty": "medium",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "تمرین ۱۱ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): اگر در دسته اول ۱ شکل و در دسته دوم ۱ شکل داشته باشیم، در مجموع چند شکل داریم؟ گزینه درست را انتخاب کن.",
+      "interaction_payload": {
+        "target_value": 2,
+        "items_count": 6,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 2,
+        "option_id": "opt_1",
+        "canonical_form": "VAL_2"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۲ شکل",
+          "value": 2
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۳ شکل",
+          "value": 3
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۱ شکل",
+          "value": 1
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۴ شکل",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "question_id": "G1-L29-IND-12",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 12,
+      "difficulty": "medium",
+      "interaction_type": "balance_scale_equation",
+      "prompt_fa": "تمرین ۱۲ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): در کفه چپ ترازو وزنه ۳ قرار دارد. در کفه راست وزنه بگذار تا ترازو کاملاً متعادل شود.",
+      "interaction_payload": {
+        "target_value": 3,
+        "items_count": 6,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 3,
+        "option_id": null,
+        "canonical_form": "VAL_3"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": []
+    },
+    {
+      "question_id": "G1-L29-IND-13",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 13,
+      "difficulty": "medium",
+      "interaction_type": "drag_and_drop_count",
+      "prompt_fa": "تمرین ۱۳ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): دقیقاً ۴ سیب را به داخل سبد بکش یا لمس کن.",
+      "interaction_payload": {
+        "target_value": 4,
+        "items_count": 7,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 4,
+        "option_id": null,
+        "canonical_form": "VAL_4"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": []
+    },
+    {
+      "question_id": "G1-L29-IND-14",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 14,
+      "difficulty": "medium",
+      "interaction_type": "number_line_jump",
+      "prompt_fa": "تمرین ۱۴ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): روی محور اعداد از صفر شروع کن، ابتدا ۲ واحد و سپس ۳ واحد به راست بپر.",
+      "interaction_payload": {
+        "target_value": 5,
+        "items_count": 8,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 5,
+        "option_id": null,
+        "canonical_form": "VAL_5"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": []
+    },
+    {
+      "question_id": "G1-L29-IND-15",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 15,
+      "difficulty": "medium",
+      "interaction_type": "tally_mark_builder",
+      "prompt_fa": "تمرین ۱۵ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): عدد ۶ را با دسته‌های ۵تایی و چوب‌خط‌های تکی بساز.",
+      "interaction_payload": {
+        "target_value": 6,
+        "items_count": 9,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 6,
+        "option_id": null,
+        "canonical_form": "VAL_6"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": []
+    },
+    {
+      "question_id": "G1-L29-IND-16",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 16,
+      "difficulty": "medium",
+      "interaction_type": "pattern_completer",
+      "prompt_fa": "تمرین ۱۶ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): به الگوی روبه‌رو دقت کن: «🔴 🔵 🔴 🔵 🔴 ؟» — شکل بعدی در جای علامت سؤال کدام است؟",
+      "interaction_payload": {
+        "target_value": 7,
+        "items_count": 10,
+        "criteria": "🔴 🔵 🔴 🔵 🔴 ؟"
+      },
+      "correct_answer": {
+        "value": 7,
+        "option_id": "opt_2",
+        "canonical_form": "opt_2"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "🔴 دایره قرمز",
+          "value": 8
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "🔵 دایره آبی",
+          "value": 7
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "🟢 دایره سبز",
+          "value": 10
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "🟡 دایره زرد",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "question_id": "G1-L29-IND-17",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 17,
+      "difficulty": "medium",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "تمرین ۱۷ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): اگر در دسته اول ۴ شکل و در دسته دوم ۴ شکل داشته باشیم، در مجموع چند شکل داریم؟ گزینه درست را انتخاب کن.",
+      "interaction_payload": {
+        "target_value": 8,
+        "items_count": 11,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 8,
+        "option_id": "opt_3",
+        "canonical_form": "VAL_8"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۷ شکل",
+          "value": 7
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۱۰ شکل",
+          "value": 10
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۸ شکل",
+          "value": 8
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۹ شکل",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "question_id": "G1-L29-IND-18",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 18,
+      "difficulty": "medium",
+      "interaction_type": "balance_scale_equation",
+      "prompt_fa": "تمرین ۱۸ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): در کفه چپ ترازو وزنه ۹ قرار دارد. در کفه راست وزنه بگذار تا ترازو کاملاً متعادل شود.",
+      "interaction_payload": {
+        "target_value": 9,
+        "items_count": 12,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 9,
+        "option_id": null,
+        "canonical_form": "VAL_9"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": []
+    },
+    {
+      "question_id": "G1-L29-IND-19",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 19,
+      "difficulty": "medium",
+      "interaction_type": "drag_and_drop_count",
+      "prompt_fa": "تمرین ۱۹ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): دقیقاً ۱۰ سیب را به داخل سبد بکش یا لمس کن.",
+      "interaction_payload": {
+        "target_value": 10,
+        "items_count": 13,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 10,
+        "option_id": null,
+        "canonical_form": "VAL_10"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": []
+    },
+    {
+      "question_id": "G1-L29-IND-20",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 20,
+      "difficulty": "medium",
+      "interaction_type": "number_line_jump",
+      "prompt_fa": "تمرین ۲۰ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): روی محور اعداد از صفر شروع کن، ابتدا ۰ واحد و سپس ۱ واحد به راست بپر.",
+      "interaction_payload": {
+        "target_value": 1,
+        "items_count": 6,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 1,
+        "option_id": null,
+        "canonical_form": "VAL_1"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": []
+    },
+    {
+      "question_id": "G1-L29-IND-21",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 21,
+      "difficulty": "medium",
+      "interaction_type": "tally_mark_builder",
+      "prompt_fa": "تمرین ۲۱ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): عدد ۲ را با دسته‌های ۵تایی و چوب‌خط‌های تکی بساز.",
+      "interaction_payload": {
+        "target_value": 2,
+        "items_count": 6,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 2,
+        "option_id": null,
+        "canonical_form": "VAL_2"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": []
+    },
+    {
+      "question_id": "G1-L29-IND-22",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 22,
+      "difficulty": "medium",
+      "interaction_type": "pattern_completer",
+      "prompt_fa": "تمرین ۲۲ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): به الگوی روبه‌رو دقت کن: «🔺 🔺 🟦 🔺 🔺 ؟» — شکل بعدی در جای علامت سؤال کدام است؟",
+      "interaction_payload": {
+        "target_value": 3,
+        "items_count": 6,
+        "criteria": "🔺 🔺 🟦 🔺 🔺 ؟"
+      },
+      "correct_answer": {
+        "value": 3,
+        "option_id": "opt_2",
+        "canonical_form": "opt_2"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "🔺 مثلث قرمز",
+          "value": 4
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "🟦 مربع آبی",
+          "value": 3
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "⭐ ستاره زرد",
+          "value": 6
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "🟢 دایره سبز",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "question_id": "G1-L29-IND-23",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 23,
+      "difficulty": "challenge",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "تمرین ۲۳ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): اگر در دسته اول ۲ شکل و در دسته دوم ۲ شکل داشته باشیم، در مجموع چند شکل داریم؟ گزینه درست را انتخاب کن.",
+      "interaction_payload": {
+        "target_value": 4,
+        "items_count": 7,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 4,
+        "option_id": "opt_1",
+        "canonical_form": "VAL_4"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۴ شکل",
+          "value": 4
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۵ شکل",
+          "value": 5
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۳ شکل",
+          "value": 3
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۶ شکل",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "question_id": "G1-L29-IND-24",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 24,
+      "difficulty": "challenge",
+      "interaction_type": "balance_scale_equation",
+      "prompt_fa": "تمرین ۲۴ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): در کفه چپ ترازو وزنه ۵ قرار دارد. در کفه راست وزنه بگذار تا ترازو کاملاً متعادل شود.",
+      "interaction_payload": {
+        "target_value": 5,
+        "items_count": 8,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 5,
+        "option_id": null,
+        "canonical_form": "VAL_5"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": []
+    },
+    {
+      "question_id": "G1-L29-IND-25",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 25,
+      "difficulty": "challenge",
+      "interaction_type": "drag_and_drop_count",
+      "prompt_fa": "تمرین ۲۵ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): دقیقاً ۶ سیب را به داخل سبد بکش یا لمس کن.",
+      "interaction_payload": {
+        "target_value": 6,
+        "items_count": 9,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 6,
+        "option_id": null,
+        "canonical_form": "VAL_6"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": []
+    },
+    {
+      "question_id": "G1-L29-IND-26",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 26,
+      "difficulty": "challenge",
+      "interaction_type": "number_line_jump",
+      "prompt_fa": "تمرین ۲۶ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): روی محور اعداد از صفر شروع کن، ابتدا ۳ واحد و سپس ۴ واحد به راست بپر.",
+      "interaction_payload": {
+        "target_value": 7,
+        "items_count": 10,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 7,
+        "option_id": null,
+        "canonical_form": "VAL_7"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": []
+    },
+    {
+      "question_id": "G1-L29-IND-27",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 27,
+      "difficulty": "challenge",
+      "interaction_type": "tally_mark_builder",
+      "prompt_fa": "تمرین ۲۷ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): عدد ۸ را با دسته‌های ۵تایی و چوب‌خط‌های تکی بساز.",
+      "interaction_payload": {
+        "target_value": 8,
+        "items_count": 11,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 8,
+        "option_id": null,
+        "canonical_form": "VAL_8"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": []
+    },
+    {
+      "question_id": "G1-L29-IND-28",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 28,
+      "difficulty": "challenge",
+      "interaction_type": "pattern_completer",
+      "prompt_fa": "تمرین ۲۸ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): به الگوی روبه‌رو دقت کن: «🍎 🍌 🍎 🍌 🍎 ؟» — شکل بعدی در جای علامت سؤال کدام است؟",
+      "interaction_payload": {
+        "target_value": 9,
+        "items_count": 12,
+        "criteria": "🍎 🍌 🍎 🍌 🍎 ؟"
+      },
+      "correct_answer": {
+        "value": 9,
+        "option_id": "opt_2",
+        "canonical_form": "opt_2"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "🍎 سیب سرخ",
+          "value": 10
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "🍌 موز زرد",
+          "value": 9
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "🍇 انگور بنفش",
+          "value": 12
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "🍊 پرتقال",
+          "value": 13
+        }
+      ]
+    },
+    {
+      "question_id": "G1-L29-IND-29",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 29,
+      "difficulty": "challenge",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "تمرین ۲۹ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): اگر در دسته اول ۵ شکل و در دسته دوم ۵ شکل داشته باشیم، در مجموع چند شکل داریم؟ گزینه درست را انتخاب کن.",
+      "interaction_payload": {
+        "target_value": 10,
+        "items_count": 13,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 10,
+        "option_id": "opt_3",
+        "canonical_form": "VAL_10"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۹ شکل",
+          "value": 9
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۱۲ شکل",
+          "value": 12
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۱۰ شکل",
+          "value": 10
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۱۱ شکل",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "question_id": "G1-L29-IND-30",
+      "lesson_id": "G1-L29",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 30,
+      "difficulty": "challenge",
+      "interaction_type": "balance_scale_equation",
+      "prompt_fa": "تمرین ۳۰ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): در کفه چپ ترازو وزنه ۱ قرار دارد. در کفه راست وزنه بگذار تا ترازو کاملاً متعادل شود.",
+      "interaction_payload": {
+        "target_value": 1,
+        "items_count": 6,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 1,
+        "option_id": null,
+        "canonical_form": "VAL_1"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN29",
+      "options": []
+    }
+  ],
+  "remedial_questions_ref": "remedial/G1-L29_remedial.json",
+  "assessment_questions_ref": "assessments/G1-L29_assessment.json",
+  "skill_code": "G1_SN29",
+  "learning_objectives_fa": [
+    "آشنایی حسی و تصویری با مفهوم «آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)» از طریق دست‌ورزی",
+    "توانایی حل مسائل گام‌به‌گام «آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)» با ابزارهای تعاملی (محور، چوب‌خط، ترازو و شمارش)",
+    "تشخیص و اصلاح خطاهای رایج در «آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)» با کمک راهنمای مرحله‌ای بدون لو رفتن پاسخ"
+  ],
+  "prerequisites_fa": [
+    "شمارش یک‌به‌یک اشیاء ملموس تا عدد متناظر فصل",
+    "تشخیص ویژگی‌های دیداری (رنگ، شکل، اندازه و جهت چپ به راست)"
+  ],
+  "warm_up_story_fa": "داستان شروع درس ۲۹: سینا و مینا در باغ ریاضی با چالش «آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)» روبه‌رو شدند. بیا با کمک شکل‌ها و ابزارهای رنگی به آن‌ها کمک کنیم تا راز این درس را کشف کنند!",
+  "concept_discovery": {
+    "discovery_id": "G1-L29-DISC-01",
+    "story_prompt_fa": "داستان شروع درس ۲۹: سینا و مینا در باغ ریاضی با چالش «آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)» روبه‌رو شدند. بیا با کمک شکل‌ها و ابزارهای رنگی به آن‌ها کمک کنیم تا راز این درس را کشف کنند!",
+    "visual_explanation_fa": "در درس «آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)»، ابتدا به دسته‌های شکل‌ها با دقت نگاه می‌کنیم، سپس با لمس یک‌به‌یک هر شکل، رابطه بین تعداد و نماد ریاضی را کشف می‌کنیم.",
+    "discovery_steps_fa": [
+      "گام کشف ۱: شکل‌های صفحه را به ترتیب از راست به چپ یا چپ به راست لمس کن.",
+      "گام کشف ۲: ببین هر تغییر در تعداد شکل‌ها چه اثری روی ترازو، چوب‌خط یا محور اعداد می‌گذارد.",
+      "گام کشف ۳: نتیجه‌ای را که کشف کردی با مثال حل‌شده مقایسه کن."
+    ],
+    "visual_takeaway_fa": "خلاصه تصویری درس 29: یادگیری گام‌به‌گام آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی) با کمک اشیاء ملموس."
+  },
+  "guided_activities": [
+    {
+      "question_id": "G1-L29-GUIDED-01",
+      "lesson_id": "G1-L29",
+      "skill_code": "G1_SN29",
+      "section": "guided_activity",
+      "counts_toward_30_quota": false,
+      "sequence_number": 1,
+      "difficulty": "easy",
+      "interaction_type": "drag_and_drop_count",
+      "prompt_fa": "فعالیت هدایت‌شده ۱ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): با راهنمایی گام‌به‌گام، مقدار ۴ را روی ابزار بساز.",
+      "options": [],
+      "interaction_payload": {
+        "target_value": 4,
+        "items_count": 7,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 4,
+        "option_id": null,
+        "canonical_form": "VAL_4"
+      },
+      "feedback_policy": {
+        "mode": "IMMEDIATE",
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "hint_on_first_error_fa": "راهنمای اول: دوباره شکل‌ها را یک‌به‌یک بشمار؛ هدف ما رسیدن به مقدار مشخص‌شده در صورت سؤال است.",
+        "scaffolded_hint_fa": "راهنمای گام‌به‌گام: یکی‌یکی به ابزار اضافه کن و هر بار عدد بالای صفحه را با صورت سؤال مقایسه کن.",
+        "success_message_fa": "آفرین! فعالیت هدایت‌شده را به درستی انجام دادی."
+      }
+    },
+    {
+      "question_id": "G1-L29-GUIDED-02",
+      "lesson_id": "G1-L29",
+      "skill_code": "G1_SN29",
+      "section": "guided_activity",
+      "counts_toward_30_quota": false,
+      "sequence_number": 2,
+      "difficulty": "easy",
+      "interaction_type": "tally_mark_builder",
+      "prompt_fa": "فعالیت هدایت‌شده ۲ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): با راهنمایی گام‌به‌گام، مقدار ۵ را روی ابزار بساز.",
+      "options": [],
+      "interaction_payload": {
+        "target_value": 5,
+        "items_count": 8,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 5,
+        "option_id": null,
+        "canonical_form": "VAL_5"
+      },
+      "feedback_policy": {
+        "mode": "IMMEDIATE",
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "hint_on_first_error_fa": "راهنمای اول: دوباره شکل‌ها را یک‌به‌یک بشمار؛ هدف ما رسیدن به مقدار مشخص‌شده در صورت سؤال است.",
+        "scaffolded_hint_fa": "راهنمای گام‌به‌گام: یکی‌یکی به ابزار اضافه کن و هر بار عدد بالای صفحه را با صورت سؤال مقایسه کن.",
+        "success_message_fa": "آفرین! فعالیت هدایت‌شده را به درستی انجام دادی."
+      }
+    },
+    {
+      "question_id": "G1-L29-GUIDED-03",
+      "lesson_id": "G1-L29",
+      "skill_code": "G1_SN29",
+      "section": "guided_activity",
+      "counts_toward_30_quota": false,
+      "sequence_number": 3,
+      "difficulty": "easy",
+      "interaction_type": "balance_scale_equation",
+      "prompt_fa": "فعالیت هدایت‌شده ۳ (آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)): با راهنمایی گام‌به‌گام، مقدار ۶ را روی ابزار بساز.",
+      "options": [],
+      "interaction_payload": {
+        "target_value": 6,
+        "items_count": 9,
+        "criteria": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)"
+      },
+      "correct_answer": {
+        "value": 6,
+        "option_id": null,
+        "canonical_form": "VAL_6"
+      },
+      "feedback_policy": {
+        "mode": "IMMEDIATE",
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "hint_on_first_error_fa": "راهنمای اول: دوباره شکل‌ها را یک‌به‌یک بشمار؛ هدف ما رسیدن به مقدار مشخص‌شده در صورت سؤال است.",
+        "scaffolded_hint_fa": "راهنمای گام‌به‌گام: یکی‌یکی به ابزار اضافه کن و هر بار عدد بالای صفحه را با صورت سؤال مقایسه کن.",
+        "success_message_fa": "آفرین! فعالیت هدایت‌شده را به درستی انجام دادی."
+      }
+    }
+  ]
+}

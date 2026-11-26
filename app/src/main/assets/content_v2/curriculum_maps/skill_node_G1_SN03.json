@@ -1,0 +1,8 @@
+{
+  "skill_node_id": "G1-SN-03",
+  "linked_lesson_id": "G1-L03",
+  "mastery_threshold": 0.85,
+  "remedial_trigger_threshold": 0.5,
+  "technical_validation": "TECH_VALIDATED_PASS",
+  "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW"
+}

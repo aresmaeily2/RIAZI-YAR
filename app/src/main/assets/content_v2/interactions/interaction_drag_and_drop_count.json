@@ -1,0 +1,55 @@
+{
+  "interaction_type": "drag_and_drop_count",
+  "title_fa": "کشیدن و رها کردن اشیاء برای شمارش و دسته‌بندی",
+  "input_data_structure": {
+    "source_pool": {
+      "type": "array",
+      "description": "لیست اشیاء قابل کشیدن با شناسه یکتا و ویژگی (رنگ/شکل)"
+    },
+    "target_zones": {
+      "type": "array",
+      "description": "نواحی مقصد (مثلاً سبد یا ظرف) با ظرفیت مجاز"
+    },
+    "target_count": {
+      "type": "integer",
+      "description": "تعداد هدف مورد انتظار"
+    }
+  },
+  "student_response_recording": {
+    "format": "JSON Object",
+    "fields": [
+      "dropped_item_ids",
+      "zone_assignments",
+      "drag_events_count",
+      "time_spent_ms"
+    ]
+  },
+  "validation_logic": {
+    "method": "Exact cardinality and attribute predicate check",
+    "rule": "len(zone_assignments[target_zone]) == target_count AND all items match target_predicate"
+  },
+  "common_misconception_detection": [
+    {
+      "code": "OVERCOUNT_BY_ONE",
+      "condition": "dropped == target + 1",
+      "hint_fa": "یک دانه بیشتر گذاشتی! دوباره با انگشت بشمار."
+    },
+    {
+      "code": "UNDERCOUNT_BY_ONE",
+      "condition": "dropped == target - 1",
+      "hint_fa": "یکی کم است؛ یک دانه دیگر اضافه کن."
+    },
+    {
+      "code": "WRONG_ATTRIBUTE_SORT",
+      "condition": "count_ok AND not predicate_ok",
+      "hint_fa": "تعداد درست است اما به رنگ/شکل خواسته‌شده دقت کن."
+    }
+  ],
+  "progress_engine_telemetry": {
+    "mastery_delta": "float (-0.15 to +0.20)",
+    "skill_node_id": "string",
+    "misconception_tags": "array<string>",
+    "attempts_used": "integer",
+    "remedial_trigger": "boolean (true if attempts >= 2 and failed)"
+  }
+}

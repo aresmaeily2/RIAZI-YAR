@@ -1,0 +1,52 @@
+{
+  "interaction_type": "balance_scale_equation",
+  "title_fa": "ترازوی تعادل و تساوی اعداد",
+  "input_data_structure": {
+    "left_pan_weights": {
+      "type": "array",
+      "items": "integer"
+    },
+    "right_pan_fixed_weights": {
+      "type": "array",
+      "items": "integer"
+    },
+    "available_weights": {
+      "type": "array",
+      "items": "integer"
+    },
+    "target_sum": {
+      "type": "integer"
+    }
+  },
+  "student_response_recording": {
+    "format": "JSON Object",
+    "fields": [
+      "added_right_weights",
+      "left_total",
+      "right_total",
+      "time_spent_ms"
+    ]
+  },
+  "validation_logic": {
+    "method": "Arithmetic equilibrium check",
+    "rule": "sum(left_pan_weights) == (sum(right_pan_fixed_weights) + sum(added_right_weights))"
+  },
+  "common_misconception_detection": [
+    {
+      "code": "EQUALS_AS_OPERATOR",
+      "condition": "sum(added_right_weights) == sum(left_pan_weights)",
+      "hint_fa": "وزنه‌های از قبل موجود در کفه راست را هم حساب کن تا دو کفه برابر شوند."
+    },
+    {
+      "code": "OFF_BY_ONE_BALANCE",
+      "condition": "abs(left_total - right_total) == 1",
+      "hint_fa": "ترازو خیلی نزدیک به تعادل است؛ فقط ۱ واحد اختلاف دارد."
+    }
+  ],
+  "progress_engine_telemetry": {
+    "mastery_delta": "float",
+    "skill_node_id": "string",
+    "misconception_tags": "array<string>",
+    "remedial_trigger": "boolean"
+  }
+}

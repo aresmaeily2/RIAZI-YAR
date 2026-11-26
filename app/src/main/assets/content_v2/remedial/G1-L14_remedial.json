@@ -1,0 +1,258 @@
+{
+  "lesson_id": "G1-L14",
+  "section": "remedial_practice",
+  "counts_toward_30_quota": false,
+  "actual_count": 5,
+  "questions": [
+    {
+      "question_id": "G1-L14-REM-01",
+      "lesson_id": "G1-L14",
+      "section": "remedial_practice",
+      "counts_toward_30_quota": false,
+      "target_misconception_code": "OVERCOUNT_BY_ONE",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "تمرین جبرانی ۱ (حل مسئله‌های ساده جمع با شکل): اگر ۸ مهره آبی داشته باشیم و ۱ مهره دیگر اضافه کنیم، در مجموع چند مهره داریم؟",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۱۱ شکل",
+          "value": 11
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۹ شکل",
+          "value": 9
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۱۰ شکل",
+          "value": 10
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۸ شکل",
+          "value": 8
+        }
+      ],
+      "correct_answer": {
+        "value": 9,
+        "option_id": "opt_2",
+        "canonical_form": "VAL_9"
+      },
+      "feedback_policy": {
+        "mode": "IMMEDIATE",
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "hint_on_first_error_fa": "عجله نکن! ابتدا دسته اول را بشمار و سپس یکی به آن اضافه کن.",
+        "scaffolded_hint_fa": "روی انگشت‌های دستت ابتدا عدد اول را نشان بده و بعد یک انگشت دیگر باز کن.",
+        "success_message_fa": "عالی بود! حالا این مهارت را خوب یاد گرفتی."
+      },
+      "skill_code": "G1_SN14",
+      "interaction_payload": {
+        "target_value": 9,
+        "items_count": 11,
+        "criteria": "حل مسئله‌های ساده جمع با شکل"
+      }
+    },
+    {
+      "question_id": "G1-L14-REM-02",
+      "lesson_id": "G1-L14",
+      "section": "remedial_practice",
+      "counts_toward_30_quota": false,
+      "target_misconception_code": "UNDERCOUNT_BY_ONE",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "تمرین جبرانی ۲ (حل مسئله‌های ساده جمع با شکل): اگر ۱ مهره آبی داشته باشیم و ۱ مهره دیگر اضافه کنیم، در مجموع چند مهره داریم؟",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۲ شکل",
+          "value": 2
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۳ شکل",
+          "value": 3
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۱ شکل",
+          "value": 1
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۴ شکل",
+          "value": 4
+        }
+      ],
+      "correct_answer": {
+        "value": 2,
+        "option_id": "opt_1",
+        "canonical_form": "VAL_2"
+      },
+      "feedback_policy": {
+        "mode": "IMMEDIATE",
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "hint_on_first_error_fa": "عجله نکن! ابتدا دسته اول را بشمار و سپس یکی به آن اضافه کن.",
+        "scaffolded_hint_fa": "روی انگشت‌های دستت ابتدا عدد اول را نشان بده و بعد یک انگشت دیگر باز کن.",
+        "success_message_fa": "عالی بود! حالا این مهارت را خوب یاد گرفتی."
+      },
+      "skill_code": "G1_SN14",
+      "interaction_payload": {
+        "target_value": 2,
+        "items_count": 4,
+        "criteria": "حل مسئله‌های ساده جمع با شکل"
+      }
+    },
+    {
+      "question_id": "G1-L14-REM-03",
+      "lesson_id": "G1-L14",
+      "section": "remedial_practice",
+      "counts_toward_30_quota": false,
+      "target_misconception_code": "COUNTING_START_NODE",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "تمرین جبرانی ۳ (حل مسئله‌های ساده جمع با شکل): اگر ۲ مهره آبی داشته باشیم و ۱ مهره دیگر اضافه کنیم، در مجموع چند مهره داریم؟",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۴ شکل",
+          "value": 4
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۲ شکل",
+          "value": 2
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۵ شکل",
+          "value": 5
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۳ شکل",
+          "value": 3
+        }
+      ],
+      "correct_answer": {
+        "value": 3,
+        "option_id": "opt_4",
+        "canonical_form": "VAL_3"
+      },
+      "feedback_policy": {
+        "mode": "IMMEDIATE",
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "hint_on_first_error_fa": "عجله نکن! ابتدا دسته اول را بشمار و سپس یکی به آن اضافه کن.",
+        "scaffolded_hint_fa": "روی انگشت‌های دستت ابتدا عدد اول را نشان بده و بعد یک انگشت دیگر باز کن.",
+        "success_message_fa": "عالی بود! حالا این مهارت را خوب یاد گرفتی."
+      },
+      "skill_code": "G1_SN14",
+      "interaction_payload": {
+        "target_value": 3,
+        "items_count": 5,
+        "criteria": "حل مسئله‌های ساده جمع با شکل"
+      }
+    },
+    {
+      "question_id": "G1-L14-REM-04",
+      "lesson_id": "G1-L14",
+      "section": "remedial_practice",
+      "counts_toward_30_quota": false,
+      "target_misconception_code": "UNBUNDLED_FIVE",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "تمرین جبرانی ۴ (حل مسئله‌های ساده جمع با شکل): اگر ۳ مهره آبی داشته باشیم و ۱ مهره دیگر اضافه کنیم، در مجموع چند مهره داریم؟",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۳ شکل",
+          "value": 3
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۶ شکل",
+          "value": 6
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۴ شکل",
+          "value": 4
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۵ شکل",
+          "value": 5
+        }
+      ],
+      "correct_answer": {
+        "value": 4,
+        "option_id": "opt_3",
+        "canonical_form": "VAL_4"
+      },
+      "feedback_policy": {
+        "mode": "IMMEDIATE",
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "hint_on_first_error_fa": "عجله نکن! ابتدا دسته اول را بشمار و سپس یکی به آن اضافه کن.",
+        "scaffolded_hint_fa": "روی انگشت‌های دستت ابتدا عدد اول را نشان بده و بعد یک انگشت دیگر باز کن.",
+        "success_message_fa": "عالی بود! حالا این مهارت را خوب یاد گرفتی."
+      },
+      "skill_code": "G1_SN14",
+      "interaction_payload": {
+        "target_value": 4,
+        "items_count": 6,
+        "criteria": "حل مسئله‌های ساده جمع با شکل"
+      }
+    },
+    {
+      "question_id": "G1-L14-REM-05",
+      "lesson_id": "G1-L14",
+      "section": "remedial_practice",
+      "counts_toward_30_quota": false,
+      "target_misconception_code": "OFF_BY_ONE_BALANCE",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "تمرین جبرانی ۵ (حل مسئله‌های ساده جمع با شکل): اگر ۴ مهره آبی داشته باشیم و ۱ مهره دیگر اضافه کنیم، در مجموع چند مهره داریم؟",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۷ شکل",
+          "value": 7
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۵ شکل",
+          "value": 5
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۶ شکل",
+          "value": 6
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۴ شکل",
+          "value": 4
+        }
+      ],
+      "correct_answer": {
+        "value": 5,
+        "option_id": "opt_2",
+        "canonical_form": "VAL_5"
+      },
+      "feedback_policy": {
+        "mode": "IMMEDIATE",
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "hint_on_first_error_fa": "عجله نکن! ابتدا دسته اول را بشمار و سپس یکی به آن اضافه کن.",
+        "scaffolded_hint_fa": "روی انگشت‌های دستت ابتدا عدد اول را نشان بده و بعد یک انگشت دیگر باز کن.",
+        "success_message_fa": "عالی بود! حالا این مهارت را خوب یاد گرفتی."
+      },
+      "skill_code": "G1_SN14",
+      "interaction_payload": {
+        "target_value": 5,
+        "items_count": 7,
+        "criteria": "حل مسئله‌های ساده جمع با شکل"
+      }
+    }
+  ]
+}

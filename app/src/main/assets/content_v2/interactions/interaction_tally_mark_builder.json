@@ -1,0 +1,47 @@
+{
+  "interaction_type": "tally_mark_builder",
+  "title_fa": "ساخت چوب‌خط و دسته‌های پنج‌تایی",
+  "input_data_structure": {
+    "target_number": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 20
+    },
+    "enforce_five_bundling": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "student_response_recording": {
+    "format": "JSON Object",
+    "fields": [
+      "bundles_of_five",
+      "single_tallies",
+      "total_strokes",
+      "time_spent_ms"
+    ]
+  },
+  "validation_logic": {
+    "method": "Total value and canonical five-bundling check",
+    "rule": "(bundles_of_five * 5 + single_tallies) == target_number AND (not enforce_five_bundling OR bundles_of_five == target_number // 5)"
+  },
+  "common_misconception_detection": [
+    {
+      "code": "UNBUNDLED_FIVE",
+      "condition": "total_strokes == target_number AND single_tallies >= 5",
+      "hint_fa": "هر ۵ چوب‌خط را با یک خط مورب به یک دسته پنج‌تایی تبدیل کن."
+    },
+    {
+      "code": "BUNDLE_COUNTED_AS_ONE",
+      "condition": "bundles_of_five + single_tallies == target_number",
+      "hint_fa": "هر دسته بسته یعنی ۵ تا، نه ۱ دانه!"
+    }
+  ],
+  "progress_engine_telemetry": {
+    "mastery_delta": "float",
+    "skill_node_id": "string",
+    "bundling_mastered": "boolean",
+    "misconception_tags": "array<string>",
+    "remedial_trigger": "boolean"
+  }
+}

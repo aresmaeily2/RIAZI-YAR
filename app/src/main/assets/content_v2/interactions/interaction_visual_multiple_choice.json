@@ -1,0 +1,51 @@
+{
+  "interaction_type": "visual_multiple_choice",
+  "title_fa": "چندگزینه‌ای تصویری و صوتی",
+  "input_data_structure": {
+    "prompt_text_fa": {
+      "type": "string"
+    },
+    "prompt_audio_ref": {
+      "type": "string"
+    },
+    "options": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 4
+    },
+    "correct_option_id": {
+      "type": "string"
+    }
+  },
+  "student_response_recording": {
+    "format": "JSON Object",
+    "fields": [
+      "selected_option_id",
+      "audio_replays",
+      "time_spent_ms"
+    ]
+  },
+  "validation_logic": {
+    "method": "Identifier equality check",
+    "rule": "selected_option_id == correct_option_id"
+  },
+  "common_misconception_detection": [
+    {
+      "code": "MIRROR_DIGIT_CONFUSION",
+      "condition": "selected_option_id in ['opt_2_6', 'opt_7_8']",
+      "hint_fa": "به جهت دهانه عدد دقت کن!"
+    },
+    {
+      "code": "DISTRACTOR_MISCONCEPTION_MAP",
+      "condition": "lookup distractor_id in option.misconception_code",
+      "hint_fa": "بازخورد اختصاصی متصل به گزینه انتخابی"
+    }
+  ],
+  "progress_engine_telemetry": {
+    "mastery_delta": "float",
+    "skill_node_id": "string",
+    "selected_distractor": "string|null",
+    "misconception_tags": "array<string>",
+    "remedial_trigger": "boolean"
+  }
+}

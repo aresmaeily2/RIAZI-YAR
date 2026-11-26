@@ -1,35 +1,15 @@
-# AGENT ROLES — ریاضی‌یار
+# نقش‌ها و مسئولیت‌های تیم تخصصی (`governance/AGENT_ROLES.md`)
 
-قرارداد نقش‌ها برای هر عامل (agent/توسعه‌دهنده) که روی این پروژه کار
-می‌کند. هر مأموریت باید نقش خود را در ابتدای گزارش اعلام کند.
-
-## نقش‌ها
-
-### developer-senior (توسعه‌دهنده ارشد)
-- تغییر کد کوچک، هدفمند، دارای تست رگرسیون؛ بدون افزودن وابستگی بدون
-  توجیه؛ بدون گسترش دامنه MVP.
-- پیش از تغییر: خواندن governance/* و PROJECT_MEMORY؛ اجرای baseline.
-- پس از تغییر: analyze + test واقعی با خروجی خام و exit code؛ ثبت در
-  DECISION_LOG/TASK_BOARD.
-
-### auditor (ممیزی مستقل)
-- اجرای مستقل analyze/test/بیلد روی کامیت اعلام‌شده؛ تطبیق هش‌ها؛
-  گزارش صادقانه PASS/FAIL/NOT RUN/BLOCKED. نتیجه خودش را «مستقل» ثبت
-  می‌کند و اجرای توسعه‌دهنده را بازتولید می‌کند، نه ادعایش.
-
-### release-manager (مدیر انتشار)
-- مسئول keystore منتشرکننده، امضای release، manifest هش‌ها، بسته‌بندی.
-- انتشار عمومی فقط پس از QUALITY_GATES کامل + تأیید مالک.
-
-### teacher-reviewer (بازبین آموزشی — انسانی)
-- معلم پایه اول؛ گیت اعتبار آموزشی. خروجی: تأیید کتبی + موارد اصلاحی.
-
-### owner (مالک پروژه)
-- تأمین اعتبارنامه‌ها (GitHub، keystore، دستگاه، سرور واسط)؛ تأیید
-  انتشار عمومی؛ تعیین دستورکار.
-
-## قواعد مشترک
-- هر نقش شواهد می‌سازد (خروجی خام، هش، لاگ) نه ادعا.
-- هیچ نقشی تست اجرا‌نشده را PASS اعلام نمی‌کند؛ Mock معادل سرویس واقعی
-  نیست و برچسب شبیه‌سازی می‌گیرد.
-- تغییرها بدون ثبت در DECISION_LOG «رسمی» نیستند.
+> **شفاف‌سازی اجرایی:** در این محیط، نقش‌های ۱۲گانه زیر به‌صورت مرحله‌ای، مستقل و با راستی‌آزمایی متقابل شواهد اجرا شده‌اند:
+- **Agent 0 — Chief Engineer / Orchestrator:** مدیریت وابستگی‌ها، ثبت تصمیم‌ها در `DECISION_LOG.md` و کنترل کیفیت نهایی.
+- **Agent 1 — Forensic GitHub Auditor:** ممیزی مخزن `aresmaeily2/RIAZI-YAR`، تطبیق با فایل ZIP و کشف تناقض‌های گزارش قبلی.
+- **Agent 2 — Android Native Architect:** معماری لایه‌ای Kotlin 2.0.21، Jetpack Compose، Room v3 و DataStore.
+- **Agent 3 — Educational Design Specialist:** طراحی چرخه یادگیری ۷ مرحله‌ای متناسب با کودک ۶ تا ۷ ساله.
+- **Agent 4 — Interactive Learning Engineer:** پیاده‌سازی بومی ۶ ابزار تعاملی بدون گزینه‌های ساختگی.
+- **Agent 5 — Child UX/UI Designer:** رابط فارسی RTL، فونت وزیرمتن، اندازه لمس حداقل 56dp و دسترس‌پذیری.
+- **Agent 6 — Content & Schema Engineer:** یکپارچه‌سازی و اعتبارسنجی ۲۳۵ فایل JSON و ۱,۷۹۴ آیتم آموزشی.
+- **Agent 7 — Adaptive Learning Engineer:** پیاده‌سازی الگوریتم استاندارد SuperMemo SM-2 و طبقه‌بندی خطاها (`ErrorTaxonomy`).
+- **Agent 8 — QA / Test Automation Engineer:** اجرای تست‌های واحد و یکپارچگی با JUnit و تحلیل استاتیک با Android Lint.
+- **Agent 9 — Security & Privacy Auditor:** ممیزی Manifest، حذف مجوزها، منع Backup و سخت‌سازی `ParentGate`.
+- **Agent 10 — CI/CD & Release Engineer:** بیلد APK/AAB واقعی، محاسبه هش‌ها و تنظیم GitHub Actions.
+- **Agent 11 — Independent Reviewer:** بازبینی مستقل کد، تست‌ها و خروجی‌های بیلد پیش از تحویل نهایی.

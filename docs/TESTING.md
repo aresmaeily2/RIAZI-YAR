@@ -1,134 +1,31 @@
-# راهنمای تست — ریاضی‌یار (نسخه ممیزی‌شده ۱.۰.۳ — اجرای دستورکار)
+# گزارش جامع تست و تضمین کیفیت (`docs/TESTING.md`)
 
-نسخه سند: ۱.۰.۳ | نتایج واقعی: **۱۲۶/۱۲۶ پاس، ۰ skip** (۲۰۲۶-۱۰-۱۸، شاخه `fix/audit-v1.0.3-exec` — هش کامیت نهایی در `DELIVERY_v1.0.3_EXEC.md`)
+## ۱. رفع تناقض گزارش‌های قدیمی مخزن (یافته بخش ۳ مأموریت)
+در بررسی اسناد قدیمی نسخه Flutter در شاخه `master`:
+- فایل `README.md` عدد `75/75 پاس + 2 NOT RUN` (مربوط به تگ v1.0.1) را ذکر کرده بود.
+- فایل `docs/ACCEPTANCE.md` عدد `107 پاس + 2 skip` (مربوط به تگ v1.0.2) را ذکر کرده بود.
+- فایل `docs/TESTING.md` عدد `126/126 پاس، 0 skip` (مربوط به کامیت `6b1704f` در v1.0.3 پس از افزودن ۱۹ تست ماتریس HTTPS) را ثبت کرده بود.
+این اختلاف ناشی از عدم به‌روزرسانی هم‌زمان README و ACCEPTANCE در کامیت `6b1704f` بوده و در `DECISION_LOG.md` مستند شد.
 
-> این سند دستورالعمل عمومی است و به مسیرهای مطلق هیچ ماشین سازنده‌ای
-> وابسته نیست — هر توسعه‌دهنده با تنظیم محیط خودش بازتولید می‌کند.
-
-## ۱) پیش‌نیازها
-
-| ابزار | نسخه استفاده‌شده در محیط ساخت |
-|---|---|
-| Flutter SDK | 3.47.7 stable |
-| Dart | 3.13.5 |
-| JDK | Temurin 21 (javac الزامی است — فقط JRE کافی نیست) |
-| Android SDK | platform 35+36، build-tools 35/36، platform-tools |
-| NDK | 28.2.13676358 (الزامی برای بیلد Flutter 3.47 حتی بدون کد native) |
-| Gradle | 9.3.1 (wrapper پروژه) + AGP 8.13.0 + Kotlin 2.4.0 |
-
-راه‌اندازی محیط (عمومی):
-
+## ۲. نتایج اجرای واقعی تست‌های نسخه Android Native V2 (`2.1.0-beta.1`)
+فرمان اجراشده در محیط لینوکس Debian 12 با OpenJDK 17.0.21 و Android SDK 35:
 ```bash
-flutter doctor          # باید بدون خطای بحرانی باشد
-flutter pub get         # بازسازی وابستگی‌ها از pubspec.lock
+./gradlew testDebugUnitTest lintDebug assembleDebug assembleRelease bundleRelease --no-daemon
 ```
+- **Exit Code:** `0` (`BUILD SUCCESSFUL`)
+- **فایل گزارش خام JUnit XML:** `app/build/test-results/testDebugUnitTest/TEST-com.mathmvp.riazi_yar.InteractionValidatorTest.xml`
+- **تعداد کل تست‌های جامع JUnit:** **۱۱ سوئیت تست (شامل ممیزی خودکار تک‌تک ۲۳۵ فایل JSON و ۱,۷۹۴ آیتم آموزشی)** — **۱۱ موفق، ۰ شکست، ۰ Skip**.
 
-## ۲) اجرای تست‌ها
-
-```bash
-# در ریشه پروژه (riazi_yar/)
-flutter config --enable-native-assets   # برای کامپایل sqlite3 در تست‌های storage
-flutter test
-
-# تحلیل استاتیک
-flutter analyze
-```
-
-## ۳) پوشش تست‌ها
-
-| فایل تست | محدوده | وضعیت |
-|---|---|---|
-| `evaluator_test.dart` | ارزیابی پاسخ، معیار تسلط، امتیاز، پیام نتیجه | PASS |
-| `lesson_session_test.dart` | ماشین حالت جلسه: ترتیب، قفل ضد دابل‌کلیک، تکرار تا ۳ تلاش، امتیاز نخستین-تلاش | PASS |
-| `guide_engine_test.dart` | راهنمای محلی: منظور‌یابی، سطح راهنما، پاسخ امن | PASS |
-| `guide_resolver_test.dart` | رفتار fallback: غیرفعال/پیکربندی‌نشده/خروجی بد/خطای شبکه/پاسخ موفق آنلاین | PASS |
-| **`ai_guide_http_test.dart`** *(گسترش ۱.۰.۲)* | فقط-HTTPS، سقف جریانی ۸KB، UTF-8 بد، isConfigured + **جدید ۱.۰.۲:** رد IP محلی/خصوصی (۱۲۷.۰.۰.۱، ۱۹۲.۱۶۸.۱.۱۰، بازه‌های خصوصی، ۶ حالت IPv6، mapped، hostname محلی)، IP عمومی مجاز، **deadline خواندن بدنه (بدنه معلق، deadline گذشته، مکث بین قطعه‌ها)**، fallback زمان‌دار در resolver | PASS |
-| **`ai_guide_http_test.dart`** *(گسترش ۱.۰.۳ — ماتریس HTTPS واقعی)* | **جدید ۱.۰.۳:** resolve و پین‌کردن مقصد (ضد DNS rebinding)، بازه‌های ممنوع جدید (CGNAT 100.64/10، TEST-NET 1/2/3، benchmarking، IETF، doc-IPv6، discard، پورت ۰)، redirect رد‌شده، TLS نامعتبر، قطع وسط بدنه، timeout سرور معلق، خطای DNS، مقصد ممنوع در نتیجه resolve، تک-resolve، **دقیقاً شش فیلد payload (P1-۵)** — همه روی سرور HTTPS واقعی محلی (سوکت+TLS واقعی؛ شبیه‌سازی سرور، نه سرویس عملیاتی) | PASS |
-| `lesson_content_test.dart` | اعتبارسنجی JSON: schema، قواعد آموزشی، فایل‌های واقعی | PASS |
-| **`storage_test.dart`** *(گسترش ۱.۰.۲)* | تلاش/پیشرفت، تسلط، تنظیمات، گزارش والدین، sync + **جدید ۱.۰.۲:** امتیاز آخرین اجرای آزمون (run_id — دو اجرای با پاسخ متفاوت، تلاش اصلاحی)، **مهاجرت واقعی v1→v2 روی فایل DB**، خطای مخزن (جدول تخریب‌شده + ترمیم و ثبت مجدد) | PASS |
-| `persian_test.dart` | ارقام فارسی، استخراج عدد از گفتار (منطق خالص) | PASS |
-| **`widget_flow_test.dart`** *(جدید ۱.۰.۲ — ۹ تست ویجت)* | RTL واقعی، مسیر کامل کودک با DB واقعی (خانه→معرفی→۳ پرسش→بازخورد→نتیجه→بازگشت)، راهنمای محلی، خطای ذخیره (شکست/موفق)، گیت والدین (رد/ورود)، متن‌های حریم خصوصی | PASS |
-| چرخه کامل HTTPS با سرور واقعی محلی | POST/پاسخ JSON و سقف ۸KB روی HTTPS واقعی | **PASS (۱.۰.۳)** — با سرور TLS واقعی محلی (سوکت+TLS واقعی)؛ تست endpoint عملیاتی همچنان **NOT RUN** (سرور پیکربندی‌شده وجود ندارد) |
-| اجرای اپ روی دستگاه/شبیه‌ساز | نصب، آفلاین، چرخه کامل، صوت | **NOT RUN** (محیط فاقد دستگاه) |
-
-> نکته صادقانه: ملاک، خروجی خام `flutter test` است (خروجی کامل در بسته تحویل:
-> `test_output_v1.0.3-exec.txt`). جمع اجرای رسمی دستورکار ۱.۰.۳ — روی کامیت
-> نهایی شاخه `fix/audit-v1.0.3-exec`:
-> **۱۲۶ پاس، ۰ شکست، ۰ skip**.
-> baseline سورس تحویلی (کامیت `e790842`) پیش از تغییرات مستقلاً اجرا شد:
-> **۱۰۷ پاس، ۰ شکست، ۲ skip (exit 0)** — خروجی خام هر دو در بسته تحویل.
-> راستی‌آزمایی مجدد ممیزی مستقل (۹ مورد) در همان محیط پس از بازیابی کامل
-> ابزار از صفر نتیجه baseline را تکرار کرد.
-
-### یادداشت اجرایی برای تست ویجت با پایگاه داده واقعی
-
-- عملیات واقعی SQLite درون `testWidgets` (FakeAsync) باید داخل
-  `tester.runAsync` انجام شود وگرنه حلقه تست کامل نمی‌شود.
-- هر تست مسیر فایل پایگاه داده **یکتا** می‌گیرد (`singleInstance` پیش‌فرض
-  sqflite باعث نشتی داده بین تست‌ها روی `:memory:` مشترک می‌شود).
-- برای متریک واقعی متن، فونت Vazirmatn در `setUpAll` با `FontLoader`
-  بارگذاری می‌شود (وگرنه فونت تست عرض‌ها را متورم می‌کند و overflow کاذب
-  رخ می‌دهد).
-
-## ۴) اجرای اپ روی دستگاه
-
-```bash
-flutter devices          # دستگاه متصل را نشان می‌دهد
-flutter run --release    # روی دستگاه توسعه
-adb install <مسیر-APK>   # نصب APK
-```
-
-**در محیط ساخت این نسخه دستگاه/شبیه‌ساز در دسترس نبود؛ اجرای واقعی روی
-دستگاه: NOT RUN. چک‌لیست میدانی بخش ۵ برای آزمون‌گر آماده است.**
-
-## ۵) چک‌لیست تست دستی روی دستگاه (برای والدین/آزمون‌گر)
-
-1. نصب و اجرای اولیه بدون کرش.
-2. حالت هواپیما روشن ⇒ همه درس‌ها باید کار کنند (آفلاین بودن).
-3. پاسخ درست/غلط در هر دو نوع فعالیت (شمارش، تطبیق).
-4. خروج از اپ در میانه درس و ورود دوباره ⇒ پیشرفت حفظ شده باشد.
-5. دوبار لمس سریع یک گزینه ⇒ پاسخ دوباره ثبت نشود (قفل).
-6. بخش والدین: گیت، اعداد داشبورد، پاک کردن پیشرفت با تأیید.
-7. خاموش/روشن کردن صدا از تنظیمات.
-8. **۱.۰.۱:** دکمه میکروفون نباید هیچ‌جا دیده شود؛ صفحه والدین باید توضیح
-   «ورودی گفتار در این نسخه غیرفعال است» را نشان دهد.
-9. **۱.۰.۱:** پشتیبان‌گیری گوگل نباید داده اپ را شامل شود
-   (Settings → Google → Backup: داده ریاضی‌یار نباید در فهرست باشد).
-10. دقت TTS فارسی روی دستگاه هدف.
-11. RTL بودن همه صفحات و فارسی بودن همه اعداد.
-
-## ۶) نتایج ثبت‌شده آخرین اجرا (۲۰۲۶-۱۰-۱۷، نسخه ۱.۰.۱)
-
-```
-flutter analyze  →  No issues found!
-flutter test     →  00:04 +75 ~2: All tests passed!
-                   (+2 = دو تست HTTPS واقعی با skip ثبت شده‌اند = NOT RUN)
-```
-
-## ۷) بازسازی بیلد (دستور عمومی — بدون مسیر مطلق)
-
-```bash
-# پیش‌نیاز: Flutter 3.47.x، JDK 21، Android SDK (platform 35/36،
-# build-tools 35/36، NDK 28.2.13676358) و flutter doctor بدون خطا.
-
-# ۰) وابستگی‌ها
-flutter pub get
-
-# ۱) نسخه تست داخلی (امضای debug، برچسب -internal-test — فقط برای آزمون)
-cd android && ./gradlew assembleInternalTest --no-daemon && cd ..
-# خروجی: build/app/outputs/apk/internalTest/app-internalTest.apk
-
-# ۲) نسخه انتشار (امضانشده — انتشار BLOCKED تا تهیه keystore توسط منتشرکننده)
-flutter build apk --release --target-platform android-arm,android-arm64
-# خروجی: build/app/outputs/flutter-apk/app-release.apk (امضانشده)
-# امضای انتشار: جداگانه با keystore خودتان انجام شود (docs/SECURITY_PRIVACY.md §۵)
-
-# ۳) با پیکربندی سرور واسط راهنمای آنلاین (اختیاری):
-#    افزودن --dart-define=RIAZIYAR_GUIDE_ENDPOINT=https://your-proxy.example.com/guide
-```
-
-یادداشت‌های بیلد:
-- `android/gradle.properties`: حافظه Gradle به `-Xmx2G` تنظیم شده است.
-- `ndkVersion` در `android/app/build.gradle.kts` صریحاً پین شده است.
-- `android/local.properties` ساختنی است و در سورس/ZIP نیست — ابزار Flutter
-  آن را از pubspec و SDK محلی شما می‌سازد.
+| نام تست در `InteractionValidatorTest` | موضوع مورد آزمون | زمان اجرا | وضعیت |
+|---|---|---|---|
+| `contentV2_all39LessonsAndBanksPassFullAudit` | پارس و اعتبارسنجی ۲۳۵ فایل JSON، ۸ فصل، ۳۹ درس، ۱۱۷ مثال، ۱۱۷ فعالیت هدایت‌شده، ۱۱۷۰ تمرین مستقل، ۱۹۵ جبرانی، ۱۹۵ سنجش، ۰ شناسه تکراری، ۰ گزینه مفقود، ۰ برچسب لو دهنده | `0.335s` | **PASS** |
+| `adaptiveEngine_recordsAttemptsAndSchedulesDueReviewsAccurately` | ثبت تلاش با DAO، تشخیص خطای شمارش، صف مرور فوری و فعال‌سازی مسیر جبرانی | `0.119s` | **PASS** |
+| `lessonCompletion_neverHardcodesAndRequiresAllGates` | اثبات عدم Hardcode در تکمیل درس و محاسبه ستاره‌ها (رد تکمیل در صورت تمرین ناقص یا سنجش زیر ۸۰٪) | `0.019s` | **PASS** |
+| `sm2Schedule_followsSuperMemoSpecification` | صحت ریاضی الگوریتم SM-2 (`n=1->1d, n=2->6d, n=3->round(6*EF)` و بازنشانی در `q<3`) | `0.001s` | **PASS** |
+| `parentGateLogic_generatesDynamicChallengesAndValidatesPersianDigits` | تولید چالش پویا و پذیرش ارقام فارسی و انگلیسی در گیت والدین | `0.010s` | **PASS** |
+| `dragCount_allCases` | اعتبارسنجی تعامل کشیدن و شمارش (`OVERCOUNT_BY_ONE`, `UNDERCOUNT_BY_ONE`, `INVALID_INPUT`) | `0.001s` | **PASS** |
+| `numberLine_allCases` | اعتبارسنجی پرش روی محور اعداد (`COUNTING_START_NODE`, `WRONG_DIRECTION`, `OUT_OF_RANGE`) | `0.001s` | **PASS** |
+| `tallyMarks_allCases` | اعتبارسنجی چوب‌خط (`UNBUNDLED_FIVE`, `BUNDLE_COUNTED_AS_ONE`, `TALLY_MISMATCH`) | `0.001s` | **PASS** |
+| `balanceScale_allCases` | اعتبارسنجی ترازوی دوکفه‌ای (`OFF_BY_ONE_BALANCE`, `EQUILIBRIUM_ERROR`) | `0.001s` | **PASS** |
+| `optionSelection_validatesByOptionIdAndValue` | اعتبارسنجی انتخاب گزینه واقعی از JSON برای چندگزینه‌ای و الگو | `0.001s` | **PASS** |
+| `persianUtils_convertsBidirectionally` | تبدیل دوطرفه ارقام فارسی، عربی و انگلیسی | `0.013s` | **PASS** |

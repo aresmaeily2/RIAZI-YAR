@@ -1,0 +1,1080 @@
+{
+  "package_name": "RIAZI_YAR_COMPLETE_CONTENT_V2",
+  "version": "2.0.0",
+  "generated_at_utc": "2026-11-19T16:22:00Z",
+  "grade": 1,
+  "total_lessons": 39,
+  "total_json_files": 235,
+  "question_accounting_summary": {
+    "independent_practice_per_lesson": 30,
+    "total_independent_practice_questions": 1170,
+    "worked_examples_per_lesson": 2,
+    "total_worked_examples": 78,
+    "remedial_questions_per_lesson": 5,
+    "total_remedial_questions": 195,
+    "summative_assessment_per_lesson": 5,
+    "total_summative_assessment_questions": 195,
+    "grand_total_all_sections": 1638
+  },
+  "governance_notice": {
+    "technical_validation": "TECH_VALIDATED_PASS",
+    "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+    "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+    "note": "APPROVED_FOR_PRODUCTION is strictly withheld until certified Grade 1 teacher review is completed."
+  },
+  "lessons": [
+    {
+      "lesson_id": "G1-L01",
+      "lesson_number": 1,
+      "chapter_number": 1,
+      "title_fa": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L01_lesson.json",
+        "lessons/G1-L01_independent_30q.json",
+        "lessons/G1-L01_examples.json",
+        "remedial/G1-L01_remedial.json",
+        "assessments/G1-L01_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L02",
+      "lesson_number": 2,
+      "chapter_number": 1,
+      "title_fa": "مفاهیم فضایی (بالا و پایین، چپ و راست)",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L02_lesson.json",
+        "lessons/G1-L02_independent_30q.json",
+        "lessons/G1-L02_examples.json",
+        "remedial/G1-L02_remedial.json",
+        "assessments/G1-L02_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L03",
+      "lesson_number": 3,
+      "chapter_number": 1,
+      "title_fa": "الگویابی تصویری و رنگی ساده",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L03_lesson.json",
+        "lessons/G1-L03_independent_30q.json",
+        "lessons/G1-L03_examples.json",
+        "remedial/G1-L03_remedial.json",
+        "assessments/G1-L03_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L04",
+      "lesson_number": 4,
+      "chapter_number": 1,
+      "title_fa": "مقایسه تعداد (بیشتر، کمتر، مساوی)",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L04_lesson.json",
+        "lessons/G1-L04_independent_30q.json",
+        "lessons/G1-L04_examples.json",
+        "remedial/G1-L04_remedial.json",
+        "assessments/G1-L04_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L05",
+      "lesson_number": 5,
+      "chapter_number": 1,
+      "title_fa": "آشنایی با مفهوم نظم و ترتیب در چیدمان",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L05_lesson.json",
+        "lessons/G1-L05_independent_30q.json",
+        "lessons/G1-L05_examples.json",
+        "remedial/G1-L05_remedial.json",
+        "assessments/G1-L05_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L06",
+      "lesson_number": 6,
+      "chapter_number": 2,
+      "title_fa": "آشنایی با عدد ۱ و ۲ و شمارش آن‌ها",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L06_lesson.json",
+        "lessons/G1-L06_independent_30q.json",
+        "lessons/G1-L06_examples.json",
+        "remedial/G1-L06_remedial.json",
+        "assessments/G1-L06_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L07",
+      "lesson_number": 7,
+      "chapter_number": 2,
+      "title_fa": "آشنایی با عدد ۳ و ۴ و نمایش تصویری",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L07_lesson.json",
+        "lessons/G1-L07_independent_30q.json",
+        "lessons/G1-L07_examples.json",
+        "remedial/G1-L07_remedial.json",
+        "assessments/G1-L07_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L08",
+      "lesson_number": 8,
+      "chapter_number": 2,
+      "title_fa": "آشنایی با عدد ۵ و دسته‌های پنج‌تایی",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L08_lesson.json",
+        "lessons/G1-L08_independent_30q.json",
+        "lessons/G1-L08_examples.json",
+        "remedial/G1-L08_remedial.json",
+        "assessments/G1-L08_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L09",
+      "lesson_number": 9,
+      "chapter_number": 2,
+      "title_fa": "مقایسه اعداد ۱ تا ۵ و علامت‌های کوچک‌تر و بزرگ‌تر",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L09_lesson.json",
+        "lessons/G1-L09_independent_30q.json",
+        "lessons/G1-L09_examples.json",
+        "remedial/G1-L09_remedial.json",
+        "assessments/G1-L09_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L10",
+      "lesson_number": 10,
+      "chapter_number": 2,
+      "title_fa": "آشنایی با مفهوم صفر (۰) و کاربرد آن",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L10_lesson.json",
+        "lessons/G1-L10_independent_30q.json",
+        "lessons/G1-L10_examples.json",
+        "remedial/G1-L10_remedial.json",
+        "assessments/G1-L10_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L11",
+      "lesson_number": 11,
+      "chapter_number": 3,
+      "title_fa": "آشنایی با مفهوم جمع و نماد به اضافه (+)",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L11_lesson.json",
+        "lessons/G1-L11_independent_30q.json",
+        "lessons/G1-L11_examples.json",
+        "remedial/G1-L11_remedial.json",
+        "assessments/G1-L11_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L12",
+      "lesson_number": 12,
+      "chapter_number": 3,
+      "title_fa": "ترکیب اعداد تا ۵ (دوست‌های عدد ۵)",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L12_lesson.json",
+        "lessons/G1-L12_independent_30q.json",
+        "lessons/G1-L12_examples.json",
+        "remedial/G1-L12_remedial.json",
+        "assessments/G1-L12_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L13",
+      "lesson_number": 13,
+      "chapter_number": 3,
+      "title_fa": "جمع روی محور اعداد تا ۵",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L13_lesson.json",
+        "lessons/G1-L13_independent_30q.json",
+        "lessons/G1-L13_examples.json",
+        "remedial/G1-L13_remedial.json",
+        "assessments/G1-L13_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L14",
+      "lesson_number": 14,
+      "chapter_number": 3,
+      "title_fa": "حل مسئله‌های ساده جمع با شکل",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L14_lesson.json",
+        "lessons/G1-L14_independent_30q.json",
+        "lessons/G1-L14_examples.json",
+        "remedial/G1-L14_remedial.json",
+        "assessments/G1-L14_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L15",
+      "lesson_number": 15,
+      "chapter_number": 3,
+      "title_fa": "آشنایی با مفهوم تفریق و نماد منها (-)",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L15_lesson.json",
+        "lessons/G1-L15_independent_30q.json",
+        "lessons/G1-L15_examples.json",
+        "remedial/G1-L15_remedial.json",
+        "assessments/G1-L15_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L16",
+      "lesson_number": 16,
+      "chapter_number": 3,
+      "title_fa": "تفریق روی محور اعداد تا ۵",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L16_lesson.json",
+        "lessons/G1-L16_independent_30q.json",
+        "lessons/G1-L16_examples.json",
+        "remedial/G1-L16_remedial.json",
+        "assessments/G1-L16_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L17",
+      "lesson_number": 17,
+      "chapter_number": 3,
+      "title_fa": "ارتباط جمع و تفریق تا ۵",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L17_lesson.json",
+        "lessons/G1-L17_independent_30q.json",
+        "lessons/G1-L17_examples.json",
+        "remedial/G1-L17_remedial.json",
+        "assessments/G1-L17_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L18",
+      "lesson_number": 18,
+      "chapter_number": 4,
+      "title_fa": "آشنایی با عدد ۶ و ۷ و شمارش آن‌ها",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L18_lesson.json",
+        "lessons/G1-L18_independent_30q.json",
+        "lessons/G1-L18_examples.json",
+        "remedial/G1-L18_remedial.json",
+        "assessments/G1-L18_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L19",
+      "lesson_number": 19,
+      "chapter_number": 4,
+      "title_fa": "آشنایی با عدد ۸ و ۹ و چوب‌خط تا ۹",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L19_lesson.json",
+        "lessons/G1-L19_independent_30q.json",
+        "lessons/G1-L19_examples.json",
+        "remedial/G1-L19_remedial.json",
+        "assessments/G1-L19_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L20",
+      "lesson_number": 20,
+      "chapter_number": 4,
+      "title_fa": "مقایسه و ترتیب اعداد ۰ تا ۹",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L20_lesson.json",
+        "lessons/G1-L20_independent_30q.json",
+        "lessons/G1-L20_examples.json",
+        "remedial/G1-L20_remedial.json",
+        "assessments/G1-L20_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L21",
+      "lesson_number": 21,
+      "chapter_number": 4,
+      "title_fa": "جمع و تفریق اعداد تا ۹ با شکل و چوب‌خط",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L21_lesson.json",
+        "lessons/G1-L21_independent_30q.json",
+        "lessons/G1-L21_examples.json",
+        "remedial/G1-L21_remedial.json",
+        "assessments/G1-L21_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L22",
+      "lesson_number": 22,
+      "chapter_number": 4,
+      "title_fa": "جمع و تفریق روی محور اعداد تا ۹",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L22_lesson.json",
+        "lessons/G1-L22_independent_30q.json",
+        "lessons/G1-L22_examples.json",
+        "remedial/G1-L22_remedial.json",
+        "assessments/G1-L22_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L23",
+      "lesson_number": 23,
+      "chapter_number": 5,
+      "title_fa": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L23_lesson.json",
+        "lessons/G1-L23_independent_30q.json",
+        "lessons/G1-L23_examples.json",
+        "remedial/G1-L23_remedial.json",
+        "assessments/G1-L23_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L24",
+      "lesson_number": 24,
+      "chapter_number": 5,
+      "title_fa": "شمارش اضلاع و گوشه‌های اشکال هندسی",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L24_lesson.json",
+        "lessons/G1-L24_independent_30q.json",
+        "lessons/G1-L24_examples.json",
+        "remedial/G1-L24_remedial.json",
+        "assessments/G1-L24_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L25",
+      "lesson_number": 25,
+      "chapter_number": 5,
+      "title_fa": "تقارن و رنگ‌آمیزی متقارن ساده",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L25_lesson.json",
+        "lessons/G1-L25_independent_30q.json",
+        "lessons/G1-L25_examples.json",
+        "remedial/G1-L25_remedial.json",
+        "assessments/G1-L25_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L26",
+      "lesson_number": 26,
+      "chapter_number": 5,
+      "title_fa": "ساخت الگوهای هندسی ترکیبی",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L26_lesson.json",
+        "lessons/G1-L26_independent_30q.json",
+        "lessons/G1-L26_examples.json",
+        "remedial/G1-L26_remedial.json",
+        "assessments/G1-L26_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L27",
+      "lesson_number": 27,
+      "chapter_number": 6,
+      "title_fa": "آشنایی با عدد ۱۰ و مفهوم یک بسته ده‌تایی",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L27_lesson.json",
+        "lessons/G1-L27_independent_30q.json",
+        "lessons/G1-L27_examples.json",
+        "remedial/G1-L27_remedial.json",
+        "assessments/G1-L27_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L28",
+      "lesson_number": 28,
+      "chapter_number": 6,
+      "title_fa": "دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L28_lesson.json",
+        "lessons/G1-L28_independent_30q.json",
+        "lessons/G1-L28_examples.json",
+        "remedial/G1-L28_remedial.json",
+        "assessments/G1-L28_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L29",
+      "lesson_number": 29,
+      "chapter_number": 6,
+      "title_fa": "آشنایی با اعداد ۱۱ تا ۱۵ (ده‌تایی و یکی)",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L29_lesson.json",
+        "lessons/G1-L29_independent_30q.json",
+        "lessons/G1-L29_examples.json",
+        "remedial/G1-L29_remedial.json",
+        "assessments/G1-L29_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L30",
+      "lesson_number": 30,
+      "chapter_number": 6,
+      "title_fa": "آشنایی با اعداد ۱۶ تا ۲۰ و جدول ارزش مکانی",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L30_lesson.json",
+        "lessons/G1-L30_independent_30q.json",
+        "lessons/G1-L30_examples.json",
+        "remedial/G1-L30_remedial.json",
+        "assessments/G1-L30_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L31",
+      "lesson_number": 31,
+      "chapter_number": 6,
+      "title_fa": "مقایسه و ترتیب اعداد تا ۲۰",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L31_lesson.json",
+        "lessons/G1-L31_independent_30q.json",
+        "lessons/G1-L31_examples.json",
+        "remedial/G1-L31_remedial.json",
+        "assessments/G1-L31_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L32",
+      "lesson_number": 32,
+      "chapter_number": 7,
+      "title_fa": "جمع با روش کامل کردن بسته ده‌تایی",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L32_lesson.json",
+        "lessons/G1-L32_independent_30q.json",
+        "lessons/G1-L32_examples.json",
+        "remedial/G1-L32_remedial.json",
+        "assessments/G1-L32_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L33",
+      "lesson_number": 33,
+      "chapter_number": 7,
+      "title_fa": "تفریق از اعداد تا ۲۰ روی محور و شکل",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L33_lesson.json",
+        "lessons/G1-L33_independent_30q.json",
+        "lessons/G1-L33_examples.json",
+        "remedial/G1-L33_remedial.json",
+        "assessments/G1-L33_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L34",
+      "lesson_number": 34,
+      "chapter_number": 7,
+      "title_fa": "الگوهای عددی (شمارش دوتا دوتا و پنج‌تا پنج‌تا)",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L34_lesson.json",
+        "lessons/G1-L34_independent_30q.json",
+        "lessons/G1-L34_examples.json",
+        "remedial/G1-L34_remedial.json",
+        "assessments/G1-L34_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L35",
+      "lesson_number": 35,
+      "chapter_number": 7,
+      "title_fa": "حل مسئله‌های دو مرحله‌ای ساده تا ۲۰",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L35_lesson.json",
+        "lessons/G1-L35_independent_30q.json",
+        "lessons/G1-L35_examples.json",
+        "remedial/G1-L35_remedial.json",
+        "assessments/G1-L35_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L36",
+      "lesson_number": 36,
+      "chapter_number": 8,
+      "title_fa": "آشنایی با ساعت و خواندن ساعت‌های تمام",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L36_lesson.json",
+        "lessons/G1-L36_independent_30q.json",
+        "lessons/G1-L36_examples.json",
+        "remedial/G1-L36_remedial.json",
+        "assessments/G1-L36_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L37",
+      "lesson_number": 37,
+      "chapter_number": 8,
+      "title_fa": "مقایسه طول‌ها با واحدهای غیراستاندارد (وجب، گام، مداد)",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L37_lesson.json",
+        "lessons/G1-L37_independent_30q.json",
+        "lessons/G1-L37_examples.json",
+        "remedial/G1-L37_remedial.json",
+        "assessments/G1-L37_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L38",
+      "lesson_number": 38,
+      "chapter_number": 8,
+      "title_fa": "آشنایی با سکه‌ها و شمارش پول تا ۲۰ واحد",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L38_lesson.json",
+        "lessons/G1-L38_independent_30q.json",
+        "lessons/G1-L38_examples.json",
+        "remedial/G1-L38_remedial.json",
+        "assessments/G1-L38_assessment.json"
+      ]
+    },
+    {
+      "lesson_id": "G1-L39",
+      "lesson_number": 39,
+      "chapter_number": 8,
+      "title_fa": "مرور جامع و جمع‌بندی مهارت‌های ریاضی اول دبستان",
+      "status": {
+        "technical_validation": "TECH_VALIDATED_PASS",
+        "pedagogical_review": "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+        "production_readiness": "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+        "teacher_reviewer_id": null,
+        "last_technical_check_utc": "2026-11-19T16:22:00Z"
+      },
+      "counts": {
+        "worked_example": 2,
+        "independent_practice": 30,
+        "remedial_practice": 5,
+        "summative_assessment": 5,
+        "total_all_sections": 42
+      },
+      "files": [
+        "lessons/G1-L39_lesson.json",
+        "lessons/G1-L39_independent_30q.json",
+        "lessons/G1-L39_examples.json",
+        "remedial/G1-L39_remedial.json",
+        "assessments/G1-L39_assessment.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "lesson_id": "G1-L36",
+  "section": "summative_assessment",
+  "counts_toward_30_quota": false,
+  "actual_count": 5,
+  "feedback_display_policy": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
+  "questions": [
+    {
+      "question_id": "G1-L36-ASM-01",
+      "lesson_id": "G1-L36",
+      "section": "summative_assessment",
+      "counts_toward_30_quota": false,
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "سنجش پایانی سؤال ۱ (آشنایی با ساعت و خواندن ساعت‌های تمام): حاصل ترکیب ۲ و ۲ شکل برابر با کدام گزینه است؟",
+      "correct_answer": {
+        "value": 4,
+        "option_id": "opt_4",
+        "canonical_form": "VAL_4"
+      },
+      "feedback_policy": {
+        "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۱: در این پرسش از درس «آشنایی با ساعت و خواندن ساعت‌های تمام»، مقدار هدف ۴ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN05",
+      "interaction_payload": {
+        "target_value": 4,
+        "items_count": 7,
+        "criteria": "آشنایی با ساعت و خواندن ساعت‌های تمام"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۵ شکل",
+          "value": 5
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۳ شکل",
+          "value": 3
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۶ شکل",
+          "value": 6
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۴ شکل",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "question_id": "G1-L36-ASM-02",
+      "lesson_id": "G1-L36",
+      "section": "summative_assessment",
+      "counts_toward_30_quota": false,
+      "interaction_type": "drag_and_drop_count",
+      "prompt_fa": "سنجش پایانی سؤال ۲ (آشنایی با ساعت و خواندن ساعت‌های تمام): به تعداد ۶ سیب داخل سبد قرار بده.",
+      "correct_answer": {
+        "value": 6,
+        "option_id": null,
+        "canonical_form": "VAL_6"
+      },
+      "feedback_policy": {
+        "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۲: در این پرسش از درس «آشنایی با ساعت و خواندن ساعت‌های تمام»، مقدار هدف ۶ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN05",
+      "interaction_payload": {
+        "target_value": 6,
+        "items_count": 9,
+        "criteria": "آشنایی با ساعت و خواندن ساعت‌های تمام"
+      },
+      "options": []
+    },
+    {
+      "question_id": "G1-L36-ASM-03",
+      "lesson_id": "G1-L36",
+      "section": "summative_assessment",
+      "counts_toward_30_quota": false,
+      "interaction_type": "tally_mark_builder",
+      "prompt_fa": "سنجش پایانی سؤال ۳ (آشنایی با ساعت و خواندن ساعت‌های تمام): عدد ۸ را با چوب‌خط استاندارد نشان بده.",
+      "correct_answer": {
+        "value": 8,
+        "option_id": null,
+        "canonical_form": "VAL_8"
+      },
+      "feedback_policy": {
+        "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۳: در این پرسش از درس «آشنایی با ساعت و خواندن ساعت‌های تمام»، مقدار هدف ۸ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN05",
+      "interaction_payload": {
+        "target_value": 8,
+        "items_count": 11,
+        "criteria": "آشنایی با ساعت و خواندن ساعت‌های تمام"
+      },
+      "options": []
+    },
+    {
+      "question_id": "G1-L36-ASM-04",
+      "lesson_id": "G1-L36",
+      "section": "summative_assessment",
+      "counts_toward_30_quota": false,
+      "interaction_type": "number_line_jump",
+      "prompt_fa": "سنجش پایانی سؤال ۴ (آشنایی با ساعت و خواندن ساعت‌های تمام): مهره را روی محور اعداد به عدد ۱۰ برسان.",
+      "correct_answer": {
+        "value": 10,
+        "option_id": null,
+        "canonical_form": "VAL_10"
+      },
+      "feedback_policy": {
+        "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۴: در این پرسش از درس «آشنایی با ساعت و خواندن ساعت‌های تمام»، مقدار هدف ۱۰ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN05",
+      "interaction_payload": {
+        "target_value": 10,
+        "items_count": 13,
+        "criteria": "آشنایی با ساعت و خواندن ساعت‌های تمام"
+      },
+      "options": []
+    },
+    {
+      "question_id": "G1-L36-ASM-05",
+      "lesson_id": "G1-L36",
+      "section": "summative_assessment",
+      "counts_toward_30_quota": false,
+      "interaction_type": "balance_scale_equation",
+      "prompt_fa": "سنجش پایانی سؤال ۵ (آشنایی با ساعت و خواندن ساعت‌های تمام): ترازو را برای وزنه هدف ۳ به تعادل برسان.",
+      "correct_answer": {
+        "value": 3,
+        "option_id": null,
+        "canonical_form": "VAL_3"
+      },
+      "feedback_policy": {
+        "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۵: در این پرسش از درس «آشنایی با ساعت و خواندن ساعت‌های تمام»، مقدار هدف ۳ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN05",
+      "interaction_payload": {
+        "target_value": 3,
+        "items_count": 6,
+        "criteria": "آشنایی با ساعت و خواندن ساعت‌های تمام"
+      },
+      "options": []
+    }
+  ],
+  "passing_score_percent": 80
+}

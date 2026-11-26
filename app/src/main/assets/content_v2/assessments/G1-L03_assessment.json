@@ -1,0 +1,176 @@
+{
+  "lesson_id": "G1-L03",
+  "section": "summative_assessment",
+  "counts_toward_30_quota": false,
+  "actual_count": 5,
+  "feedback_display_policy": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
+  "questions": [
+    {
+      "question_id": "G1-L03-ASM-01",
+      "lesson_id": "G1-L03",
+      "section": "summative_assessment",
+      "counts_toward_30_quota": false,
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "سنجش پایانی سؤال ۱ (الگویابی تصویری و رنگی ساده): حاصل ترکیب ۵ و ۲ شکل برابر با کدام گزینه است؟",
+      "correct_answer": {
+        "value": 7,
+        "option_id": "opt_1",
+        "canonical_form": "VAL_7"
+      },
+      "feedback_policy": {
+        "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۱: در این پرسش از درس «الگویابی تصویری و رنگی ساده»، مقدار هدف ۷ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN03",
+      "interaction_payload": {
+        "target_value": 7,
+        "items_count": 10,
+        "criteria": "الگویابی تصویری و رنگی ساده"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۷ شکل",
+          "value": 7
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۸ شکل",
+          "value": 8
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۶ شکل",
+          "value": 6
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۹ شکل",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "question_id": "G1-L03-ASM-02",
+      "lesson_id": "G1-L03",
+      "section": "summative_assessment",
+      "counts_toward_30_quota": false,
+      "interaction_type": "drag_and_drop_count",
+      "prompt_fa": "سنجش پایانی سؤال ۲ (الگویابی تصویری و رنگی ساده): به تعداد ۹ سیب داخل سبد قرار بده.",
+      "correct_answer": {
+        "value": 9,
+        "option_id": null,
+        "canonical_form": "VAL_9"
+      },
+      "feedback_policy": {
+        "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۲: در این پرسش از درس «الگویابی تصویری و رنگی ساده»، مقدار هدف ۹ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN03",
+      "interaction_payload": {
+        "target_value": 9,
+        "items_count": 12,
+        "criteria": "الگویابی تصویری و رنگی ساده"
+      },
+      "options": []
+    },
+    {
+      "question_id": "G1-L03-ASM-03",
+      "lesson_id": "G1-L03",
+      "section": "summative_assessment",
+      "counts_toward_30_quota": false,
+      "interaction_type": "tally_mark_builder",
+      "prompt_fa": "سنجش پایانی سؤال ۳ (الگویابی تصویری و رنگی ساده): عدد ۲ را با چوب‌خط استاندارد نشان بده.",
+      "correct_answer": {
+        "value": 2,
+        "option_id": null,
+        "canonical_form": "VAL_2"
+      },
+      "feedback_policy": {
+        "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۳: در این پرسش از درس «الگویابی تصویری و رنگی ساده»، مقدار هدف ۲ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN03",
+      "interaction_payload": {
+        "target_value": 2,
+        "items_count": 6,
+        "criteria": "الگویابی تصویری و رنگی ساده"
+      },
+      "options": []
+    },
+    {
+      "question_id": "G1-L03-ASM-04",
+      "lesson_id": "G1-L03",
+      "section": "summative_assessment",
+      "counts_toward_30_quota": false,
+      "interaction_type": "number_line_jump",
+      "prompt_fa": "سنجش پایانی سؤال ۴ (الگویابی تصویری و رنگی ساده): مهره را روی محور اعداد به عدد ۴ برسان.",
+      "correct_answer": {
+        "value": 4,
+        "option_id": null,
+        "canonical_form": "VAL_4"
+      },
+      "feedback_policy": {
+        "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۴: در این پرسش از درس «الگویابی تصویری و رنگی ساده»، مقدار هدف ۴ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN03",
+      "interaction_payload": {
+        "target_value": 4,
+        "items_count": 7,
+        "criteria": "الگویابی تصویری و رنگی ساده"
+      },
+      "options": []
+    },
+    {
+      "question_id": "G1-L03-ASM-05",
+      "lesson_id": "G1-L03",
+      "section": "summative_assessment",
+      "counts_toward_30_quota": false,
+      "interaction_type": "balance_scale_equation",
+      "prompt_fa": "سنجش پایانی سؤال ۵ (الگویابی تصویری و رنگی ساده): ترازو را برای وزنه هدف ۶ به تعادل برسان.",
+      "correct_answer": {
+        "value": 6,
+        "option_id": null,
+        "canonical_form": "VAL_6"
+      },
+      "feedback_policy": {
+        "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۵: در این پرسش از درس «الگویابی تصویری و رنگی ساده»، مقدار هدف ۶ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN03",
+      "interaction_payload": {
+        "target_value": 6,
+        "items_count": 9,
+        "criteria": "الگویابی تصویری و رنگی ساده"
+      },
+      "options": []
+    }
+  ],
+  "passing_score_percent": 80
+}

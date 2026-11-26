@@ -1,0 +1,32 @@
+{
+  "technical_validation_status": [
+    "TECH_VALIDATED_PASS",
+    "TECH_VALIDATION_FAILED",
+    "TECH_PENDING"
+  ],
+  "pedagogical_review_status": [
+    "PEDAGOGICAL_PENDING_TEACHER_REVIEW",
+    "PEDAGOGICAL_IN_REVIEW",
+    "PEDAGOGICAL_REVISION_REQUIRED",
+    "PEDAGOGICAL_APPROVED_BY_TEACHER"
+  ],
+  "production_readiness_status": [
+    "DRAFT",
+    "TECH_READY_AWAITING_PEDAGOGICAL_SIGN_OFF",
+    "APPROVED_FOR_PRODUCTION"
+  ],
+  "interaction_types": [
+    "drag_and_drop_count",
+    "number_line_jump",
+    "tally_mark_builder",
+    "pattern_completer",
+    "visual_multiple_choice",
+    "balance_scale_equation"
+  ],
+  "question_sections": [
+    "worked_example",
+    "independent_practice",
+    "remedial_practice",
+    "summative_assessment"
+  ]
+}

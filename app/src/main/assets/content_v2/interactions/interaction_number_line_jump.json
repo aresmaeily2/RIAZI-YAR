@@ -1,0 +1,56 @@
+{
+  "interaction_type": "number_line_jump",
+  "title_fa": "پرش روی محور اعداد",
+  "input_data_structure": {
+    "min_val": {
+      "type": "integer",
+      "default": 0
+    },
+    "max_val": {
+      "type": "integer",
+      "default": 20
+    },
+    "start_position": {
+      "type": "integer"
+    },
+    "expected_jumps": {
+      "type": "array",
+      "items": "integer",
+      "description": "مقدار و جهت هر پرش (+ به راست، - به چپ)"
+    },
+    "expected_end_position": {
+      "type": "integer"
+    }
+  },
+  "student_response_recording": {
+    "format": "JSON Object",
+    "fields": [
+      "jump_sequence",
+      "final_position",
+      "time_spent_ms"
+    ]
+  },
+  "validation_logic": {
+    "method": "Final position and step-vector verification",
+    "rule": "final_position == expected_end_position AND sum(jump_sequence) == (expected_end_position - start_position)"
+  },
+  "common_misconception_detection": [
+    {
+      "code": "COUNTING_START_NODE",
+      "condition": "final_position == expected_end_position - 1 (for +) or + 1 (for -)",
+      "hint_fa": "خانه شروع را نشمار! از خانه بعدی پرش را بشمار."
+    },
+    {
+      "code": "WRONG_DIRECTION",
+      "condition": "final_position == start_position - sum(expected_jumps)",
+      "hint_fa": "برای جمع به سمت راست و برای تفریق به سمت چپ بپر."
+    }
+  ],
+  "progress_engine_telemetry": {
+    "mastery_delta": "float",
+    "skill_node_id": "string",
+    "direction_accuracy": "boolean",
+    "misconception_tags": "array<string>",
+    "remedial_trigger": "boolean"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "lesson_id": "G1-L17",
+  "section": "summative_assessment",
+  "counts_toward_30_quota": false,
+  "actual_count": 5,
+  "feedback_display_policy": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
+  "questions": [
+    {
+      "question_id": "G1-L17-ASM-01",
+      "lesson_id": "G1-L17",
+      "section": "summative_assessment",
+      "counts_toward_30_quota": false,
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "سنجش پایانی سؤال ۱ (ارتباط جمع و تفریق تا ۵): حاصل ترکیب ۱ و ۲ شکل برابر با کدام گزینه است؟",
+      "correct_answer": {
+        "value": 3,
+        "option_id": "opt_3",
+        "canonical_form": "VAL_3"
+      },
+      "feedback_policy": {
+        "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۱: در این پرسش از درس «ارتباط جمع و تفریق تا ۵»، مقدار هدف ۳ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN17",
+      "interaction_payload": {
+        "target_value": 3,
+        "items_count": 6,
+        "criteria": "ارتباط جمع و تفریق تا ۵"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۲ شکل",
+          "value": 2
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۵ شکل",
+          "value": 5
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۳ شکل",
+          "value": 3
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۴ شکل",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "question_id": "G1-L17-ASM-02",
+      "lesson_id": "G1-L17",
+      "section": "summative_assessment",
+      "counts_toward_30_quota": false,
+      "interaction_type": "drag_and_drop_count",
+      "prompt_fa": "سنجش پایانی سؤال ۲ (ارتباط جمع و تفریق تا ۵): به تعداد ۵ سیب داخل سبد قرار بده.",
+      "correct_answer": {
+        "value": 5,
+        "option_id": null,
+        "canonical_form": "VAL_5"
+      },
+      "feedback_policy": {
+        "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۲: در این پرسش از درس «ارتباط جمع و تفریق تا ۵»، مقدار هدف ۵ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN17",
+      "interaction_payload": {
+        "target_value": 5,
+        "items_count": 8,
+        "criteria": "ارتباط جمع و تفریق تا ۵"
+      },
+      "options": []
+    },
+    {
+      "question_id": "G1-L17-ASM-03",
+      "lesson_id": "G1-L17",
+      "section": "summative_assessment",
+      "counts_toward_30_quota": false,
+      "interaction_type": "tally_mark_builder",
+      "prompt_fa": "سنجش پایانی سؤال ۳ (ارتباط جمع و تفریق تا ۵): عدد ۷ را با چوب‌خط استاندارد نشان بده.",
+      "correct_answer": {
+        "value": 7,
+        "option_id": null,
+        "canonical_form": "VAL_7"
+      },
+      "feedback_policy": {
+        "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۳: در این پرسش از درس «ارتباط جمع و تفریق تا ۵»، مقدار هدف ۷ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN17",
+      "interaction_payload": {
+        "target_value": 7,
+        "items_count": 10,
+        "criteria": "ارتباط جمع و تفریق تا ۵"
+      },
+      "options": []
+    },
+    {
+      "question_id": "G1-L17-ASM-04",
+      "lesson_id": "G1-L17",
+      "section": "summative_assessment",
+      "counts_toward_30_quota": false,
+      "interaction_type": "number_line_jump",
+      "prompt_fa": "سنجش پایانی سؤال ۴ (ارتباط جمع و تفریق تا ۵): مهره را روی محور اعداد به عدد ۹ برسان.",
+      "correct_answer": {
+        "value": 9,
+        "option_id": null,
+        "canonical_form": "VAL_9"
+      },
+      "feedback_policy": {
+        "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۴: در این پرسش از درس «ارتباط جمع و تفریق تا ۵»، مقدار هدف ۹ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN17",
+      "interaction_payload": {
+        "target_value": 9,
+        "items_count": 12,
+        "criteria": "ارتباط جمع و تفریق تا ۵"
+      },
+      "options": []
+    },
+    {
+      "question_id": "G1-L17-ASM-05",
+      "lesson_id": "G1-L17",
+      "section": "summative_assessment",
+      "counts_toward_30_quota": false,
+      "interaction_type": "balance_scale_equation",
+      "prompt_fa": "سنجش پایانی سؤال ۵ (ارتباط جمع و تفریق تا ۵): ترازو را برای وزنه هدف ۲ به تعادل برسان.",
+      "correct_answer": {
+        "value": 2,
+        "option_id": null,
+        "canonical_form": "VAL_2"
+      },
+      "feedback_policy": {
+        "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۵: در این پرسش از درس «ارتباط جمع و تفریق تا ۵»، مقدار هدف ۲ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN17",
+      "interaction_payload": {
+        "target_value": 2,
+        "items_count": 6,
+        "criteria": "ارتباط جمع و تفریق تا ۵"
+      },
+      "options": []
+    }
+  ],
+  "passing_score_percent": 80
+}

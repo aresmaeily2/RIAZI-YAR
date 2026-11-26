@@ -39,3 +39,11 @@ coverage/
 # Skill folders injected by tooling
 skills/
 node_modules/
+
+# Android Native V2 Gradle & Build caches
+.gradle/
+build/
+app/build/
+local.properties
+*.keystore
+*.jks
