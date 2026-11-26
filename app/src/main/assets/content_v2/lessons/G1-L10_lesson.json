@@ -31,23 +31,37 @@
       "example_id": "G1-L10-EX-01",
       "section": "worked_example",
       "counts_toward_30_quota": false,
-      "prompt_fa": "[G1-L10] مثال آموزشی 1: بررسی گام‌به‌گام مفهوم «آشنایی با مفهوم صفر (۰) و کاربرد آن» (نمونه 1).",
+      "prompt_fa": "مثال حل‌شده ۱ (آشنایی با مفهوم صفر (۰) و کاربرد آن): اگر در سبد اول ۲ سیب و در کنار آن ۱ سیب دیگر داشته باشیم، چطور با «آشنایی با مفهوم صفر (۰) و کاربرد آن» به عدد کل می‌رسیم؟",
       "step_by_step_solution_fa": [
-        "گام ۱: مشاهده دقیق تصویر و داده‌های مسئله در درس 10.",
-        "گام ۲: اعمال قاعده «آشنایی با مفهوم صفر (۰) و کاربرد آن» برای رسیدن به پاسخ."
+        "گام ۱: ابتدا ۲ شیء اول را یک‌به‌یک می‌شماریم و علامت می‌زنیم.",
+        "گام ۲: سپس ۱ شیء بعدی را به آن اضافه کرده و روی ابزار تصویر می‌کنیم.",
+        "گام ۳: نتیجه نهایی برابر با ۳ می‌شود."
       ],
-      "final_answer": "EX_ANS_10_1"
+      "final_answer": "۳ شیء (پاسخ عددی: ۳)"
     },
     {
       "example_id": "G1-L10-EX-02",
       "section": "worked_example",
       "counts_toward_30_quota": false,
-      "prompt_fa": "[G1-L10] مثال آموزشی 2: بررسی گام‌به‌گام مفهوم «آشنایی با مفهوم صفر (۰) و کاربرد آن» (نمونه 2).",
+      "prompt_fa": "مثال حل‌شده ۲ (آشنایی با مفهوم صفر (۰) و کاربرد آن): اگر در سبد اول ۳ سیب و در کنار آن ۱ سیب دیگر داشته باشیم، چطور با «آشنایی با مفهوم صفر (۰) و کاربرد آن» به عدد کل می‌رسیم؟",
       "step_by_step_solution_fa": [
-        "گام ۱: مشاهده دقیق تصویر و داده‌های مسئله در درس 10.",
-        "گام ۲: اعمال قاعده «آشنایی با مفهوم صفر (۰) و کاربرد آن» برای رسیدن به پاسخ."
+        "گام ۱: ابتدا ۳ شیء اول را یک‌به‌یک می‌شماریم و علامت می‌زنیم.",
+        "گام ۲: سپس ۱ شیء بعدی را به آن اضافه کرده و روی ابزار تصویر می‌کنیم.",
+        "گام ۳: نتیجه نهایی برابر با ۴ می‌شود."
       ],
-      "final_answer": "EX_ANS_10_2"
+      "final_answer": "۴ شیء (پاسخ عددی: ۴)"
+    },
+    {
+      "example_id": "G1-L10-EX-03",
+      "section": "worked_example",
+      "counts_toward_30_quota": false,
+      "prompt_fa": "مثال حل‌شده ۳ (آشنایی با مفهوم صفر (۰) و کاربرد آن): اگر در سبد اول ۴ سیب و در کنار آن ۱ سیب دیگر داشته باشیم، چطور با «آشنایی با مفهوم صفر (۰) و کاربرد آن» به عدد کل می‌رسیم؟",
+      "step_by_step_solution_fa": [
+        "گام ۱: ابتدا ۴ شیء اول را یک‌به‌یک می‌شماریم و علامت می‌زنیم.",
+        "گام ۲: سپس ۱ شیء بعدی را به آن اضافه کرده و روی ابزار تصویر می‌کنیم.",
+        "گام ۳: نتیجه نهایی برابر با ۵ می‌شود."
+      ],
+      "final_answer": "۵ شیء (پاسخ عددی: ۵)"
     }
   ],
   "independent_practice_questions": [
@@ -59,23 +73,28 @@
       "sequence_number": 1,
       "difficulty": "easy",
       "interaction_type": "balance_scale_equation",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 1: مسئله کاربردی شماره 1 متناسب با سطح easy.",
+      "prompt_fa": "تمرین ۱ (آشنایی با مفهوم صفر (۰) و کاربرد آن): در کفه چپ ترازو وزنه ۲ قرار دارد. در کفه راست وزنه بگذار تا ترازو کاملاً متعادل شود.",
       "interaction_payload": {
         "target_value": 2,
-        "items_count": 4,
+        "items_count": 6,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 2,
+        "option_id": null,
         "canonical_form": "VAL_2"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 1 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": []
     },
     {
       "question_id": "G1-L10-IND-02",
@@ -85,23 +104,28 @@
       "sequence_number": 2,
       "difficulty": "easy",
       "interaction_type": "drag_and_drop_count",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 2: مسئله کاربردی شماره 2 متناسب با سطح easy.",
+      "prompt_fa": "تمرین ۲ (آشنایی با مفهوم صفر (۰) و کاربرد آن): دقیقاً ۳ سیب را به داخل سبد بکش یا لمس کن.",
       "interaction_payload": {
         "target_value": 3,
-        "items_count": 5,
+        "items_count": 6,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 3,
+        "option_id": null,
         "canonical_form": "VAL_3"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 2 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": []
     },
     {
       "question_id": "G1-L10-IND-03",
@@ -111,23 +135,28 @@
       "sequence_number": 3,
       "difficulty": "easy",
       "interaction_type": "number_line_jump",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 3: مسئله کاربردی شماره 3 متناسب با سطح easy.",
+      "prompt_fa": "تمرین ۳ (آشنایی با مفهوم صفر (۰) و کاربرد آن): روی محور اعداد از صفر شروع کن، ابتدا ۲ واحد و سپس ۲ واحد به راست بپر.",
       "interaction_payload": {
         "target_value": 4,
-        "items_count": 6,
+        "items_count": 7,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 4,
+        "option_id": null,
         "canonical_form": "VAL_4"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 3 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": []
     },
     {
       "question_id": "G1-L10-IND-04",
@@ -137,23 +166,28 @@
       "sequence_number": 4,
       "difficulty": "easy",
       "interaction_type": "tally_mark_builder",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 4: مسئله کاربردی شماره 4 متناسب با سطح easy.",
+      "prompt_fa": "تمرین ۴ (آشنایی با مفهوم صفر (۰) و کاربرد آن): عدد ۵ را با دسته‌های ۵تایی و چوب‌خط‌های تکی بساز.",
       "interaction_payload": {
         "target_value": 5,
-        "items_count": 7,
+        "items_count": 8,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 5,
+        "option_id": null,
         "canonical_form": "VAL_5"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 4 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": []
     },
     {
       "question_id": "G1-L10-IND-05",
@@ -163,23 +197,49 @@
       "sequence_number": 5,
       "difficulty": "easy",
       "interaction_type": "pattern_completer",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 5: مسئله کاربردی شماره 5 متناسب با سطح easy.",
+      "prompt_fa": "تمرین ۵ (آشنایی با مفهوم صفر (۰) و کاربرد آن): به الگوی روبه‌رو دقت کن: «🔴 🔵 🔴 🔵 🔴 ؟» — شکل بعدی در جای علامت سؤال کدام است؟",
       "interaction_payload": {
         "target_value": 6,
-        "items_count": 8,
-        "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
+        "items_count": 9,
+        "criteria": "🔴 🔵 🔴 🔵 🔴 ؟"
       },
       "correct_answer": {
         "value": 6,
-        "canonical_form": "VAL_6"
+        "option_id": "opt_2",
+        "canonical_form": "opt_2"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 5 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "🔴 دایره قرمز",
+          "value": 7
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "🔵 دایره آبی",
+          "value": 6
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "🟢 دایره سبز",
+          "value": 9
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "🟡 دایره زرد",
+          "value": 10
+        }
+      ]
     },
     {
       "question_id": "G1-L10-IND-06",
@@ -189,23 +249,49 @@
       "sequence_number": 6,
       "difficulty": "easy",
       "interaction_type": "visual_multiple_choice",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 6: مسئله کاربردی شماره 6 متناسب با سطح easy.",
+      "prompt_fa": "تمرین ۶ (آشنایی با مفهوم صفر (۰) و کاربرد آن): اگر در دسته اول ۳ شکل و در دسته دوم ۴ شکل داشته باشیم، در مجموع چند شکل داریم؟ گزینه درست را انتخاب کن.",
       "interaction_payload": {
         "target_value": 7,
-        "items_count": 9,
+        "items_count": 10,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 7,
+        "option_id": "opt_1",
         "canonical_form": "VAL_7"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 6 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۷ شکل",
+          "value": 7
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۸ شکل",
+          "value": 8
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۶ شکل",
+          "value": 6
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۹ شکل",
+          "value": 9
+        }
+      ]
     },
     {
       "question_id": "G1-L10-IND-07",
@@ -215,23 +301,28 @@
       "sequence_number": 7,
       "difficulty": "easy",
       "interaction_type": "balance_scale_equation",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 7: مسئله کاربردی شماره 7 متناسب با سطح easy.",
+      "prompt_fa": "تمرین ۷ (آشنایی با مفهوم صفر (۰) و کاربرد آن): در کفه چپ ترازو وزنه ۸ قرار دارد. در کفه راست وزنه بگذار تا ترازو کاملاً متعادل شود.",
       "interaction_payload": {
         "target_value": 8,
-        "items_count": 10,
+        "items_count": 11,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 8,
+        "option_id": null,
         "canonical_form": "VAL_8"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 7 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": []
     },
     {
       "question_id": "G1-L10-IND-08",
@@ -241,23 +332,28 @@
       "sequence_number": 8,
       "difficulty": "easy",
       "interaction_type": "drag_and_drop_count",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 8: مسئله کاربردی شماره 8 متناسب با سطح easy.",
+      "prompt_fa": "تمرین ۸ (آشنایی با مفهوم صفر (۰) و کاربرد آن): دقیقاً ۹ سیب را به داخل سبد بکش یا لمس کن.",
       "interaction_payload": {
         "target_value": 9,
-        "items_count": 11,
+        "items_count": 12,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 9,
+        "option_id": null,
         "canonical_form": "VAL_9"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 8 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": []
     },
     {
       "question_id": "G1-L10-IND-09",
@@ -267,23 +363,28 @@
       "sequence_number": 9,
       "difficulty": "easy",
       "interaction_type": "number_line_jump",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 9: مسئله کاربردی شماره 9 متناسب با سطح easy.",
+      "prompt_fa": "تمرین ۹ (آشنایی با مفهوم صفر (۰) و کاربرد آن): روی محور اعداد از صفر شروع کن، ابتدا ۵ واحد و سپس ۵ واحد به راست بپر.",
       "interaction_payload": {
         "target_value": 10,
-        "items_count": 12,
+        "items_count": 13,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 10,
+        "option_id": null,
         "canonical_form": "VAL_10"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 9 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": []
     },
     {
       "question_id": "G1-L10-IND-10",
@@ -293,23 +394,28 @@
       "sequence_number": 10,
       "difficulty": "easy",
       "interaction_type": "tally_mark_builder",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 10: مسئله کاربردی شماره 10 متناسب با سطح easy.",
+      "prompt_fa": "تمرین ۱۰ (آشنایی با مفهوم صفر (۰) و کاربرد آن): عدد ۱ را با دسته‌های ۵تایی و چوب‌خط‌های تکی بساز.",
       "interaction_payload": {
         "target_value": 1,
-        "items_count": 3,
+        "items_count": 6,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 1,
+        "option_id": null,
         "canonical_form": "VAL_1"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 10 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": []
     },
     {
       "question_id": "G1-L10-IND-11",
@@ -319,23 +425,49 @@
       "sequence_number": 11,
       "difficulty": "medium",
       "interaction_type": "pattern_completer",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 11: مسئله کاربردی شماره 11 متناسب با سطح medium.",
+      "prompt_fa": "تمرین ۱۱ (آشنایی با مفهوم صفر (۰) و کاربرد آن): به الگوی روبه‌رو دقت کن: «🔺 🔺 🟦 🔺 🔺 ؟» — شکل بعدی در جای علامت سؤال کدام است؟",
       "interaction_payload": {
         "target_value": 2,
-        "items_count": 4,
-        "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
+        "items_count": 6,
+        "criteria": "🔺 🔺 🟦 🔺 🔺 ؟"
       },
       "correct_answer": {
         "value": 2,
-        "canonical_form": "VAL_2"
+        "option_id": "opt_2",
+        "canonical_form": "opt_2"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 11 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "🔺 مثلث قرمز",
+          "value": 3
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "🟦 مربع آبی",
+          "value": 2
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "⭐ ستاره زرد",
+          "value": 5
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "🟢 دایره سبز",
+          "value": 6
+        }
+      ]
     },
     {
       "question_id": "G1-L10-IND-12",
@@ -345,23 +477,49 @@
       "sequence_number": 12,
       "difficulty": "medium",
       "interaction_type": "visual_multiple_choice",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 12: مسئله کاربردی شماره 12 متناسب با سطح medium.",
+      "prompt_fa": "تمرین ۱۲ (آشنایی با مفهوم صفر (۰) و کاربرد آن): اگر در دسته اول ۱ شکل و در دسته دوم ۲ شکل داشته باشیم، در مجموع چند شکل داریم؟ گزینه درست را انتخاب کن.",
       "interaction_payload": {
         "target_value": 3,
-        "items_count": 5,
+        "items_count": 6,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 3,
+        "option_id": "opt_3",
         "canonical_form": "VAL_3"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 12 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۲ شکل",
+          "value": 2
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۵ شکل",
+          "value": 5
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۳ شکل",
+          "value": 3
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۴ شکل",
+          "value": 4
+        }
+      ]
     },
     {
       "question_id": "G1-L10-IND-13",
@@ -371,23 +529,28 @@
       "sequence_number": 13,
       "difficulty": "medium",
       "interaction_type": "balance_scale_equation",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 13: مسئله کاربردی شماره 13 متناسب با سطح medium.",
+      "prompt_fa": "تمرین ۱۳ (آشنایی با مفهوم صفر (۰) و کاربرد آن): در کفه چپ ترازو وزنه ۴ قرار دارد. در کفه راست وزنه بگذار تا ترازو کاملاً متعادل شود.",
       "interaction_payload": {
         "target_value": 4,
-        "items_count": 6,
+        "items_count": 7,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 4,
+        "option_id": null,
         "canonical_form": "VAL_4"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 13 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": []
     },
     {
       "question_id": "G1-L10-IND-14",
@@ -397,23 +560,28 @@
       "sequence_number": 14,
       "difficulty": "medium",
       "interaction_type": "drag_and_drop_count",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 14: مسئله کاربردی شماره 14 متناسب با سطح medium.",
+      "prompt_fa": "تمرین ۱۴ (آشنایی با مفهوم صفر (۰) و کاربرد آن): دقیقاً ۵ سیب را به داخل سبد بکش یا لمس کن.",
       "interaction_payload": {
         "target_value": 5,
-        "items_count": 7,
+        "items_count": 8,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 5,
+        "option_id": null,
         "canonical_form": "VAL_5"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 14 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": []
     },
     {
       "question_id": "G1-L10-IND-15",
@@ -423,23 +591,28 @@
       "sequence_number": 15,
       "difficulty": "medium",
       "interaction_type": "number_line_jump",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 15: مسئله کاربردی شماره 15 متناسب با سطح medium.",
+      "prompt_fa": "تمرین ۱۵ (آشنایی با مفهوم صفر (۰) و کاربرد آن): روی محور اعداد از صفر شروع کن، ابتدا ۳ واحد و سپس ۳ واحد به راست بپر.",
       "interaction_payload": {
         "target_value": 6,
-        "items_count": 8,
+        "items_count": 9,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 6,
+        "option_id": null,
         "canonical_form": "VAL_6"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 15 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": []
     },
     {
       "question_id": "G1-L10-IND-16",
@@ -449,23 +622,28 @@
       "sequence_number": 16,
       "difficulty": "medium",
       "interaction_type": "tally_mark_builder",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 16: مسئله کاربردی شماره 16 متناسب با سطح medium.",
+      "prompt_fa": "تمرین ۱۶ (آشنایی با مفهوم صفر (۰) و کاربرد آن): عدد ۷ را با دسته‌های ۵تایی و چوب‌خط‌های تکی بساز.",
       "interaction_payload": {
         "target_value": 7,
-        "items_count": 9,
+        "items_count": 10,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 7,
+        "option_id": null,
         "canonical_form": "VAL_7"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 16 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": []
     },
     {
       "question_id": "G1-L10-IND-17",
@@ -475,23 +653,49 @@
       "sequence_number": 17,
       "difficulty": "medium",
       "interaction_type": "pattern_completer",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 17: مسئله کاربردی شماره 17 متناسب با سطح medium.",
+      "prompt_fa": "تمرین ۱۷ (آشنایی با مفهوم صفر (۰) و کاربرد آن): به الگوی روبه‌رو دقت کن: «🍎 🍌 🍎 🍌 🍎 ؟» — شکل بعدی در جای علامت سؤال کدام است؟",
       "interaction_payload": {
         "target_value": 8,
-        "items_count": 10,
-        "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
+        "items_count": 11,
+        "criteria": "🍎 🍌 🍎 🍌 🍎 ؟"
       },
       "correct_answer": {
         "value": 8,
-        "canonical_form": "VAL_8"
+        "option_id": "opt_2",
+        "canonical_form": "opt_2"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 17 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "🍎 سیب سرخ",
+          "value": 9
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "🍌 موز زرد",
+          "value": 8
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "🍇 انگور بنفش",
+          "value": 11
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "🍊 پرتقال",
+          "value": 12
+        }
+      ]
     },
     {
       "question_id": "G1-L10-IND-18",
@@ -501,23 +705,49 @@
       "sequence_number": 18,
       "difficulty": "medium",
       "interaction_type": "visual_multiple_choice",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 18: مسئله کاربردی شماره 18 متناسب با سطح medium.",
+      "prompt_fa": "تمرین ۱۸ (آشنایی با مفهوم صفر (۰) و کاربرد آن): اگر در دسته اول ۴ شکل و در دسته دوم ۵ شکل داشته باشیم، در مجموع چند شکل داریم؟ گزینه درست را انتخاب کن.",
       "interaction_payload": {
         "target_value": 9,
-        "items_count": 11,
+        "items_count": 12,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 9,
+        "option_id": "opt_1",
         "canonical_form": "VAL_9"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 18 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۹ شکل",
+          "value": 9
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۱۰ شکل",
+          "value": 10
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۸ شکل",
+          "value": 8
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۱۱ شکل",
+          "value": 11
+        }
+      ]
     },
     {
       "question_id": "G1-L10-IND-19",
@@ -527,23 +757,28 @@
       "sequence_number": 19,
       "difficulty": "medium",
       "interaction_type": "balance_scale_equation",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 19: مسئله کاربردی شماره 19 متناسب با سطح medium.",
+      "prompt_fa": "تمرین ۱۹ (آشنایی با مفهوم صفر (۰) و کاربرد آن): در کفه چپ ترازو وزنه ۱۰ قرار دارد. در کفه راست وزنه بگذار تا ترازو کاملاً متعادل شود.",
       "interaction_payload": {
         "target_value": 10,
-        "items_count": 12,
+        "items_count": 13,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 10,
+        "option_id": null,
         "canonical_form": "VAL_10"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 19 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": []
     },
     {
       "question_id": "G1-L10-IND-20",
@@ -553,23 +788,28 @@
       "sequence_number": 20,
       "difficulty": "medium",
       "interaction_type": "drag_and_drop_count",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 20: مسئله کاربردی شماره 20 متناسب با سطح medium.",
+      "prompt_fa": "تمرین ۲۰ (آشنایی با مفهوم صفر (۰) و کاربرد آن): دقیقاً ۱ سیب را به داخل سبد بکش یا لمس کن.",
       "interaction_payload": {
         "target_value": 1,
-        "items_count": 3,
+        "items_count": 6,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 1,
+        "option_id": null,
         "canonical_form": "VAL_1"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 20 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": []
     },
     {
       "question_id": "G1-L10-IND-21",
@@ -579,23 +819,28 @@
       "sequence_number": 21,
       "difficulty": "medium",
       "interaction_type": "number_line_jump",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 21: مسئله کاربردی شماره 21 متناسب با سطح medium.",
+      "prompt_fa": "تمرین ۲۱ (آشنایی با مفهوم صفر (۰) و کاربرد آن): روی محور اعداد از صفر شروع کن، ابتدا ۱ واحد و سپس ۱ واحد به راست بپر.",
       "interaction_payload": {
         "target_value": 2,
-        "items_count": 4,
+        "items_count": 6,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 2,
+        "option_id": null,
         "canonical_form": "VAL_2"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 21 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": []
     },
     {
       "question_id": "G1-L10-IND-22",
@@ -605,23 +850,28 @@
       "sequence_number": 22,
       "difficulty": "medium",
       "interaction_type": "tally_mark_builder",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 22: مسئله کاربردی شماره 22 متناسب با سطح medium.",
+      "prompt_fa": "تمرین ۲۲ (آشنایی با مفهوم صفر (۰) و کاربرد آن): عدد ۳ را با دسته‌های ۵تایی و چوب‌خط‌های تکی بساز.",
       "interaction_payload": {
         "target_value": 3,
-        "items_count": 5,
+        "items_count": 6,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 3,
+        "option_id": null,
         "canonical_form": "VAL_3"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 22 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": []
     },
     {
       "question_id": "G1-L10-IND-23",
@@ -631,23 +881,49 @@
       "sequence_number": 23,
       "difficulty": "challenge",
       "interaction_type": "pattern_completer",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 23: مسئله کاربردی شماره 23 متناسب با سطح challenge.",
+      "prompt_fa": "تمرین ۲۳ (آشنایی با مفهوم صفر (۰) و کاربرد آن): به الگوی روبه‌رو دقت کن: «⭐ 🌙 ⭐ 🌙 ⭐ ؟» — شکل بعدی در جای علامت سؤال کدام است؟",
       "interaction_payload": {
         "target_value": 4,
-        "items_count": 6,
-        "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
+        "items_count": 7,
+        "criteria": "⭐ 🌙 ⭐ 🌙 ⭐ ؟"
       },
       "correct_answer": {
         "value": 4,
-        "canonical_form": "VAL_4"
+        "option_id": "opt_2",
+        "canonical_form": "opt_2"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 23 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "⭐ ستاره",
+          "value": 5
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "🌙 ماه",
+          "value": 4
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "☀️ خورشید",
+          "value": 7
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "☁️ ابر",
+          "value": 8
+        }
+      ]
     },
     {
       "question_id": "G1-L10-IND-24",
@@ -657,23 +933,49 @@
       "sequence_number": 24,
       "difficulty": "challenge",
       "interaction_type": "visual_multiple_choice",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 24: مسئله کاربردی شماره 24 متناسب با سطح challenge.",
+      "prompt_fa": "تمرین ۲۴ (آشنایی با مفهوم صفر (۰) و کاربرد آن): اگر در دسته اول ۲ شکل و در دسته دوم ۳ شکل داشته باشیم، در مجموع چند شکل داریم؟ گزینه درست را انتخاب کن.",
       "interaction_payload": {
         "target_value": 5,
-        "items_count": 7,
+        "items_count": 8,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 5,
+        "option_id": "opt_3",
         "canonical_form": "VAL_5"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 24 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۴ شکل",
+          "value": 4
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۷ شکل",
+          "value": 7
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۵ شکل",
+          "value": 5
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۶ شکل",
+          "value": 6
+        }
+      ]
     },
     {
       "question_id": "G1-L10-IND-25",
@@ -683,23 +985,28 @@
       "sequence_number": 25,
       "difficulty": "challenge",
       "interaction_type": "balance_scale_equation",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 25: مسئله کاربردی شماره 25 متناسب با سطح challenge.",
+      "prompt_fa": "تمرین ۲۵ (آشنایی با مفهوم صفر (۰) و کاربرد آن): در کفه چپ ترازو وزنه ۶ قرار دارد. در کفه راست وزنه بگذار تا ترازو کاملاً متعادل شود.",
       "interaction_payload": {
         "target_value": 6,
-        "items_count": 8,
+        "items_count": 9,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 6,
+        "option_id": null,
         "canonical_form": "VAL_6"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 25 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": []
     },
     {
       "question_id": "G1-L10-IND-26",
@@ -709,23 +1016,28 @@
       "sequence_number": 26,
       "difficulty": "challenge",
       "interaction_type": "drag_and_drop_count",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 26: مسئله کاربردی شماره 26 متناسب با سطح challenge.",
+      "prompt_fa": "تمرین ۲۶ (آشنایی با مفهوم صفر (۰) و کاربرد آن): دقیقاً ۷ سیب را به داخل سبد بکش یا لمس کن.",
       "interaction_payload": {
         "target_value": 7,
-        "items_count": 9,
+        "items_count": 10,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 7,
+        "option_id": null,
         "canonical_form": "VAL_7"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 26 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": []
     },
     {
       "question_id": "G1-L10-IND-27",
@@ -735,23 +1047,28 @@
       "sequence_number": 27,
       "difficulty": "challenge",
       "interaction_type": "number_line_jump",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 27: مسئله کاربردی شماره 27 متناسب با سطح challenge.",
+      "prompt_fa": "تمرین ۲۷ (آشنایی با مفهوم صفر (۰) و کاربرد آن): روی محور اعداد از صفر شروع کن، ابتدا ۴ واحد و سپس ۴ واحد به راست بپر.",
       "interaction_payload": {
         "target_value": 8,
-        "items_count": 10,
+        "items_count": 11,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 8,
+        "option_id": null,
         "canonical_form": "VAL_8"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 27 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": []
     },
     {
       "question_id": "G1-L10-IND-28",
@@ -761,23 +1078,28 @@
       "sequence_number": 28,
       "difficulty": "challenge",
       "interaction_type": "tally_mark_builder",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 28: مسئله کاربردی شماره 28 متناسب با سطح challenge.",
+      "prompt_fa": "تمرین ۲۸ (آشنایی با مفهوم صفر (۰) و کاربرد آن): عدد ۹ را با دسته‌های ۵تایی و چوب‌خط‌های تکی بساز.",
       "interaction_payload": {
         "target_value": 9,
-        "items_count": 11,
+        "items_count": 12,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 9,
+        "option_id": null,
         "canonical_form": "VAL_9"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 28 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": []
     },
     {
       "question_id": "G1-L10-IND-29",
@@ -787,23 +1109,49 @@
       "sequence_number": 29,
       "difficulty": "challenge",
       "interaction_type": "pattern_completer",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 29: مسئله کاربردی شماره 29 متناسب با سطح challenge.",
+      "prompt_fa": "تمرین ۲۹ (آشنایی با مفهوم صفر (۰) و کاربرد آن): به الگوی روبه‌رو دقت کن: «🟢 🟢 🟡 🟢 🟢 ؟» — شکل بعدی در جای علامت سؤال کدام است؟",
       "interaction_payload": {
         "target_value": 10,
-        "items_count": 12,
-        "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
+        "items_count": 13,
+        "criteria": "🟢 🟢 🟡 🟢 🟢 ؟"
       },
       "correct_answer": {
         "value": 10,
-        "canonical_form": "VAL_10"
+        "option_id": "opt_2",
+        "canonical_form": "opt_2"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 29 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "🟢 مهره سبز",
+          "value": 11
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "🟡 مهره زرد",
+          "value": 10
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "🔴 مهره قرمز",
+          "value": 13
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "🔵 مهره آبی",
+          "value": 14
+        }
+      ]
     },
     {
       "question_id": "G1-L10-IND-30",
@@ -813,25 +1161,165 @@
       "sequence_number": 30,
       "difficulty": "challenge",
       "interaction_type": "visual_multiple_choice",
-      "prompt_fa": "درس 10 (آشنایی با مفهوم صفر (۰) و کاربرد آن) - تمرین مستقل شماره 30: مسئله کاربردی شماره 30 متناسب با سطح challenge.",
+      "prompt_fa": "تمرین ۳۰ (آشنایی با مفهوم صفر (۰) و کاربرد آن): اگر در دسته اول ۰ شکل و در دسته دوم ۱ شکل داشته باشیم، در مجموع چند شکل داریم؟ گزینه درست را انتخاب کن.",
       "interaction_payload": {
         "target_value": 1,
-        "items_count": 3,
+        "items_count": 6,
         "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
       },
       "correct_answer": {
         "value": 1,
+        "option_id": "opt_1",
         "canonical_form": "VAL_1"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 30 از درس «آشنایی با مفهوم صفر (۰) و کاربرد آن» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN10",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۱ شکل",
+          "value": 1
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۲ شکل",
+          "value": 2
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۰ شکل",
+          "value": 0
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۳ شکل",
+          "value": 3
+        }
+      ]
     }
   ],
   "remedial_questions_ref": "remedial/G1-L10_remedial.json",
-  "assessment_questions_ref": "assessments/G1-L10_assessment.json"
+  "assessment_questions_ref": "assessments/G1-L10_assessment.json",
+  "skill_code": "G1_SN10",
+  "learning_objectives_fa": [
+    "آشنایی حسی و تصویری با مفهوم «آشنایی با مفهوم صفر (۰) و کاربرد آن» از طریق دست‌ورزی",
+    "توانایی حل مسائل گام‌به‌گام «آشنایی با مفهوم صفر (۰) و کاربرد آن» با ابزارهای تعاملی (محور، چوب‌خط، ترازو و شمارش)",
+    "تشخیص و اصلاح خطاهای رایج در «آشنایی با مفهوم صفر (۰) و کاربرد آن» با کمک راهنمای مرحله‌ای بدون لو رفتن پاسخ"
+  ],
+  "prerequisites_fa": [
+    "شمارش یک‌به‌یک اشیاء ملموس تا عدد متناظر فصل",
+    "تشخیص ویژگی‌های دیداری (رنگ، شکل، اندازه و جهت چپ به راست)"
+  ],
+  "warm_up_story_fa": "داستان شروع درس ۱۰: سینا و مینا در باغ ریاضی با چالش «آشنایی با مفهوم صفر (۰) و کاربرد آن» روبه‌رو شدند. بیا با کمک شکل‌ها و ابزارهای رنگی به آن‌ها کمک کنیم تا راز این درس را کشف کنند!",
+  "concept_discovery": {
+    "discovery_id": "G1-L10-DISC-01",
+    "story_prompt_fa": "داستان شروع درس ۱۰: سینا و مینا در باغ ریاضی با چالش «آشنایی با مفهوم صفر (۰) و کاربرد آن» روبه‌رو شدند. بیا با کمک شکل‌ها و ابزارهای رنگی به آن‌ها کمک کنیم تا راز این درس را کشف کنند!",
+    "visual_explanation_fa": "در درس «آشنایی با مفهوم صفر (۰) و کاربرد آن»، ابتدا به دسته‌های شکل‌ها با دقت نگاه می‌کنیم، سپس با لمس یک‌به‌یک هر شکل، رابطه بین تعداد و نماد ریاضی را کشف می‌کنیم.",
+    "discovery_steps_fa": [
+      "گام کشف ۱: شکل‌های صفحه را به ترتیب از راست به چپ یا چپ به راست لمس کن.",
+      "گام کشف ۲: ببین هر تغییر در تعداد شکل‌ها چه اثری روی ترازو، چوب‌خط یا محور اعداد می‌گذارد.",
+      "گام کشف ۳: نتیجه‌ای را که کشف کردی با مثال حل‌شده مقایسه کن."
+    ],
+    "visual_takeaway_fa": "خلاصه تصویری درس 10: یادگیری گام‌به‌گام آشنایی با مفهوم صفر (۰) و کاربرد آن با کمک اشیاء ملموس."
+  },
+  "guided_activities": [
+    {
+      "question_id": "G1-L10-GUIDED-01",
+      "lesson_id": "G1-L10",
+      "skill_code": "G1_SN10",
+      "section": "guided_activity",
+      "counts_toward_30_quota": false,
+      "sequence_number": 1,
+      "difficulty": "easy",
+      "interaction_type": "drag_and_drop_count",
+      "prompt_fa": "فعالیت هدایت‌شده ۱ (آشنایی با مفهوم صفر (۰) و کاربرد آن): با راهنمایی گام‌به‌گام، مقدار ۶ را روی ابزار بساز.",
+      "options": [],
+      "interaction_payload": {
+        "target_value": 6,
+        "items_count": 9,
+        "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
+      },
+      "correct_answer": {
+        "value": 6,
+        "option_id": null,
+        "canonical_form": "VAL_6"
+      },
+      "feedback_policy": {
+        "mode": "IMMEDIATE",
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "hint_on_first_error_fa": "راهنمای اول: دوباره شکل‌ها را یک‌به‌یک بشمار؛ هدف ما رسیدن به مقدار مشخص‌شده در صورت سؤال است.",
+        "scaffolded_hint_fa": "راهنمای گام‌به‌گام: یکی‌یکی به ابزار اضافه کن و هر بار عدد بالای صفحه را با صورت سؤال مقایسه کن.",
+        "success_message_fa": "آفرین! فعالیت هدایت‌شده را به درستی انجام دادی."
+      }
+    },
+    {
+      "question_id": "G1-L10-GUIDED-02",
+      "lesson_id": "G1-L10",
+      "skill_code": "G1_SN10",
+      "section": "guided_activity",
+      "counts_toward_30_quota": false,
+      "sequence_number": 2,
+      "difficulty": "easy",
+      "interaction_type": "tally_mark_builder",
+      "prompt_fa": "فعالیت هدایت‌شده ۲ (آشنایی با مفهوم صفر (۰) و کاربرد آن): با راهنمایی گام‌به‌گام، مقدار ۷ را روی ابزار بساز.",
+      "options": [],
+      "interaction_payload": {
+        "target_value": 7,
+        "items_count": 10,
+        "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
+      },
+      "correct_answer": {
+        "value": 7,
+        "option_id": null,
+        "canonical_form": "VAL_7"
+      },
+      "feedback_policy": {
+        "mode": "IMMEDIATE",
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "hint_on_first_error_fa": "راهنمای اول: دوباره شکل‌ها را یک‌به‌یک بشمار؛ هدف ما رسیدن به مقدار مشخص‌شده در صورت سؤال است.",
+        "scaffolded_hint_fa": "راهنمای گام‌به‌گام: یکی‌یکی به ابزار اضافه کن و هر بار عدد بالای صفحه را با صورت سؤال مقایسه کن.",
+        "success_message_fa": "آفرین! فعالیت هدایت‌شده را به درستی انجام دادی."
+      }
+    },
+    {
+      "question_id": "G1-L10-GUIDED-03",
+      "lesson_id": "G1-L10",
+      "skill_code": "G1_SN10",
+      "section": "guided_activity",
+      "counts_toward_30_quota": false,
+      "sequence_number": 3,
+      "difficulty": "easy",
+      "interaction_type": "balance_scale_equation",
+      "prompt_fa": "فعالیت هدایت‌شده ۳ (آشنایی با مفهوم صفر (۰) و کاربرد آن): با راهنمایی گام‌به‌گام، مقدار ۸ را روی ابزار بساز.",
+      "options": [],
+      "interaction_payload": {
+        "target_value": 8,
+        "items_count": 11,
+        "criteria": "آشنایی با مفهوم صفر (۰) و کاربرد آن"
+      },
+      "correct_answer": {
+        "value": 8,
+        "option_id": null,
+        "canonical_form": "VAL_8"
+      },
+      "feedback_policy": {
+        "mode": "IMMEDIATE",
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "hint_on_first_error_fa": "راهنمای اول: دوباره شکل‌ها را یک‌به‌یک بشمار؛ هدف ما رسیدن به مقدار مشخص‌شده در صورت سؤال است.",
+        "scaffolded_hint_fa": "راهنمای گام‌به‌گام: یکی‌یکی به ابزار اضافه کن و هر بار عدد بالای صفحه را با صورت سؤال مقایسه کن.",
+        "success_message_fa": "آفرین! فعالیت هدایت‌شده را به درستی انجام دادی."
+      }
+    }
+  ]
 }

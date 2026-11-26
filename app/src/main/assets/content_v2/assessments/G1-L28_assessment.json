@@ -10,18 +10,50 @@
       "lesson_id": "G1-L28",
       "section": "summative_assessment",
       "counts_toward_30_quota": false,
-      "interaction_type": "balance_scale_equation",
-      "prompt_fa": "درس 28 - سؤال سنجش پایانی 1: ارزیابی تسلط بر «دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)» (سؤال 1).",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "سنجش پایانی سؤال ۱ (دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)): حاصل ترکیب ۳ و ۲ شکل برابر با کدام گزینه است؟",
       "correct_answer": {
-        "value": 2
+        "value": 5,
+        "option_id": "opt_4",
+        "canonical_form": "VAL_5"
       },
       "feedback_policy": {
         "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
-        "show_correct_answer_after_submit": true,
-        "show_explanatory_feedback_after_submit": true,
-        "allow_retry_during_assessment": false,
-        "post_submit_feedback_fa": "بازخورد سنجش سؤال 1: برای حل صحیح این سؤال باید قاعده «دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)» را به کار ببری."
-      }
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۱: در این پرسش از درس «دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)»، مقدار هدف ۵ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN28",
+      "interaction_payload": {
+        "target_value": 5,
+        "items_count": 8,
+        "criteria": "دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۶ شکل",
+          "value": 6
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۴ شکل",
+          "value": 4
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۷ شکل",
+          "value": 7
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۵ شکل",
+          "value": 5
+        }
+      ]
     },
     {
       "question_id": "G1-L28-ASM-02",
@@ -29,71 +61,116 @@
       "section": "summative_assessment",
       "counts_toward_30_quota": false,
       "interaction_type": "drag_and_drop_count",
-      "prompt_fa": "درس 28 - سؤال سنجش پایانی 2: ارزیابی تسلط بر «دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)» (سؤال 2).",
+      "prompt_fa": "سنجش پایانی سؤال ۲ (دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)): به تعداد ۷ سیب داخل سبد قرار بده.",
       "correct_answer": {
-        "value": 4
+        "value": 7,
+        "option_id": null,
+        "canonical_form": "VAL_7"
       },
       "feedback_policy": {
         "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
-        "show_correct_answer_after_submit": true,
-        "show_explanatory_feedback_after_submit": true,
-        "allow_retry_during_assessment": false,
-        "post_submit_feedback_fa": "بازخورد سنجش سؤال 2: برای حل صحیح این سؤال باید قاعده «دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)» را به کار ببری."
-      }
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۲: در این پرسش از درس «دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)»، مقدار هدف ۷ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN28",
+      "interaction_payload": {
+        "target_value": 7,
+        "items_count": 10,
+        "criteria": "دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)"
+      },
+      "options": []
     },
     {
       "question_id": "G1-L28-ASM-03",
       "lesson_id": "G1-L28",
       "section": "summative_assessment",
       "counts_toward_30_quota": false,
-      "interaction_type": "number_line_jump",
-      "prompt_fa": "درس 28 - سؤال سنجش پایانی 3: ارزیابی تسلط بر «دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)» (سؤال 3).",
+      "interaction_type": "tally_mark_builder",
+      "prompt_fa": "سنجش پایانی سؤال ۳ (دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)): عدد ۹ را با چوب‌خط استاندارد نشان بده.",
       "correct_answer": {
-        "value": 6
+        "value": 9,
+        "option_id": null,
+        "canonical_form": "VAL_9"
       },
       "feedback_policy": {
         "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
-        "show_correct_answer_after_submit": true,
-        "show_explanatory_feedback_after_submit": true,
-        "allow_retry_during_assessment": false,
-        "post_submit_feedback_fa": "بازخورد سنجش سؤال 3: برای حل صحیح این سؤال باید قاعده «دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)» را به کار ببری."
-      }
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۳: در این پرسش از درس «دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)»، مقدار هدف ۹ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN28",
+      "interaction_payload": {
+        "target_value": 9,
+        "items_count": 12,
+        "criteria": "دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)"
+      },
+      "options": []
     },
     {
       "question_id": "G1-L28-ASM-04",
       "lesson_id": "G1-L28",
       "section": "summative_assessment",
       "counts_toward_30_quota": false,
-      "interaction_type": "tally_mark_builder",
-      "prompt_fa": "درس 28 - سؤال سنجش پایانی 4: ارزیابی تسلط بر «دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)» (سؤال 4).",
+      "interaction_type": "number_line_jump",
+      "prompt_fa": "سنجش پایانی سؤال ۴ (دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)): مهره را روی محور اعداد به عدد ۲ برسان.",
       "correct_answer": {
-        "value": 8
+        "value": 2,
+        "option_id": null,
+        "canonical_form": "VAL_2"
       },
       "feedback_policy": {
         "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
-        "show_correct_answer_after_submit": true,
-        "show_explanatory_feedback_after_submit": true,
-        "allow_retry_during_assessment": false,
-        "post_submit_feedback_fa": "بازخورد سنجش سؤال 4: برای حل صحیح این سؤال باید قاعده «دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)» را به کار ببری."
-      }
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۴: در این پرسش از درس «دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)»، مقدار هدف ۲ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN28",
+      "interaction_payload": {
+        "target_value": 2,
+        "items_count": 6,
+        "criteria": "دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)"
+      },
+      "options": []
     },
     {
       "question_id": "G1-L28-ASM-05",
       "lesson_id": "G1-L28",
       "section": "summative_assessment",
       "counts_toward_30_quota": false,
-      "interaction_type": "pattern_completer",
-      "prompt_fa": "درس 28 - سؤال سنجش پایانی 5: ارزیابی تسلط بر «دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)» (سؤال 5).",
+      "interaction_type": "balance_scale_equation",
+      "prompt_fa": "سنجش پایانی سؤال ۵ (دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)): ترازو را برای وزنه هدف ۴ به تعادل برسان.",
       "correct_answer": {
-        "value": 10
+        "value": 4,
+        "option_id": null,
+        "canonical_form": "VAL_4"
       },
       "feedback_policy": {
         "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
-        "show_correct_answer_after_submit": true,
-        "show_explanatory_feedback_after_submit": true,
-        "allow_retry_during_assessment": false,
-        "post_submit_feedback_fa": "بازخورد سنجش سؤال 5: برای حل صحیح این سؤال باید قاعده «دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)» را به کار ببری."
-      }
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۵: در این پرسش از درس «دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)»، مقدار هدف ۴ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN28",
+      "interaction_payload": {
+        "target_value": 4,
+        "items_count": 7,
+        "criteria": "دوست‌های عدد ۱۰ (ترکیب‌های ده‌تایی)"
+      },
+      "options": []
     }
-  ]
+  ],
+  "passing_score_percent": 80
 }

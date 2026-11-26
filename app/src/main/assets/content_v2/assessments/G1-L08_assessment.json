@@ -10,90 +10,167 @@
       "lesson_id": "G1-L08",
       "section": "summative_assessment",
       "counts_toward_30_quota": false,
-      "interaction_type": "pattern_completer",
-      "prompt_fa": "درس 8 - سؤال سنجش پایانی 1: ارزیابی تسلط بر «آشنایی با عدد ۵ و دسته‌های پنج‌تایی» (سؤال 1).",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "سنجش پایانی سؤال ۱ (آشنایی با عدد ۵ و دسته‌های پنج‌تایی): حاصل ترکیب ۱ و ۲ شکل برابر با کدام گزینه است؟",
       "correct_answer": {
-        "value": 2
+        "value": 3,
+        "option_id": "opt_4",
+        "canonical_form": "VAL_3"
       },
       "feedback_policy": {
         "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
-        "show_correct_answer_after_submit": true,
-        "show_explanatory_feedback_after_submit": true,
-        "allow_retry_during_assessment": false,
-        "post_submit_feedback_fa": "بازخورد سنجش سؤال 1: برای حل صحیح این سؤال باید قاعده «آشنایی با عدد ۵ و دسته‌های پنج‌تایی» را به کار ببری."
-      }
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۱: در این پرسش از درس «آشنایی با عدد ۵ و دسته‌های پنج‌تایی»، مقدار هدف ۳ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN08",
+      "interaction_payload": {
+        "target_value": 3,
+        "items_count": 6,
+        "criteria": "آشنایی با عدد ۵ و دسته‌های پنج‌تایی"
+      },
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۴ شکل",
+          "value": 4
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۲ شکل",
+          "value": 2
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۵ شکل",
+          "value": 5
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۳ شکل",
+          "value": 3
+        }
+      ]
     },
     {
       "question_id": "G1-L08-ASM-02",
       "lesson_id": "G1-L08",
       "section": "summative_assessment",
       "counts_toward_30_quota": false,
-      "interaction_type": "visual_multiple_choice",
-      "prompt_fa": "درس 8 - سؤال سنجش پایانی 2: ارزیابی تسلط بر «آشنایی با عدد ۵ و دسته‌های پنج‌تایی» (سؤال 2).",
+      "interaction_type": "drag_and_drop_count",
+      "prompt_fa": "سنجش پایانی سؤال ۲ (آشنایی با عدد ۵ و دسته‌های پنج‌تایی): به تعداد ۵ سیب داخل سبد قرار بده.",
       "correct_answer": {
-        "value": 4
+        "value": 5,
+        "option_id": null,
+        "canonical_form": "VAL_5"
       },
       "feedback_policy": {
         "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
-        "show_correct_answer_after_submit": true,
-        "show_explanatory_feedback_after_submit": true,
-        "allow_retry_during_assessment": false,
-        "post_submit_feedback_fa": "بازخورد سنجش سؤال 2: برای حل صحیح این سؤال باید قاعده «آشنایی با عدد ۵ و دسته‌های پنج‌تایی» را به کار ببری."
-      }
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۲: در این پرسش از درس «آشنایی با عدد ۵ و دسته‌های پنج‌تایی»، مقدار هدف ۵ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN08",
+      "interaction_payload": {
+        "target_value": 5,
+        "items_count": 8,
+        "criteria": "آشنایی با عدد ۵ و دسته‌های پنج‌تایی"
+      },
+      "options": []
     },
     {
       "question_id": "G1-L08-ASM-03",
       "lesson_id": "G1-L08",
       "section": "summative_assessment",
       "counts_toward_30_quota": false,
-      "interaction_type": "balance_scale_equation",
-      "prompt_fa": "درس 8 - سؤال سنجش پایانی 3: ارزیابی تسلط بر «آشنایی با عدد ۵ و دسته‌های پنج‌تایی» (سؤال 3).",
+      "interaction_type": "tally_mark_builder",
+      "prompt_fa": "سنجش پایانی سؤال ۳ (آشنایی با عدد ۵ و دسته‌های پنج‌تایی): عدد ۷ را با چوب‌خط استاندارد نشان بده.",
       "correct_answer": {
-        "value": 6
+        "value": 7,
+        "option_id": null,
+        "canonical_form": "VAL_7"
       },
       "feedback_policy": {
         "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
-        "show_correct_answer_after_submit": true,
-        "show_explanatory_feedback_after_submit": true,
-        "allow_retry_during_assessment": false,
-        "post_submit_feedback_fa": "بازخورد سنجش سؤال 3: برای حل صحیح این سؤال باید قاعده «آشنایی با عدد ۵ و دسته‌های پنج‌تایی» را به کار ببری."
-      }
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۳: در این پرسش از درس «آشنایی با عدد ۵ و دسته‌های پنج‌تایی»، مقدار هدف ۷ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN08",
+      "interaction_payload": {
+        "target_value": 7,
+        "items_count": 10,
+        "criteria": "آشنایی با عدد ۵ و دسته‌های پنج‌تایی"
+      },
+      "options": []
     },
     {
       "question_id": "G1-L08-ASM-04",
       "lesson_id": "G1-L08",
       "section": "summative_assessment",
       "counts_toward_30_quota": false,
-      "interaction_type": "drag_and_drop_count",
-      "prompt_fa": "درس 8 - سؤال سنجش پایانی 4: ارزیابی تسلط بر «آشنایی با عدد ۵ و دسته‌های پنج‌تایی» (سؤال 4).",
+      "interaction_type": "number_line_jump",
+      "prompt_fa": "سنجش پایانی سؤال ۴ (آشنایی با عدد ۵ و دسته‌های پنج‌تایی): مهره را روی محور اعداد به عدد ۹ برسان.",
       "correct_answer": {
-        "value": 8
+        "value": 9,
+        "option_id": null,
+        "canonical_form": "VAL_9"
       },
       "feedback_policy": {
         "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
-        "show_correct_answer_after_submit": true,
-        "show_explanatory_feedback_after_submit": true,
-        "allow_retry_during_assessment": false,
-        "post_submit_feedback_fa": "بازخورد سنجش سؤال 4: برای حل صحیح این سؤال باید قاعده «آشنایی با عدد ۵ و دسته‌های پنج‌تایی» را به کار ببری."
-      }
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۴: در این پرسش از درس «آشنایی با عدد ۵ و دسته‌های پنج‌تایی»، مقدار هدف ۹ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN08",
+      "interaction_payload": {
+        "target_value": 9,
+        "items_count": 12,
+        "criteria": "آشنایی با عدد ۵ و دسته‌های پنج‌تایی"
+      },
+      "options": []
     },
     {
       "question_id": "G1-L08-ASM-05",
       "lesson_id": "G1-L08",
       "section": "summative_assessment",
       "counts_toward_30_quota": false,
-      "interaction_type": "number_line_jump",
-      "prompt_fa": "درس 8 - سؤال سنجش پایانی 5: ارزیابی تسلط بر «آشنایی با عدد ۵ و دسته‌های پنج‌تایی» (سؤال 5).",
+      "interaction_type": "balance_scale_equation",
+      "prompt_fa": "سنجش پایانی سؤال ۵ (آشنایی با عدد ۵ و دسته‌های پنج‌تایی): ترازو را برای وزنه هدف ۲ به تعادل برسان.",
       "correct_answer": {
-        "value": 10
+        "value": 2,
+        "option_id": null,
+        "canonical_form": "VAL_2"
       },
       "feedback_policy": {
         "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
-        "show_correct_answer_after_submit": true,
-        "show_explanatory_feedback_after_submit": true,
-        "allow_retry_during_assessment": false,
-        "post_submit_feedback_fa": "بازخورد سنجش سؤال 5: برای حل صحیح این سؤال باید قاعده «آشنایی با عدد ۵ و دسته‌های پنج‌تایی» را به کار ببری."
-      }
+        "show_immediate_feedback": false,
+        "max_attempts": 1,
+        "hint_on_first_error_fa": "",
+        "scaffolded_hint_fa": "",
+        "success_message_fa": "پاسخ صحیح ثبت شد.",
+        "post_submit_feedback_fa": "تحلیل سؤال ۵: در این پرسش از درس «آشنایی با عدد ۵ و دسته‌های پنج‌تایی»، مقدار هدف ۲ بود که با شمارش دقیق دسته‌ها به دست می‌آید."
+      },
+      "skill_code": "G1_SN08",
+      "interaction_payload": {
+        "target_value": 2,
+        "items_count": 6,
+        "criteria": "آشنایی با عدد ۵ و دسته‌های پنج‌تایی"
+      },
+      "options": []
     }
-  ]
+  ],
+  "passing_score_percent": 80
 }

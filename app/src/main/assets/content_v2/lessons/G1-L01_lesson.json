@@ -31,23 +31,37 @@
       "example_id": "G1-L01-EX-01",
       "section": "worked_example",
       "counts_toward_30_quota": false,
-      "prompt_fa": "[G1-L01] مثال آموزشی 1: بررسی گام‌به‌گام مفهوم «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» (نمونه 1).",
+      "prompt_fa": "مثال حل‌شده ۱ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): اگر در سبد اول ۳ سیب و در کنار آن ۱ سیب دیگر داشته باشیم، چطور با «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» به عدد کل می‌رسیم؟",
       "step_by_step_solution_fa": [
-        "گام ۱: مشاهده دقیق تصویر و داده‌های مسئله در درس 1.",
-        "گام ۲: اعمال قاعده «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» برای رسیدن به پاسخ."
+        "گام ۱: ابتدا ۳ شیء اول را یک‌به‌یک می‌شماریم و علامت می‌زنیم.",
+        "گام ۲: سپس ۱ شیء بعدی را به آن اضافه کرده و روی ابزار تصویر می‌کنیم.",
+        "گام ۳: نتیجه نهایی برابر با ۴ می‌شود."
       ],
-      "final_answer": "EX_ANS_1_1"
+      "final_answer": "۴ شیء (پاسخ عددی: ۴)"
     },
     {
       "example_id": "G1-L01-EX-02",
       "section": "worked_example",
       "counts_toward_30_quota": false,
-      "prompt_fa": "[G1-L01] مثال آموزشی 2: بررسی گام‌به‌گام مفهوم «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» (نمونه 2).",
+      "prompt_fa": "مثال حل‌شده ۲ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): اگر در سبد اول ۴ سیب و در کنار آن ۱ سیب دیگر داشته باشیم، چطور با «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» به عدد کل می‌رسیم؟",
       "step_by_step_solution_fa": [
-        "گام ۱: مشاهده دقیق تصویر و داده‌های مسئله در درس 1.",
-        "گام ۲: اعمال قاعده «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» برای رسیدن به پاسخ."
+        "گام ۱: ابتدا ۴ شیء اول را یک‌به‌یک می‌شماریم و علامت می‌زنیم.",
+        "گام ۲: سپس ۱ شیء بعدی را به آن اضافه کرده و روی ابزار تصویر می‌کنیم.",
+        "گام ۳: نتیجه نهایی برابر با ۵ می‌شود."
       ],
-      "final_answer": "EX_ANS_1_2"
+      "final_answer": "۵ شیء (پاسخ عددی: ۵)"
+    },
+    {
+      "example_id": "G1-L01-EX-03",
+      "section": "worked_example",
+      "counts_toward_30_quota": false,
+      "prompt_fa": "مثال حل‌شده ۳ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): اگر در سبد اول ۵ سیب و در کنار آن ۱ سیب دیگر داشته باشیم، چطور با «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» به عدد کل می‌رسیم؟",
+      "step_by_step_solution_fa": [
+        "گام ۱: ابتدا ۵ شیء اول را یک‌به‌یک می‌شماریم و علامت می‌زنیم.",
+        "گام ۲: سپس ۱ شیء بعدی را به آن اضافه کرده و روی ابزار تصویر می‌کنیم.",
+        "گام ۳: نتیجه نهایی برابر با ۶ می‌شود."
+      ],
+      "final_answer": "۶ شیء (پاسخ عددی: ۶)"
     }
   ],
   "independent_practice_questions": [
@@ -59,23 +73,28 @@
       "sequence_number": 1,
       "difficulty": "easy",
       "interaction_type": "tally_mark_builder",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 1: اشیاء تصویر را بر اساس ویژگی «رنگ (قرمز/آبی)» دسته‌بندی و مقایسه کن (حالت 1).",
+      "prompt_fa": "تمرین ۱ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): عدد ۲ را با دسته‌های ۵تایی و چوب‌خط‌های تکی بساز.",
       "interaction_payload": {
         "target_value": 2,
-        "items_count": 4,
+        "items_count": 6,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 2,
+        "option_id": null,
         "canonical_form": "VAL_2"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 1 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": []
     },
     {
       "question_id": "G1-L01-IND-02",
@@ -85,23 +104,49 @@
       "sequence_number": 2,
       "difficulty": "easy",
       "interaction_type": "pattern_completer",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 2: اشیاء تصویر را بر اساس ویژگی «شکل (دایره/مربع)» دسته‌بندی و مقایسه کن (حالت 2).",
+      "prompt_fa": "تمرین ۲ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): به الگوی روبه‌رو دقت کن: «⭐ 🌙 ⭐ 🌙 ⭐ ؟» — شکل بعدی در جای علامت سؤال کدام است؟",
       "interaction_payload": {
         "target_value": 3,
-        "items_count": 5,
-        "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
+        "items_count": 6,
+        "criteria": "⭐ 🌙 ⭐ 🌙 ⭐ ؟"
       },
       "correct_answer": {
         "value": 3,
-        "canonical_form": "VAL_3"
+        "option_id": "opt_2",
+        "canonical_form": "opt_2"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 2 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "⭐ ستاره",
+          "value": 4
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "🌙 ماه",
+          "value": 3
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "☀️ خورشید",
+          "value": 6
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "☁️ ابر",
+          "value": 7
+        }
+      ]
     },
     {
       "question_id": "G1-L01-IND-03",
@@ -111,23 +156,49 @@
       "sequence_number": 3,
       "difficulty": "easy",
       "interaction_type": "visual_multiple_choice",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 3: اشیاء تصویر را بر اساس ویژگی «اندازه (بزرگ/کوچک)» دسته‌بندی و مقایسه کن (حالت 3).",
+      "prompt_fa": "تمرین ۳ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): اگر در دسته اول ۲ شکل و در دسته دوم ۲ شکل داشته باشیم، در مجموع چند شکل داریم؟ گزینه درست را انتخاب کن.",
       "interaction_payload": {
         "target_value": 4,
-        "items_count": 6,
+        "items_count": 7,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 4,
+        "option_id": "opt_1",
         "canonical_form": "VAL_4"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 3 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۴ شکل",
+          "value": 4
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۵ شکل",
+          "value": 5
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۳ شکل",
+          "value": 3
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۶ شکل",
+          "value": 6
+        }
+      ]
     },
     {
       "question_id": "G1-L01-IND-04",
@@ -137,23 +208,28 @@
       "sequence_number": 4,
       "difficulty": "easy",
       "interaction_type": "balance_scale_equation",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 4: اشیاء تصویر را بر اساس ویژگی «کاربرد (میوه/اسباب‌بازی)» دسته‌بندی و مقایسه کن (حالت 4).",
+      "prompt_fa": "تمرین ۴ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): در کفه چپ ترازو وزنه ۵ قرار دارد. در کفه راست وزنه بگذار تا ترازو کاملاً متعادل شود.",
       "interaction_payload": {
         "target_value": 5,
-        "items_count": 7,
+        "items_count": 8,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 5,
+        "option_id": null,
         "canonical_form": "VAL_5"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 4 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": []
     },
     {
       "question_id": "G1-L01-IND-05",
@@ -163,23 +239,28 @@
       "sequence_number": 5,
       "difficulty": "easy",
       "interaction_type": "drag_and_drop_count",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 5: اشیاء تصویر را بر اساس ویژگی «جنس (چوبی/پلاستیکی)» دسته‌بندی و مقایسه کن (حالت 5).",
+      "prompt_fa": "تمرین ۵ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): دقیقاً ۶ سیب را به داخل سبد بکش یا لمس کن.",
       "interaction_payload": {
         "target_value": 6,
-        "items_count": 8,
+        "items_count": 9,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 6,
+        "option_id": null,
         "canonical_form": "VAL_6"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 5 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": []
     },
     {
       "question_id": "G1-L01-IND-06",
@@ -189,23 +270,28 @@
       "sequence_number": 6,
       "difficulty": "easy",
       "interaction_type": "number_line_jump",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 6: اشیاء تصویر را بر اساس ویژگی «رنگ (قرمز/آبی)» دسته‌بندی و مقایسه کن (حالت 6).",
+      "prompt_fa": "تمرین ۶ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): روی محور اعداد از صفر شروع کن، ابتدا ۳ واحد و سپس ۴ واحد به راست بپر.",
       "interaction_payload": {
         "target_value": 7,
-        "items_count": 9,
+        "items_count": 10,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 7,
+        "option_id": null,
         "canonical_form": "VAL_7"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 6 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": []
     },
     {
       "question_id": "G1-L01-IND-07",
@@ -215,23 +301,28 @@
       "sequence_number": 7,
       "difficulty": "easy",
       "interaction_type": "tally_mark_builder",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 7: اشیاء تصویر را بر اساس ویژگی «شکل (دایره/مربع)» دسته‌بندی و مقایسه کن (حالت 7).",
+      "prompt_fa": "تمرین ۷ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): عدد ۸ را با دسته‌های ۵تایی و چوب‌خط‌های تکی بساز.",
       "interaction_payload": {
         "target_value": 8,
-        "items_count": 10,
+        "items_count": 11,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 8,
+        "option_id": null,
         "canonical_form": "VAL_8"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 7 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": []
     },
     {
       "question_id": "G1-L01-IND-08",
@@ -241,23 +332,49 @@
       "sequence_number": 8,
       "difficulty": "easy",
       "interaction_type": "pattern_completer",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 8: اشیاء تصویر را بر اساس ویژگی «اندازه (بزرگ/کوچک)» دسته‌بندی و مقایسه کن (حالت 8).",
+      "prompt_fa": "تمرین ۸ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): به الگوی روبه‌رو دقت کن: «🟢 🟢 🟡 🟢 🟢 ؟» — شکل بعدی در جای علامت سؤال کدام است؟",
       "interaction_payload": {
         "target_value": 9,
-        "items_count": 11,
-        "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
+        "items_count": 12,
+        "criteria": "🟢 🟢 🟡 🟢 🟢 ؟"
       },
       "correct_answer": {
         "value": 9,
-        "canonical_form": "VAL_9"
+        "option_id": "opt_2",
+        "canonical_form": "opt_2"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 8 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "🟢 مهره سبز",
+          "value": 10
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "🟡 مهره زرد",
+          "value": 9
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "🔴 مهره قرمز",
+          "value": 12
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "🔵 مهره آبی",
+          "value": 13
+        }
+      ]
     },
     {
       "question_id": "G1-L01-IND-09",
@@ -267,23 +384,49 @@
       "sequence_number": 9,
       "difficulty": "easy",
       "interaction_type": "visual_multiple_choice",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 9: اشیاء تصویر را بر اساس ویژگی «کاربرد (میوه/اسباب‌بازی)» دسته‌بندی و مقایسه کن (حالت 9).",
+      "prompt_fa": "تمرین ۹ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): اگر در دسته اول ۵ شکل و در دسته دوم ۵ شکل داشته باشیم، در مجموع چند شکل داریم؟ گزینه درست را انتخاب کن.",
       "interaction_payload": {
         "target_value": 10,
-        "items_count": 12,
+        "items_count": 13,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 10,
+        "option_id": "opt_3",
         "canonical_form": "VAL_10"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 9 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۹ شکل",
+          "value": 9
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۱۲ شکل",
+          "value": 12
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۱۰ شکل",
+          "value": 10
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۱۱ شکل",
+          "value": 11
+        }
+      ]
     },
     {
       "question_id": "G1-L01-IND-10",
@@ -293,23 +436,28 @@
       "sequence_number": 10,
       "difficulty": "easy",
       "interaction_type": "balance_scale_equation",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 10: اشیاء تصویر را بر اساس ویژگی «جنس (چوبی/پلاستیکی)» دسته‌بندی و مقایسه کن (حالت 10).",
+      "prompt_fa": "تمرین ۱۰ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): در کفه چپ ترازو وزنه ۱ قرار دارد. در کفه راست وزنه بگذار تا ترازو کاملاً متعادل شود.",
       "interaction_payload": {
         "target_value": 1,
-        "items_count": 3,
+        "items_count": 6,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 1,
+        "option_id": null,
         "canonical_form": "VAL_1"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 10 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": []
     },
     {
       "question_id": "G1-L01-IND-11",
@@ -319,23 +467,28 @@
       "sequence_number": 11,
       "difficulty": "medium",
       "interaction_type": "drag_and_drop_count",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 11: اشیاء تصویر را بر اساس ویژگی «رنگ (قرمز/آبی)» دسته‌بندی و مقایسه کن (حالت 11).",
+      "prompt_fa": "تمرین ۱۱ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): دقیقاً ۲ سیب را به داخل سبد بکش یا لمس کن.",
       "interaction_payload": {
         "target_value": 2,
-        "items_count": 4,
+        "items_count": 6,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 2,
+        "option_id": null,
         "canonical_form": "VAL_2"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 11 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": []
     },
     {
       "question_id": "G1-L01-IND-12",
@@ -345,23 +498,28 @@
       "sequence_number": 12,
       "difficulty": "medium",
       "interaction_type": "number_line_jump",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 12: اشیاء تصویر را بر اساس ویژگی «شکل (دایره/مربع)» دسته‌بندی و مقایسه کن (حالت 12).",
+      "prompt_fa": "تمرین ۱۲ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): روی محور اعداد از صفر شروع کن، ابتدا ۱ واحد و سپس ۲ واحد به راست بپر.",
       "interaction_payload": {
         "target_value": 3,
-        "items_count": 5,
+        "items_count": 6,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 3,
+        "option_id": null,
         "canonical_form": "VAL_3"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 12 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": []
     },
     {
       "question_id": "G1-L01-IND-13",
@@ -371,23 +529,28 @@
       "sequence_number": 13,
       "difficulty": "medium",
       "interaction_type": "tally_mark_builder",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 13: اشیاء تصویر را بر اساس ویژگی «اندازه (بزرگ/کوچک)» دسته‌بندی و مقایسه کن (حالت 13).",
+      "prompt_fa": "تمرین ۱۳ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): عدد ۴ را با دسته‌های ۵تایی و چوب‌خط‌های تکی بساز.",
       "interaction_payload": {
         "target_value": 4,
-        "items_count": 6,
+        "items_count": 7,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 4,
+        "option_id": null,
         "canonical_form": "VAL_4"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 13 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": []
     },
     {
       "question_id": "G1-L01-IND-14",
@@ -397,23 +560,49 @@
       "sequence_number": 14,
       "difficulty": "medium",
       "interaction_type": "pattern_completer",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 14: اشیاء تصویر را بر اساس ویژگی «کاربرد (میوه/اسباب‌بازی)» دسته‌بندی و مقایسه کن (حالت 14).",
+      "prompt_fa": "تمرین ۱۴ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): به الگوی روبه‌رو دقت کن: «🔴 🔵 🔴 🔵 🔴 ؟» — شکل بعدی در جای علامت سؤال کدام است؟",
       "interaction_payload": {
         "target_value": 5,
-        "items_count": 7,
-        "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
+        "items_count": 8,
+        "criteria": "🔴 🔵 🔴 🔵 🔴 ؟"
       },
       "correct_answer": {
         "value": 5,
-        "canonical_form": "VAL_5"
+        "option_id": "opt_2",
+        "canonical_form": "opt_2"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 14 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "🔴 دایره قرمز",
+          "value": 6
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "🔵 دایره آبی",
+          "value": 5
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "🟢 دایره سبز",
+          "value": 8
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "🟡 دایره زرد",
+          "value": 9
+        }
+      ]
     },
     {
       "question_id": "G1-L01-IND-15",
@@ -423,23 +612,49 @@
       "sequence_number": 15,
       "difficulty": "medium",
       "interaction_type": "visual_multiple_choice",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 15: اشیاء تصویر را بر اساس ویژگی «جنس (چوبی/پلاستیکی)» دسته‌بندی و مقایسه کن (حالت 15).",
+      "prompt_fa": "تمرین ۱۵ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): اگر در دسته اول ۳ شکل و در دسته دوم ۳ شکل داشته باشیم، در مجموع چند شکل داریم؟ گزینه درست را انتخاب کن.",
       "interaction_payload": {
         "target_value": 6,
-        "items_count": 8,
+        "items_count": 9,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 6,
+        "option_id": "opt_1",
         "canonical_form": "VAL_6"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 15 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۶ شکل",
+          "value": 6
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۷ شکل",
+          "value": 7
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۵ شکل",
+          "value": 5
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۸ شکل",
+          "value": 8
+        }
+      ]
     },
     {
       "question_id": "G1-L01-IND-16",
@@ -449,23 +664,28 @@
       "sequence_number": 16,
       "difficulty": "medium",
       "interaction_type": "balance_scale_equation",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 16: اشیاء تصویر را بر اساس ویژگی «رنگ (قرمز/آبی)» دسته‌بندی و مقایسه کن (حالت 16).",
+      "prompt_fa": "تمرین ۱۶ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): در کفه چپ ترازو وزنه ۷ قرار دارد. در کفه راست وزنه بگذار تا ترازو کاملاً متعادل شود.",
       "interaction_payload": {
         "target_value": 7,
-        "items_count": 9,
+        "items_count": 10,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 7,
+        "option_id": null,
         "canonical_form": "VAL_7"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 16 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": []
     },
     {
       "question_id": "G1-L01-IND-17",
@@ -475,23 +695,28 @@
       "sequence_number": 17,
       "difficulty": "medium",
       "interaction_type": "drag_and_drop_count",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 17: اشیاء تصویر را بر اساس ویژگی «شکل (دایره/مربع)» دسته‌بندی و مقایسه کن (حالت 17).",
+      "prompt_fa": "تمرین ۱۷ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): دقیقاً ۸ سیب را به داخل سبد بکش یا لمس کن.",
       "interaction_payload": {
         "target_value": 8,
-        "items_count": 10,
+        "items_count": 11,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 8,
+        "option_id": null,
         "canonical_form": "VAL_8"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 17 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": []
     },
     {
       "question_id": "G1-L01-IND-18",
@@ -501,23 +726,28 @@
       "sequence_number": 18,
       "difficulty": "medium",
       "interaction_type": "number_line_jump",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 18: اشیاء تصویر را بر اساس ویژگی «اندازه (بزرگ/کوچک)» دسته‌بندی و مقایسه کن (حالت 18).",
+      "prompt_fa": "تمرین ۱۸ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): روی محور اعداد از صفر شروع کن، ابتدا ۴ واحد و سپس ۵ واحد به راست بپر.",
       "interaction_payload": {
         "target_value": 9,
-        "items_count": 11,
+        "items_count": 12,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 9,
+        "option_id": null,
         "canonical_form": "VAL_9"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 18 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": []
     },
     {
       "question_id": "G1-L01-IND-19",
@@ -527,23 +757,28 @@
       "sequence_number": 19,
       "difficulty": "medium",
       "interaction_type": "tally_mark_builder",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 19: اشیاء تصویر را بر اساس ویژگی «کاربرد (میوه/اسباب‌بازی)» دسته‌بندی و مقایسه کن (حالت 19).",
+      "prompt_fa": "تمرین ۱۹ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): عدد ۱۰ را با دسته‌های ۵تایی و چوب‌خط‌های تکی بساز.",
       "interaction_payload": {
         "target_value": 10,
-        "items_count": 12,
+        "items_count": 13,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 10,
+        "option_id": null,
         "canonical_form": "VAL_10"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 19 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": []
     },
     {
       "question_id": "G1-L01-IND-20",
@@ -553,23 +788,49 @@
       "sequence_number": 20,
       "difficulty": "medium",
       "interaction_type": "pattern_completer",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 20: اشیاء تصویر را بر اساس ویژگی «جنس (چوبی/پلاستیکی)» دسته‌بندی و مقایسه کن (حالت 20).",
+      "prompt_fa": "تمرین ۲۰ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): به الگوی روبه‌رو دقت کن: «🔺 🔺 🟦 🔺 🔺 ؟» — شکل بعدی در جای علامت سؤال کدام است؟",
       "interaction_payload": {
         "target_value": 1,
-        "items_count": 3,
-        "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
+        "items_count": 6,
+        "criteria": "🔺 🔺 🟦 🔺 🔺 ؟"
       },
       "correct_answer": {
         "value": 1,
-        "canonical_form": "VAL_1"
+        "option_id": "opt_2",
+        "canonical_form": "opt_2"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 20 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "🔺 مثلث قرمز",
+          "value": 2
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "🟦 مربع آبی",
+          "value": 1
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "⭐ ستاره زرد",
+          "value": 4
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "🟢 دایره سبز",
+          "value": 5
+        }
+      ]
     },
     {
       "question_id": "G1-L01-IND-21",
@@ -579,23 +840,49 @@
       "sequence_number": 21,
       "difficulty": "medium",
       "interaction_type": "visual_multiple_choice",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 21: اشیاء تصویر را بر اساس ویژگی «رنگ (قرمز/آبی)» دسته‌بندی و مقایسه کن (حالت 21).",
+      "prompt_fa": "تمرین ۲۱ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): اگر در دسته اول ۱ شکل و در دسته دوم ۱ شکل داشته باشیم، در مجموع چند شکل داریم؟ گزینه درست را انتخاب کن.",
       "interaction_payload": {
         "target_value": 2,
-        "items_count": 4,
+        "items_count": 6,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 2,
+        "option_id": "opt_3",
         "canonical_form": "VAL_2"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 21 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۱ شکل",
+          "value": 1
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۴ شکل",
+          "value": 4
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۲ شکل",
+          "value": 2
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۳ شکل",
+          "value": 3
+        }
+      ]
     },
     {
       "question_id": "G1-L01-IND-22",
@@ -605,23 +892,28 @@
       "sequence_number": 22,
       "difficulty": "medium",
       "interaction_type": "balance_scale_equation",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 22: اشیاء تصویر را بر اساس ویژگی «شکل (دایره/مربع)» دسته‌بندی و مقایسه کن (حالت 22).",
+      "prompt_fa": "تمرین ۲۲ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): در کفه چپ ترازو وزنه ۳ قرار دارد. در کفه راست وزنه بگذار تا ترازو کاملاً متعادل شود.",
       "interaction_payload": {
         "target_value": 3,
-        "items_count": 5,
+        "items_count": 6,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 3,
+        "option_id": null,
         "canonical_form": "VAL_3"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 22 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": []
     },
     {
       "question_id": "G1-L01-IND-23",
@@ -631,23 +923,28 @@
       "sequence_number": 23,
       "difficulty": "challenge",
       "interaction_type": "drag_and_drop_count",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 23: اشیاء تصویر را بر اساس ویژگی «اندازه (بزرگ/کوچک)» دسته‌بندی و مقایسه کن (حالت 23).",
+      "prompt_fa": "تمرین ۲۳ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): دقیقاً ۴ سیب را به داخل سبد بکش یا لمس کن.",
       "interaction_payload": {
         "target_value": 4,
-        "items_count": 6,
+        "items_count": 7,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 4,
+        "option_id": null,
         "canonical_form": "VAL_4"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 23 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": []
     },
     {
       "question_id": "G1-L01-IND-24",
@@ -657,23 +954,28 @@
       "sequence_number": 24,
       "difficulty": "challenge",
       "interaction_type": "number_line_jump",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 24: اشیاء تصویر را بر اساس ویژگی «کاربرد (میوه/اسباب‌بازی)» دسته‌بندی و مقایسه کن (حالت 24).",
+      "prompt_fa": "تمرین ۲۴ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): روی محور اعداد از صفر شروع کن، ابتدا ۲ واحد و سپس ۳ واحد به راست بپر.",
       "interaction_payload": {
         "target_value": 5,
-        "items_count": 7,
+        "items_count": 8,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 5,
+        "option_id": null,
         "canonical_form": "VAL_5"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 24 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": []
     },
     {
       "question_id": "G1-L01-IND-25",
@@ -683,23 +985,28 @@
       "sequence_number": 25,
       "difficulty": "challenge",
       "interaction_type": "tally_mark_builder",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 25: اشیاء تصویر را بر اساس ویژگی «جنس (چوبی/پلاستیکی)» دسته‌بندی و مقایسه کن (حالت 25).",
+      "prompt_fa": "تمرین ۲۵ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): عدد ۶ را با دسته‌های ۵تایی و چوب‌خط‌های تکی بساز.",
       "interaction_payload": {
         "target_value": 6,
-        "items_count": 8,
+        "items_count": 9,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 6,
+        "option_id": null,
         "canonical_form": "VAL_6"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 25 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": []
     },
     {
       "question_id": "G1-L01-IND-26",
@@ -709,23 +1016,49 @@
       "sequence_number": 26,
       "difficulty": "challenge",
       "interaction_type": "pattern_completer",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 26: اشیاء تصویر را بر اساس ویژگی «رنگ (قرمز/آبی)» دسته‌بندی و مقایسه کن (حالت 26).",
+      "prompt_fa": "تمرین ۲۶ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): به الگوی روبه‌رو دقت کن: «🍎 🍌 🍎 🍌 🍎 ؟» — شکل بعدی در جای علامت سؤال کدام است؟",
       "interaction_payload": {
         "target_value": 7,
-        "items_count": 9,
-        "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
+        "items_count": 10,
+        "criteria": "🍎 🍌 🍎 🍌 🍎 ؟"
       },
       "correct_answer": {
         "value": 7,
-        "canonical_form": "VAL_7"
+        "option_id": "opt_2",
+        "canonical_form": "opt_2"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 26 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "🍎 سیب سرخ",
+          "value": 8
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "🍌 موز زرد",
+          "value": 7
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "🍇 انگور بنفش",
+          "value": 10
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "🍊 پرتقال",
+          "value": 11
+        }
+      ]
     },
     {
       "question_id": "G1-L01-IND-27",
@@ -735,23 +1068,49 @@
       "sequence_number": 27,
       "difficulty": "challenge",
       "interaction_type": "visual_multiple_choice",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 27: اشیاء تصویر را بر اساس ویژگی «شکل (دایره/مربع)» دسته‌بندی و مقایسه کن (حالت 27).",
+      "prompt_fa": "تمرین ۲۷ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): اگر در دسته اول ۴ شکل و در دسته دوم ۴ شکل داشته باشیم، در مجموع چند شکل داریم؟ گزینه درست را انتخاب کن.",
       "interaction_payload": {
         "target_value": 8,
-        "items_count": 10,
+        "items_count": 11,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 8,
+        "option_id": "opt_1",
         "canonical_form": "VAL_8"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 27 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": [
+        {
+          "id": "opt_1",
+          "label_fa": "۸ شکل",
+          "value": 8
+        },
+        {
+          "id": "opt_2",
+          "label_fa": "۹ شکل",
+          "value": 9
+        },
+        {
+          "id": "opt_3",
+          "label_fa": "۷ شکل",
+          "value": 7
+        },
+        {
+          "id": "opt_4",
+          "label_fa": "۱۰ شکل",
+          "value": 10
+        }
+      ]
     },
     {
       "question_id": "G1-L01-IND-28",
@@ -761,23 +1120,28 @@
       "sequence_number": 28,
       "difficulty": "challenge",
       "interaction_type": "balance_scale_equation",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 28: اشیاء تصویر را بر اساس ویژگی «اندازه (بزرگ/کوچک)» دسته‌بندی و مقایسه کن (حالت 28).",
+      "prompt_fa": "تمرین ۲۸ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): در کفه چپ ترازو وزنه ۹ قرار دارد. در کفه راست وزنه بگذار تا ترازو کاملاً متعادل شود.",
       "interaction_payload": {
         "target_value": 9,
-        "items_count": 11,
+        "items_count": 12,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 9,
+        "option_id": null,
         "canonical_form": "VAL_9"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 28 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": []
     },
     {
       "question_id": "G1-L01-IND-29",
@@ -787,23 +1151,28 @@
       "sequence_number": 29,
       "difficulty": "challenge",
       "interaction_type": "drag_and_drop_count",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 29: اشیاء تصویر را بر اساس ویژگی «کاربرد (میوه/اسباب‌بازی)» دسته‌بندی و مقایسه کن (حالت 29).",
+      "prompt_fa": "تمرین ۲۹ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): دقیقاً ۱۰ سیب را به داخل سبد بکش یا لمس کن.",
       "interaction_payload": {
         "target_value": 10,
-        "items_count": 12,
+        "items_count": 13,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 10,
+        "option_id": null,
         "canonical_form": "VAL_10"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 29 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": []
     },
     {
       "question_id": "G1-L01-IND-30",
@@ -813,25 +1182,144 @@
       "sequence_number": 30,
       "difficulty": "challenge",
       "interaction_type": "number_line_jump",
-      "prompt_fa": "درس ۱ - تمرین مستقل شماره 30: اشیاء تصویر را بر اساس ویژگی «جنس (چوبی/پلاستیکی)» دسته‌بندی و مقایسه کن (حالت 30).",
+      "prompt_fa": "تمرین ۳۰ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): روی محور اعداد از صفر شروع کن، ابتدا ۰ واحد و سپس ۱ واحد به راست بپر.",
       "interaction_payload": {
         "target_value": 1,
-        "items_count": 3,
+        "items_count": 6,
         "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
       },
       "correct_answer": {
         "value": 1,
+        "option_id": null,
         "canonical_form": "VAL_1"
       },
       "feedback_policy": {
         "show_immediate_feedback": true,
         "max_attempts": 3,
         "reveal_solution_after_attempt": 3,
-        "hint_on_first_error_fa": "دقت کن! در تمرین 30 از درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» دوباره بخش‌های تصویر را بررسی کن.",
-        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
-      }
+        "hint_on_first_error_fa": "راهنمای ۱: با دقت به صورت سؤال نگاه کن و تعداد را یک بار دیگر از اول بشمار.",
+        "success_message_fa": "آفرین قهرمان! پاسخت کاملاً درست است.",
+        "mode": "IMMEDIATE",
+        "scaffolded_hint_fa": "راهنمای ۲ (گام‌به‌گام): شکل‌ها را دسته به دسته جدا کن و هر تغییر را روی ابزار بررسی کن."
+      },
+      "skill_code": "G1_SN01",
+      "options": []
     }
   ],
   "remedial_questions_ref": "remedial/G1-L01_remedial.json",
-  "assessment_questions_ref": "assessments/G1-L01_assessment.json"
+  "assessment_questions_ref": "assessments/G1-L01_assessment.json",
+  "skill_code": "G1_SN01",
+  "learning_objectives_fa": [
+    "آشنایی حسی و تصویری با مفهوم «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» از طریق دست‌ورزی",
+    "توانایی حل مسائل گام‌به‌گام «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» با ابزارهای تعاملی (محور، چوب‌خط، ترازو و شمارش)",
+    "تشخیص و اصلاح خطاهای رایج در «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» با کمک راهنمای مرحله‌ای بدون لو رفتن پاسخ"
+  ],
+  "prerequisites_fa": [
+    "شمارش یک‌به‌یک اشیاء ملموس تا عدد متناظر فصل",
+    "تشخیص ویژگی‌های دیداری (رنگ، شکل، اندازه و جهت چپ به راست)"
+  ],
+  "warm_up_story_fa": "داستان شروع درس ۱: سینا و مینا در باغ ریاضی با چالش «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» روبه‌رو شدند. بیا با کمک شکل‌ها و ابزارهای رنگی به آن‌ها کمک کنیم تا راز این درس را کشف کنند!",
+  "concept_discovery": {
+    "discovery_id": "G1-L01-DISC-01",
+    "story_prompt_fa": "داستان شروع درس ۱: سینا و مینا در باغ ریاضی با چالش «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)» روبه‌رو شدند. بیا با کمک شکل‌ها و ابزارهای رنگی به آن‌ها کمک کنیم تا راز این درس را کشف کنند!",
+    "visual_explanation_fa": "در درس «مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)»، ابتدا به دسته‌های شکل‌ها با دقت نگاه می‌کنیم، سپس با لمس یک‌به‌یک هر شکل، رابطه بین تعداد و نماد ریاضی را کشف می‌کنیم.",
+    "discovery_steps_fa": [
+      "گام کشف ۱: شکل‌های صفحه را به ترتیب از راست به چپ یا چپ به راست لمس کن.",
+      "گام کشف ۲: ببین هر تغییر در تعداد شکل‌ها چه اثری روی ترازو، چوب‌خط یا محور اعداد می‌گذارد.",
+      "گام کشف ۳: نتیجه‌ای را که کشف کردی با مثال حل‌شده مقایسه کن."
+    ],
+    "visual_takeaway_fa": "خلاصه تصویری درس 1: یادگیری گام‌به‌گام مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه) با کمک اشیاء ملموس."
+  },
+  "guided_activities": [
+    {
+      "question_id": "G1-L01-GUIDED-01",
+      "lesson_id": "G1-L01",
+      "skill_code": "G1_SN01",
+      "section": "guided_activity",
+      "counts_toward_30_quota": false,
+      "sequence_number": 1,
+      "difficulty": "easy",
+      "interaction_type": "drag_and_drop_count",
+      "prompt_fa": "فعالیت هدایت‌شده ۱ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): با راهنمایی گام‌به‌گام، مقدار ۴ را روی ابزار بساز.",
+      "options": [],
+      "interaction_payload": {
+        "target_value": 4,
+        "items_count": 7,
+        "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
+      },
+      "correct_answer": {
+        "value": 4,
+        "option_id": null,
+        "canonical_form": "VAL_4"
+      },
+      "feedback_policy": {
+        "mode": "IMMEDIATE",
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "hint_on_first_error_fa": "راهنمای اول: دوباره شکل‌ها را یک‌به‌یک بشمار؛ هدف ما رسیدن به مقدار مشخص‌شده در صورت سؤال است.",
+        "scaffolded_hint_fa": "راهنمای گام‌به‌گام: یکی‌یکی به ابزار اضافه کن و هر بار عدد بالای صفحه را با صورت سؤال مقایسه کن.",
+        "success_message_fa": "آفرین! فعالیت هدایت‌شده را به درستی انجام دادی."
+      }
+    },
+    {
+      "question_id": "G1-L01-GUIDED-02",
+      "lesson_id": "G1-L01",
+      "skill_code": "G1_SN01",
+      "section": "guided_activity",
+      "counts_toward_30_quota": false,
+      "sequence_number": 2,
+      "difficulty": "easy",
+      "interaction_type": "tally_mark_builder",
+      "prompt_fa": "فعالیت هدایت‌شده ۲ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): با راهنمایی گام‌به‌گام، مقدار ۵ را روی ابزار بساز.",
+      "options": [],
+      "interaction_payload": {
+        "target_value": 5,
+        "items_count": 8,
+        "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
+      },
+      "correct_answer": {
+        "value": 5,
+        "option_id": null,
+        "canonical_form": "VAL_5"
+      },
+      "feedback_policy": {
+        "mode": "IMMEDIATE",
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "hint_on_first_error_fa": "راهنمای اول: دوباره شکل‌ها را یک‌به‌یک بشمار؛ هدف ما رسیدن به مقدار مشخص‌شده در صورت سؤال است.",
+        "scaffolded_hint_fa": "راهنمای گام‌به‌گام: یکی‌یکی به ابزار اضافه کن و هر بار عدد بالای صفحه را با صورت سؤال مقایسه کن.",
+        "success_message_fa": "آفرین! فعالیت هدایت‌شده را به درستی انجام دادی."
+      }
+    },
+    {
+      "question_id": "G1-L01-GUIDED-03",
+      "lesson_id": "G1-L01",
+      "skill_code": "G1_SN01",
+      "section": "guided_activity",
+      "counts_toward_30_quota": false,
+      "sequence_number": 3,
+      "difficulty": "easy",
+      "interaction_type": "balance_scale_equation",
+      "prompt_fa": "فعالیت هدایت‌شده ۳ (مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)): با راهنمایی گام‌به‌گام، مقدار ۶ را روی ابزار بساز.",
+      "options": [],
+      "interaction_payload": {
+        "target_value": 6,
+        "items_count": 9,
+        "criteria": "مقایسه و دسته‌بندی اشیاء (رنگ، شکل، اندازه)"
+      },
+      "correct_answer": {
+        "value": 6,
+        "option_id": null,
+        "canonical_form": "VAL_6"
+      },
+      "feedback_policy": {
+        "mode": "IMMEDIATE",
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "hint_on_first_error_fa": "راهنمای اول: دوباره شکل‌ها را یک‌به‌یک بشمار؛ هدف ما رسیدن به مقدار مشخص‌شده در صورت سؤال است.",
+        "scaffolded_hint_fa": "راهنمای گام‌به‌گام: یکی‌یکی به ابزار اضافه کن و هر بار عدد بالای صفحه را با صورت سؤال مقایسه کن.",
+        "success_message_fa": "آفرین! فعالیت هدایت‌شده را به درستی انجام دادی."
+      }
+    }
+  ]
 }
