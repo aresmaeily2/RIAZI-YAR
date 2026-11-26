@@ -1,0 +1,99 @@
+{
+  "lesson_id": "G1-L27",
+  "section": "summative_assessment",
+  "counts_toward_30_quota": false,
+  "actual_count": 5,
+  "feedback_display_policy": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
+  "questions": [
+    {
+      "question_id": "G1-L27-ASM-01",
+      "lesson_id": "G1-L27",
+      "section": "summative_assessment",
+      "counts_toward_30_quota": false,
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "درس 27 - سؤال سنجش پایانی 1: ارزیابی تسلط بر «آشنایی با عدد ۱۰ و مفهوم یک بسته ده‌تایی» (سؤال 1).",
+      "correct_answer": {
+        "value": 2
+      },
+      "feedback_policy": {
+        "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
+        "show_correct_answer_after_submit": true,
+        "show_explanatory_feedback_after_submit": true,
+        "allow_retry_during_assessment": false,
+        "post_submit_feedback_fa": "بازخورد سنجش سؤال 1: برای حل صحیح این سؤال باید قاعده «آشنایی با عدد ۱۰ و مفهوم یک بسته ده‌تایی» را به کار ببری."
+      }
+    },
+    {
+      "question_id": "G1-L27-ASM-02",
+      "lesson_id": "G1-L27",
+      "section": "summative_assessment",
+      "counts_toward_30_quota": false,
+      "interaction_type": "balance_scale_equation",
+      "prompt_fa": "درس 27 - سؤال سنجش پایانی 2: ارزیابی تسلط بر «آشنایی با عدد ۱۰ و مفهوم یک بسته ده‌تایی» (سؤال 2).",
+      "correct_answer": {
+        "value": 4
+      },
+      "feedback_policy": {
+        "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
+        "show_correct_answer_after_submit": true,
+        "show_explanatory_feedback_after_submit": true,
+        "allow_retry_during_assessment": false,
+        "post_submit_feedback_fa": "بازخورد سنجش سؤال 2: برای حل صحیح این سؤال باید قاعده «آشنایی با عدد ۱۰ و مفهوم یک بسته ده‌تایی» را به کار ببری."
+      }
+    },
+    {
+      "question_id": "G1-L27-ASM-03",
+      "lesson_id": "G1-L27",
+      "section": "summative_assessment",
+      "counts_toward_30_quota": false,
+      "interaction_type": "drag_and_drop_count",
+      "prompt_fa": "درس 27 - سؤال سنجش پایانی 3: ارزیابی تسلط بر «آشنایی با عدد ۱۰ و مفهوم یک بسته ده‌تایی» (سؤال 3).",
+      "correct_answer": {
+        "value": 6
+      },
+      "feedback_policy": {
+        "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
+        "show_correct_answer_after_submit": true,
+        "show_explanatory_feedback_after_submit": true,
+        "allow_retry_during_assessment": false,
+        "post_submit_feedback_fa": "بازخورد سنجش سؤال 3: برای حل صحیح این سؤال باید قاعده «آشنایی با عدد ۱۰ و مفهوم یک بسته ده‌تایی» را به کار ببری."
+      }
+    },
+    {
+      "question_id": "G1-L27-ASM-04",
+      "lesson_id": "G1-L27",
+      "section": "summative_assessment",
+      "counts_toward_30_quota": false,
+      "interaction_type": "number_line_jump",
+      "prompt_fa": "درس 27 - سؤال سنجش پایانی 4: ارزیابی تسلط بر «آشنایی با عدد ۱۰ و مفهوم یک بسته ده‌تایی» (سؤال 4).",
+      "correct_answer": {
+        "value": 8
+      },
+      "feedback_policy": {
+        "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
+        "show_correct_answer_after_submit": true,
+        "show_explanatory_feedback_after_submit": true,
+        "allow_retry_during_assessment": false,
+        "post_submit_feedback_fa": "بازخورد سنجش سؤال 4: برای حل صحیح این سؤال باید قاعده «آشنایی با عدد ۱۰ و مفهوم یک بسته ده‌تایی» را به کار ببری."
+      }
+    },
+    {
+      "question_id": "G1-L27-ASM-05",
+      "lesson_id": "G1-L27",
+      "section": "summative_assessment",
+      "counts_toward_30_quota": false,
+      "interaction_type": "tally_mark_builder",
+      "prompt_fa": "درس 27 - سؤال سنجش پایانی 5: ارزیابی تسلط بر «آشنایی با عدد ۱۰ و مفهوم یک بسته ده‌تایی» (سؤال 5).",
+      "correct_answer": {
+        "value": 10
+      },
+      "feedback_policy": {
+        "mode": "DEFERRED_UNTIL_ASSESSMENT_SUBMIT",
+        "show_correct_answer_after_submit": true,
+        "show_explanatory_feedback_after_submit": true,
+        "allow_retry_during_assessment": false,
+        "post_submit_feedback_fa": "بازخورد سنجش سؤال 5: برای حل صحیح این سؤال باید قاعده «آشنایی با عدد ۱۰ و مفهوم یک بسته ده‌تایی» را به کار ببری."
+      }
+    }
+  ]
+}

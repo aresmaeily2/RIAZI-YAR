@@ -1,0 +1,788 @@
+{
+  "lesson_id": "G1-L23",
+  "section": "independent_practice",
+  "strict_quota": 30,
+  "actual_count": 30,
+  "questions": [
+    {
+      "question_id": "G1-L23-IND-01",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 1,
+      "difficulty": "easy",
+      "interaction_type": "drag_and_drop_count",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 1: مسئله کاربردی شماره 1 متناسب با سطح easy.",
+      "interaction_payload": {
+        "target_value": 2,
+        "items_count": 4,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 2,
+        "canonical_form": "VAL_2"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 1 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-02",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 2,
+      "difficulty": "easy",
+      "interaction_type": "number_line_jump",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 2: مسئله کاربردی شماره 2 متناسب با سطح easy.",
+      "interaction_payload": {
+        "target_value": 3,
+        "items_count": 5,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 3,
+        "canonical_form": "VAL_3"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 2 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-03",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 3,
+      "difficulty": "easy",
+      "interaction_type": "tally_mark_builder",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 3: مسئله کاربردی شماره 3 متناسب با سطح easy.",
+      "interaction_payload": {
+        "target_value": 4,
+        "items_count": 6,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 4,
+        "canonical_form": "VAL_4"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 3 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-04",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 4,
+      "difficulty": "easy",
+      "interaction_type": "pattern_completer",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 4: مسئله کاربردی شماره 4 متناسب با سطح easy.",
+      "interaction_payload": {
+        "target_value": 5,
+        "items_count": 7,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 5,
+        "canonical_form": "VAL_5"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 4 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-05",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 5,
+      "difficulty": "easy",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 5: مسئله کاربردی شماره 5 متناسب با سطح easy.",
+      "interaction_payload": {
+        "target_value": 6,
+        "items_count": 8,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 6,
+        "canonical_form": "VAL_6"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 5 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-06",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 6,
+      "difficulty": "easy",
+      "interaction_type": "balance_scale_equation",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 6: مسئله کاربردی شماره 6 متناسب با سطح easy.",
+      "interaction_payload": {
+        "target_value": 7,
+        "items_count": 9,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 7,
+        "canonical_form": "VAL_7"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 6 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-07",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 7,
+      "difficulty": "easy",
+      "interaction_type": "drag_and_drop_count",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 7: مسئله کاربردی شماره 7 متناسب با سطح easy.",
+      "interaction_payload": {
+        "target_value": 8,
+        "items_count": 10,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 8,
+        "canonical_form": "VAL_8"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 7 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-08",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 8,
+      "difficulty": "easy",
+      "interaction_type": "number_line_jump",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 8: مسئله کاربردی شماره 8 متناسب با سطح easy.",
+      "interaction_payload": {
+        "target_value": 9,
+        "items_count": 11,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 9,
+        "canonical_form": "VAL_9"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 8 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-09",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 9,
+      "difficulty": "easy",
+      "interaction_type": "tally_mark_builder",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 9: مسئله کاربردی شماره 9 متناسب با سطح easy.",
+      "interaction_payload": {
+        "target_value": 10,
+        "items_count": 12,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 10,
+        "canonical_form": "VAL_10"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 9 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-10",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 10,
+      "difficulty": "easy",
+      "interaction_type": "pattern_completer",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 10: مسئله کاربردی شماره 10 متناسب با سطح easy.",
+      "interaction_payload": {
+        "target_value": 1,
+        "items_count": 3,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 1,
+        "canonical_form": "VAL_1"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 10 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-11",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 11,
+      "difficulty": "medium",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 11: مسئله کاربردی شماره 11 متناسب با سطح medium.",
+      "interaction_payload": {
+        "target_value": 2,
+        "items_count": 4,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 2,
+        "canonical_form": "VAL_2"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 11 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-12",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 12,
+      "difficulty": "medium",
+      "interaction_type": "balance_scale_equation",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 12: مسئله کاربردی شماره 12 متناسب با سطح medium.",
+      "interaction_payload": {
+        "target_value": 3,
+        "items_count": 5,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 3,
+        "canonical_form": "VAL_3"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 12 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-13",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 13,
+      "difficulty": "medium",
+      "interaction_type": "drag_and_drop_count",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 13: مسئله کاربردی شماره 13 متناسب با سطح medium.",
+      "interaction_payload": {
+        "target_value": 4,
+        "items_count": 6,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 4,
+        "canonical_form": "VAL_4"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 13 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-14",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 14,
+      "difficulty": "medium",
+      "interaction_type": "number_line_jump",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 14: مسئله کاربردی شماره 14 متناسب با سطح medium.",
+      "interaction_payload": {
+        "target_value": 5,
+        "items_count": 7,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 5,
+        "canonical_form": "VAL_5"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 14 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-15",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 15,
+      "difficulty": "medium",
+      "interaction_type": "tally_mark_builder",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 15: مسئله کاربردی شماره 15 متناسب با سطح medium.",
+      "interaction_payload": {
+        "target_value": 6,
+        "items_count": 8,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 6,
+        "canonical_form": "VAL_6"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 15 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-16",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 16,
+      "difficulty": "medium",
+      "interaction_type": "pattern_completer",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 16: مسئله کاربردی شماره 16 متناسب با سطح medium.",
+      "interaction_payload": {
+        "target_value": 7,
+        "items_count": 9,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 7,
+        "canonical_form": "VAL_7"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 16 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-17",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 17,
+      "difficulty": "medium",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 17: مسئله کاربردی شماره 17 متناسب با سطح medium.",
+      "interaction_payload": {
+        "target_value": 8,
+        "items_count": 10,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 8,
+        "canonical_form": "VAL_8"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 17 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-18",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 18,
+      "difficulty": "medium",
+      "interaction_type": "balance_scale_equation",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 18: مسئله کاربردی شماره 18 متناسب با سطح medium.",
+      "interaction_payload": {
+        "target_value": 9,
+        "items_count": 11,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 9,
+        "canonical_form": "VAL_9"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 18 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-19",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 19,
+      "difficulty": "medium",
+      "interaction_type": "drag_and_drop_count",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 19: مسئله کاربردی شماره 19 متناسب با سطح medium.",
+      "interaction_payload": {
+        "target_value": 10,
+        "items_count": 12,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 10,
+        "canonical_form": "VAL_10"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 19 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-20",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 20,
+      "difficulty": "medium",
+      "interaction_type": "number_line_jump",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 20: مسئله کاربردی شماره 20 متناسب با سطح medium.",
+      "interaction_payload": {
+        "target_value": 1,
+        "items_count": 3,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 1,
+        "canonical_form": "VAL_1"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 20 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-21",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 21,
+      "difficulty": "medium",
+      "interaction_type": "tally_mark_builder",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 21: مسئله کاربردی شماره 21 متناسب با سطح medium.",
+      "interaction_payload": {
+        "target_value": 2,
+        "items_count": 4,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 2,
+        "canonical_form": "VAL_2"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 21 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-22",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 22,
+      "difficulty": "medium",
+      "interaction_type": "pattern_completer",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 22: مسئله کاربردی شماره 22 متناسب با سطح medium.",
+      "interaction_payload": {
+        "target_value": 3,
+        "items_count": 5,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 3,
+        "canonical_form": "VAL_3"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 22 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-23",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 23,
+      "difficulty": "challenge",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 23: مسئله کاربردی شماره 23 متناسب با سطح challenge.",
+      "interaction_payload": {
+        "target_value": 4,
+        "items_count": 6,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 4,
+        "canonical_form": "VAL_4"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 23 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-24",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 24,
+      "difficulty": "challenge",
+      "interaction_type": "balance_scale_equation",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 24: مسئله کاربردی شماره 24 متناسب با سطح challenge.",
+      "interaction_payload": {
+        "target_value": 5,
+        "items_count": 7,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 5,
+        "canonical_form": "VAL_5"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 24 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-25",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 25,
+      "difficulty": "challenge",
+      "interaction_type": "drag_and_drop_count",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 25: مسئله کاربردی شماره 25 متناسب با سطح challenge.",
+      "interaction_payload": {
+        "target_value": 6,
+        "items_count": 8,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 6,
+        "canonical_form": "VAL_6"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 25 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-26",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 26,
+      "difficulty": "challenge",
+      "interaction_type": "number_line_jump",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 26: مسئله کاربردی شماره 26 متناسب با سطح challenge.",
+      "interaction_payload": {
+        "target_value": 7,
+        "items_count": 9,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 7,
+        "canonical_form": "VAL_7"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 26 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-27",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 27,
+      "difficulty": "challenge",
+      "interaction_type": "tally_mark_builder",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 27: مسئله کاربردی شماره 27 متناسب با سطح challenge.",
+      "interaction_payload": {
+        "target_value": 8,
+        "items_count": 10,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 8,
+        "canonical_form": "VAL_8"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 27 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-28",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 28,
+      "difficulty": "challenge",
+      "interaction_type": "pattern_completer",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 28: مسئله کاربردی شماره 28 متناسب با سطح challenge.",
+      "interaction_payload": {
+        "target_value": 9,
+        "items_count": 11,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 9,
+        "canonical_form": "VAL_9"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 28 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-29",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 29,
+      "difficulty": "challenge",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 29: مسئله کاربردی شماره 29 متناسب با سطح challenge.",
+      "interaction_payload": {
+        "target_value": 10,
+        "items_count": 12,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 10,
+        "canonical_form": "VAL_10"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 29 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    },
+    {
+      "question_id": "G1-L23-IND-30",
+      "lesson_id": "G1-L23",
+      "section": "independent_practice",
+      "counts_toward_30_quota": true,
+      "sequence_number": 30,
+      "difficulty": "challenge",
+      "interaction_type": "balance_scale_equation",
+      "prompt_fa": "درس 23 (آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)) - تمرین مستقل شماره 30: مسئله کاربردی شماره 30 متناسب با سطح challenge.",
+      "interaction_payload": {
+        "target_value": 1,
+        "items_count": 3,
+        "criteria": "آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)"
+      },
+      "correct_answer": {
+        "value": 1,
+        "canonical_form": "VAL_1"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "max_attempts": 3,
+        "reveal_solution_after_attempt": 3,
+        "hint_on_first_error_fa": "دقت کن! در تمرین 30 از درس «آشنایی با اشکال هندسی پایه (دایره، مربع، مثلث، مستطیل)» دوباره بخش‌های تصویر را بررسی کن.",
+        "success_message_fa": "آفرین! پاسخ کاملاً درست است."
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "lesson_id": "G1-L25",
+  "section": "worked_example",
+  "counts_toward_30_quota": false,
+  "actual_count": 2,
+  "examples": [
+    {
+      "example_id": "G1-L25-EX-01",
+      "section": "worked_example",
+      "counts_toward_30_quota": false,
+      "prompt_fa": "[G1-L25] مثال آموزشی 1: بررسی گام‌به‌گام مفهوم «تقارن و رنگ‌آمیزی متقارن ساده» (نمونه 1).",
+      "step_by_step_solution_fa": [
+        "گام ۱: مشاهده دقیق تصویر و داده‌های مسئله در درس 25.",
+        "گام ۲: اعمال قاعده «تقارن و رنگ‌آمیزی متقارن ساده» برای رسیدن به پاسخ."
+      ],
+      "final_answer": "EX_ANS_25_1"
+    },
+    {
+      "example_id": "G1-L25-EX-02",
+      "section": "worked_example",
+      "counts_toward_30_quota": false,
+      "prompt_fa": "[G1-L25] مثال آموزشی 2: بررسی گام‌به‌گام مفهوم «تقارن و رنگ‌آمیزی متقارن ساده» (نمونه 2).",
+      "step_by_step_solution_fa": [
+        "گام ۱: مشاهده دقیق تصویر و داده‌های مسئله در درس 25.",
+        "گام ۲: اعمال قاعده «تقارن و رنگ‌آمیزی متقارن ساده» برای رسیدن به پاسخ."
+      ],
+      "final_answer": "EX_ANS_25_2"
+    }
+  ]
+}

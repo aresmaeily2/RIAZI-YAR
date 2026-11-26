@@ -1,0 +1,30 @@
+{
+  "lesson_id": "G1-L22",
+  "section": "worked_example",
+  "counts_toward_30_quota": false,
+  "actual_count": 2,
+  "examples": [
+    {
+      "example_id": "G1-L22-EX-01",
+      "section": "worked_example",
+      "counts_toward_30_quota": false,
+      "prompt_fa": "[G1-L22] مثال آموزشی 1: بررسی گام‌به‌گام مفهوم «جمع و تفریق روی محور اعداد تا ۹» (نمونه 1).",
+      "step_by_step_solution_fa": [
+        "گام ۱: مشاهده دقیق تصویر و داده‌های مسئله در درس 22.",
+        "گام ۲: اعمال قاعده «جمع و تفریق روی محور اعداد تا ۹» برای رسیدن به پاسخ."
+      ],
+      "final_answer": "EX_ANS_22_1"
+    },
+    {
+      "example_id": "G1-L22-EX-02",
+      "section": "worked_example",
+      "counts_toward_30_quota": false,
+      "prompt_fa": "[G1-L22] مثال آموزشی 2: بررسی گام‌به‌گام مفهوم «جمع و تفریق روی محور اعداد تا ۹» (نمونه 2).",
+      "step_by_step_solution_fa": [
+        "گام ۱: مشاهده دقیق تصویر و داده‌های مسئله در درس 22.",
+        "گام ۲: اعمال قاعده «جمع و تفریق روی محور اعداد تا ۹» برای رسیدن به پاسخ."
+      ],
+      "final_answer": "EX_ANS_22_2"
+    }
+  ]
+}

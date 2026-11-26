@@ -1,0 +1,48 @@
+{
+  "interaction_type": "pattern_completer",
+  "title_fa": "تکمیل الگوی تصویری و عددی",
+  "input_data_structure": {
+    "sequence_items": {
+      "type": "array",
+      "description": "آرایه عناصر الگو با جایگاه‌های null برای جاهای خالی"
+    },
+    "option_palette": {
+      "type": "array",
+      "description": "گزینه‌های قابل انتخاب برای قرارگیری در جاهای خالی"
+    },
+    "expected_slots": {
+      "type": "object",
+      "description": "نگاشت شاخص جای خالی به شناسه گزینه صحیح"
+    }
+  },
+  "student_response_recording": {
+    "format": "JSON Object",
+    "fields": [
+      "filled_slots",
+      "selection_order",
+      "time_spent_ms"
+    ]
+  },
+  "validation_logic": {
+    "method": "Slot-by-slot exact key-value match",
+    "rule": "filled_slots == expected_slots"
+  },
+  "common_misconception_detection": [
+    {
+      "code": "SYMMETRY_REVERSAL",
+      "condition": "filled_slots == list(reversed(expected_slots))",
+      "hint_fa": "به ترتیب تکرار الگو از چپ به راست دوباره نگاه کن."
+    },
+    {
+      "code": "COLOR_SHAPE_CONFUSION",
+      "condition": "shape_matches AND not color_matches",
+      "hint_fa": "شکل را درست انتخاب کردی، اما به رنگ الگو هم دقت کن."
+    }
+  ],
+  "progress_engine_telemetry": {
+    "mastery_delta": "float",
+    "skill_node_id": "string",
+    "misconception_tags": "array<string>",
+    "remedial_trigger": "boolean"
+  }
+}

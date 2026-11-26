@@ -1,0 +1,138 @@
+{
+  "lesson_id": "G1-L35",
+  "section": "remedial_practice",
+  "counts_toward_30_quota": false,
+  "actual_count": 5,
+  "questions": [
+    {
+      "question_id": "G1-L35-REM-01",
+      "lesson_id": "G1-L35",
+      "section": "remedial_practice",
+      "counts_toward_30_quota": false,
+      "target_misconception_code": "MISC_L35_1",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "درس 35 - تمرین جبرانی 1: تمرین تقویتی گام‌به‌گام برای رفع اشکال در «حل مسئله‌های دو مرحله‌ای ساده تا ۲۰» (بسته 1).",
+      "options": [
+        {
+          "id": "opt_a",
+          "label_fa": "گزینه اول (صحیح)"
+        },
+        {
+          "id": "opt_b",
+          "label_fa": "گزینه دوم (نادرست)"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "opt_a"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "scaffolded_hint_fa": "ابتدا شکل سمت راست را بشمار و با راهنمای صوتی مقایسه کن."
+      }
+    },
+    {
+      "question_id": "G1-L35-REM-02",
+      "lesson_id": "G1-L35",
+      "section": "remedial_practice",
+      "counts_toward_30_quota": false,
+      "target_misconception_code": "MISC_L35_2",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "درس 35 - تمرین جبرانی 2: تمرین تقویتی گام‌به‌گام برای رفع اشکال در «حل مسئله‌های دو مرحله‌ای ساده تا ۲۰» (بسته 2).",
+      "options": [
+        {
+          "id": "opt_a",
+          "label_fa": "گزینه اول (صحیح)"
+        },
+        {
+          "id": "opt_b",
+          "label_fa": "گزینه دوم (نادرست)"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "opt_a"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "scaffolded_hint_fa": "ابتدا شکل سمت راست را بشمار و با راهنمای صوتی مقایسه کن."
+      }
+    },
+    {
+      "question_id": "G1-L35-REM-03",
+      "lesson_id": "G1-L35",
+      "section": "remedial_practice",
+      "counts_toward_30_quota": false,
+      "target_misconception_code": "MISC_L35_3",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "درس 35 - تمرین جبرانی 3: تمرین تقویتی گام‌به‌گام برای رفع اشکال در «حل مسئله‌های دو مرحله‌ای ساده تا ۲۰» (بسته 3).",
+      "options": [
+        {
+          "id": "opt_a",
+          "label_fa": "گزینه اول (صحیح)"
+        },
+        {
+          "id": "opt_b",
+          "label_fa": "گزینه دوم (نادرست)"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "opt_a"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "scaffolded_hint_fa": "ابتدا شکل سمت راست را بشمار و با راهنمای صوتی مقایسه کن."
+      }
+    },
+    {
+      "question_id": "G1-L35-REM-04",
+      "lesson_id": "G1-L35",
+      "section": "remedial_practice",
+      "counts_toward_30_quota": false,
+      "target_misconception_code": "MISC_L35_4",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "درس 35 - تمرین جبرانی 4: تمرین تقویتی گام‌به‌گام برای رفع اشکال در «حل مسئله‌های دو مرحله‌ای ساده تا ۲۰» (بسته 4).",
+      "options": [
+        {
+          "id": "opt_a",
+          "label_fa": "گزینه اول (صحیح)"
+        },
+        {
+          "id": "opt_b",
+          "label_fa": "گزینه دوم (نادرست)"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "opt_a"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "scaffolded_hint_fa": "ابتدا شکل سمت راست را بشمار و با راهنمای صوتی مقایسه کن."
+      }
+    },
+    {
+      "question_id": "G1-L35-REM-05",
+      "lesson_id": "G1-L35",
+      "section": "remedial_practice",
+      "counts_toward_30_quota": false,
+      "target_misconception_code": "MISC_L35_5",
+      "interaction_type": "visual_multiple_choice",
+      "prompt_fa": "درس 35 - تمرین جبرانی 5: تمرین تقویتی گام‌به‌گام برای رفع اشکال در «حل مسئله‌های دو مرحله‌ای ساده تا ۲۰» (بسته 5).",
+      "options": [
+        {
+          "id": "opt_a",
+          "label_fa": "گزینه اول (صحیح)"
+        },
+        {
+          "id": "opt_b",
+          "label_fa": "گزینه دوم (نادرست)"
+        }
+      ],
+      "correct_answer": {
+        "option_id": "opt_a"
+      },
+      "feedback_policy": {
+        "show_immediate_feedback": true,
+        "scaffolded_hint_fa": "ابتدا شکل سمت راست را بشمار و با راهنمای صوتی مقایسه کن."
+      }
+    }
+  ]
+}
