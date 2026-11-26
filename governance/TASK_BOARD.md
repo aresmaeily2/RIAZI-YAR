@@ -1,40 +1,14 @@
-# TASK BOARD — ریاضی‌یار
+# تابلو وضعیت وظایف و ایجنت‌ها (`governance/TASK_BOARD.md`)
 
-به‌روزرسانی: ۲۰۲۶-۱۰-۱۸ (مأموریت دستورکار ۱.۰.۳)
-وضعیت‌های مجاز: TODO / DOING / PASS / NOT RUN / BLOCKED
-
-## P0 — موانع اصلی
-| # | کار | وضعیت | شاهد |
-|---|---|---|---|
-| ۰-۱ | استخراج سورس ۱.۰.۳ + تعیین نسخه ابزار + baseline پیش از اصلاح | **PASS** | baseline_analyze/test.txt (exit 0، ۱۰۷+۲skip)؛ PROJECT_MEMORY (ابزارها) |
-| ۰-۲ | بیلد APK متناظر سورس + راستی‌آزمایی (badging/certs/hash) | **PASS** | APK versionCode 5 / 1.0.3-internal-test؛ aapt2_badging*.txt؛ apksigner_print_certs*.txt؛ SHA-256 `7f0b9736...` |
-| ۰-۳ | بازبینی معلم پایه اول (اهداف، متن‌ها، دشواری، بازخورد، تناسب سنی) | **BLOCKED** | معلم در دسترس نیست؛ محتوا «نمونه، تأییدنشده» (teacherReviewed=false) |
-| ۰-۴ | تست دستگاه واقعی (مسیر کامل، آفلاین، رفتار خطا) | **NOT RUN** | دستگاه در دسترس نیست؛ چک‌لیست اجرای میدانی در docs/LIMITATIONS |
-
-## P1 — امنیت و کیفیت
-| # | کار | وضعیت | شاهد |
-|---|---|---|---|
-| ۱-۵ | هماهنگی متن رضایت با payload واقعی | **PASS** | privacy_texts.dart؛ دیالوگ main.dart؛ تست «دقیقاً شش فیلد» |
-| ۱-۶ | سخت‌سازی endpoint (DNS rebinding/۱۰۰.۶۴/۱۰/reserved/redirect) | **PASS** | ai_guide_http.dart؛ تست‌های رد مقصد ممنوع با شمارنده اتصال=۰ |
-| ۱-۷ | ماتریس تست HTTPS (۸ سناریو) | **PASS (محلی)** | ماتریس روی سرور TLS واقعی محلی؛ سناریوی endpoint عملیاتی **NOT RUN** |
-
-## P2 — گفتار فارسی
-| # | کار | وضعیت | شاهد |
-|---|---|---|---|
-| ۲-۱ | آزمون TTS فارسی روی دستگاه | **NOT RUN** | دستگاه/موتور مناسب در دسترس نیست؛ قابلیت «کامل» اعلام نمی‌شود |
-
-## زیرساخت و تحویل
-| # | کار | وضعیت | شاهد |
-|---|---|---|---|
-| ۳-۱ | بررسی مخزن GitHub + ایجاد Private | **PASS** | https://github.com/aresmaeily2/riazi-yar — private:true؛ D-110 |
-| ۳-۲ | push واقعی شاخه‌ها به remote | **PASS** | master@a7fb0cc + fix/audit-v1.0.3-exec@7536074؛ D-110 |
-| ۳-۳ | governance (charter/memory/decisions/board/gates/roles) | **PASS** | همین پوشه — ساخته‌شده در این مأموریت |
-| ۳-۴ | manifest هش‌ها + بسته تحویل | **PASS** | SHA256SUMS_v1.0.3-exec.txt |
-| ۳-۵ | انتشار عمومی | **BLOCKED** | QUALITY_GATES: g2/g4/g5/g6 باز |
-
-## TODO بعدی (مالک/تیم)
-1. [انجام شد — D-110] مخزن Private ساخته و شاخه‌ها push شدند. بعدی: Revoke توکن پس از بازبینی مالک؛ تنظیم branch protection/همکاران در صورت نیاز.
-2. هماهنگی جلسه بازبینی با معلم پایه اول → گیت ۰-۳.
-3. اجرای چک‌لیست دستگاه (docs/LIMITATIONS) روی گوشی واقعی → گیت ۰-۴ و P2.
-4. ایجاد keystore منتشرکننده + بیلد release امضاشده → رفع BLOCKED انتشار.
-5. فراهم‌کردن endpoint عملیاتی (سرور واسط) → تست چرخه واقعی HTTPS.
+| کد وظیفه | ایجنت مسئول | شرح وظیفه | وضعیت دقیق | شاهد واقعی |
+|---|---|---|---|---|
+| **T-01** | Agent 1 (Forensic GitHub Auditor) | ممیزی زنده GitHub، بررسی کامیت‌های `932cdae` و `7536074`، بررسی ZIP و محاسبه SHA-256 | **TESTED** | `HANDOFF_INVENTORY.md`, `ZIP_INTEGRITY_REPORT.md` |
+| **T-02** | Agent 2 (Android Native Architect) | حفظ Flutter در `legacy/`، استقرار معماری Kotlin + Compose + Room v3 + DataStore | **TESTED** | کامیت‌های `144b429` و `d5d2bd3` در شاخه `feat/android-native-v2` |
+| **T-03** | Agent 3 & 6 (Educational & Content) | بازنویسی و غنی‌سازی ۲۳۵ فایل JSON (حذف `EX_ANS_` و `(صحیح)`، افزودن گزینه‌های واقعی و فعالیت هدایت‌شده) | **TESTED** | کامیت `0515cd9` + تست `contentV2_all39LessonsAndBanksPassFullAudit` |
+| **T-04** | Agent 4 & 5 (Interactions & Child UX) | بازطراحی ترازوی دوکفه‌ای، محور اعداد، چوب‌خط، الگو، سبد شمارش و چندگزینه‌ای با RTL کامل | **TESTED** | `InteractionRouter.kt`, `InteractionValidator.kt` |
+| **T-05** | Agent 7 (Adaptive Learning Engineer) | پیاده‌سازی دقیق الگوریتم SM-2، اصلاح `dueReviews` و محاسبه واقعی تکمیل درس و ستاره‌ها | **TESTED** | `AdaptiveLearningEngine.kt`, `RiaziDatabase.kt` |
+| **T-06** | Agent 8 (QA / Test Automation) | اجرای واقعی `./gradlew testDebugUnitTest` و `./gradlew lintDebug` با OpenJDK 17 و SDK 35 | **TESTED** | `TEST-com.mathmvp.riazi_yar.InteractionValidatorTest.xml` (11/11 PASS) |
+| **T-07** | Agent 9 (Security & Privacy Auditor) | حذف مجوز `POST_NOTIFICATIONS`، افزودن قواعد منع Backup و ارتقای `ParentGate` | **TESTED** | `aapt2 dump permissions` (`docs/SECURITY_PRIVACY.md`) |
+| **T-08** | Agent 10 (CI/CD & Release Engineer) | بیلد واقعی `app-debug.apk`، `app-release-unsigned.apk` و `app-release.aab` و آماده‌سازی Workflow | **TESTED** | فایل‌های `app/build/outputs/` با هش SHA-256 |
+| **T-09** | Agent 11 (Independent Reviewer) | بازبینی مستقل Diff، تطبیق شواهد با کد و تأیید عبور از گیت‌های فنی | **TESTED** | `SOURCE_AUDIT.md`, `docs/QUALITY_GATES.md` |
+| **T-10** | Human Teacher Reviewer | بازبینی میدانی و تأیید کتبی معلم رسمی پایه اول | **BLOCKED** | `PEDAGOGICAL_PENDING_TEACHER_REVIEW` |
