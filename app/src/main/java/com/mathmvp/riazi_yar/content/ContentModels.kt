@@ -36,11 +36,27 @@ data class LessonSummary(
 )
 
 @Serializable
+data class ConceptDiscoverySection(
+    @SerialName("discovery_id") val discoveryId: String = "",
+    @SerialName("story_prompt_fa") val storyPromptFa: String = "",
+    @SerialName("visual_explanation_fa") val visualExplanationFa: String = "",
+    @SerialName("discovery_steps_fa") val discoveryStepsFa: List<String> = emptyList(),
+    @SerialName("visual_takeaway_fa") val visualTakeawayFa: String = ""
+)
+
+@Serializable
 data class WorkedExample(
     @SerialName("example_id") val exampleId: String,
     @SerialName("prompt_fa") val promptFa: String,
     @SerialName("step_by_step_solution_fa") val stepsFa: List<String>,
     @SerialName("final_answer") val finalAnswer: String
+)
+
+@Serializable
+data class QuestionOption(
+    val id: String,
+    @SerialName("label_fa") val labelFa: String,
+    val value: Int? = null
 )
 
 @Serializable
@@ -72,32 +88,44 @@ data class FeedbackPolicy(
 data class PracticeQuestion(
     @SerialName("question_id") val questionId: String,
     @SerialName("lesson_id") val lessonId: String,
+    @SerialName("skill_code") val skillCode: String = "",
     val section: String = "independent_practice",
     val difficulty: String = "easy",
     @SerialName("interaction_type") val interactionType: String,
     @SerialName("prompt_fa") val promptFa: String,
+    val options: List<QuestionOption> = emptyList(),
     @SerialName("interaction_payload") val payload: InteractionPayload = InteractionPayload(),
     @SerialName("correct_answer") val correctAnswer: CorrectAnswer,
     @SerialName("feedback_policy") val feedbackPolicy: FeedbackPolicy = FeedbackPolicy()
 )
 
 @Serializable
-data class RemedialOption(
-    val id: String,
-    @SerialName("label_fa") val labelFa: String
-)
-
-@Serializable
 data class RemedialQuestion(
     @SerialName("question_id") val questionId: String,
     @SerialName("lesson_id") val lessonId: String,
+    @SerialName("skill_code") val skillCode: String = "",
     @SerialName("target_misconception_code") val targetMisconceptionCode: String,
     @SerialName("interaction_type") val interactionType: String,
     @SerialName("prompt_fa") val promptFa: String,
-    val options: List<RemedialOption> = emptyList(),
+    val options: List<QuestionOption> = emptyList(),
+    @SerialName("interaction_payload") val payload: InteractionPayload = InteractionPayload(),
     @SerialName("correct_answer") val correctAnswer: CorrectAnswer,
     @SerialName("feedback_policy") val feedbackPolicy: FeedbackPolicy
-)
+) {
+    fun toPracticeQuestion(): PracticeQuestion = PracticeQuestion(
+        questionId = questionId,
+        lessonId = lessonId,
+        skillCode = skillCode,
+        section = "remedial_practice",
+        difficulty = "easy",
+        interactionType = interactionType,
+        promptFa = promptFa,
+        options = options,
+        payload = payload,
+        correctAnswer = correctAnswer,
+        feedbackPolicy = feedbackPolicy
+    )
+}
 
 @Serializable
 data class RemedialBank(
@@ -110,6 +138,7 @@ data class RemedialBank(
 data class AssessmentBank(
     @SerialName("lesson_id") val lessonId: String,
     @SerialName("actual_count") val actualCount: Int,
+    @SerialName("passing_score_percent") val passingScorePercent: Int = 80,
     @SerialName("feedback_display_policy") val feedbackDisplayPolicy: String,
     val questions: List<PracticeQuestion>
 )
@@ -120,9 +149,15 @@ data class LessonContentV2(
     @SerialName("lesson_number") val lessonNumber: Int,
     @SerialName("chapter_number") val chapterNumber: Int,
     @SerialName("title_fa") val titleFa: String,
+    @SerialName("skill_code") val skillCode: String = "",
+    @SerialName("learning_objectives_fa") val learningObjectivesFa: List<String> = emptyList(),
+    @SerialName("prerequisites_fa") val prerequisitesFa: List<String> = emptyList(),
+    @SerialName("warm_up_story_fa") val warmUpStoryFa: String = "",
+    @SerialName("concept_discovery") val conceptDiscovery: ConceptDiscoverySection = ConceptDiscoverySection(),
     val status: LessonStatus,
     @SerialName("lesson_summary") val lessonSummary: LessonSummary,
     @SerialName("worked_examples") val workedExamples: List<WorkedExample>,
+    @SerialName("guided_activities") val guidedActivities: List<PracticeQuestion> = emptyList(),
     @SerialName("independent_practice_questions") val independentPracticeQuestions: List<PracticeQuestion>,
     @SerialName("remedial_questions_ref") val remedialQuestionsRef: String,
     @SerialName("assessment_questions_ref") val assessmentQuestionsRef: String

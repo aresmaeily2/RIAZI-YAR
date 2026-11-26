@@ -1,5 +1,8 @@
 package com.mathmvp.riazi_yar.ui.interactions
 
+import com.mathmvp.riazi_yar.content.CorrectAnswer
+import com.mathmvp.riazi_yar.content.QuestionOption
+
 data class ValidationOutcome(val isCorrect: Boolean, val misconceptionCode: String?)
 
 object InteractionValidator {
@@ -41,4 +44,22 @@ object InteractionValidator {
 
     fun validateMultipleChoice(selected: Int, expected: Int): ValidationOutcome =
         if (selected == expected) ValidationOutcome(true, null) else ValidationOutcome(false, "DISTRACTOR_SELECTED")
+
+    fun validateOptionSelection(
+        selectedOption: QuestionOption,
+        correctAnswer: CorrectAnswer,
+        isPattern: Boolean = false
+    ): ValidationOutcome {
+        val mismatchCode = if (isPattern) "PATTERN_MISMATCH" else "DISTRACTOR_SELECTED"
+        if (selectedOption.id.isBlank()) return ValidationOutcome(false, "INVALID_INPUT")
+        val matchById = !correctAnswer.optionId.isNullOrBlank() && selectedOption.id == correctAnswer.optionId
+        val matchByValue = correctAnswer.optionId.isNullOrBlank() &&
+            correctAnswer.value != null &&
+            selectedOption.value == correctAnswer.value
+        return if (matchById || matchByValue) {
+            ValidationOutcome(true, null)
+        } else {
+            ValidationOutcome(false, mismatchCode)
+        }
+    }
 }

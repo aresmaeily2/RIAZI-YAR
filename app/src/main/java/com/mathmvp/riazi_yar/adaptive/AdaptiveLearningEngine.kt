@@ -9,6 +9,12 @@ enum class AdaptiveAction {
     TRIGGER_REMEDIAL, ENTER_ASSESSMENT, SCHEDULE_FUTURE_REVIEW
 }
 
+data class Sm2ScheduleResult(
+    val repetitionCount: Int,
+    val intervalDays: Int,
+    val easeFactor: Float
+)
+
 data class AdaptiveDecision(
     val updatedMastery: SkillMasteryEntity,
     val nextAction: AdaptiveAction,
@@ -18,17 +24,46 @@ data class AdaptiveDecision(
 
 class AdaptiveLearningEngine(private val dao: RiaziDao) {
 
-    fun computeSm2NextInterval(currentIntervalDays: Int, easeFactor: Float, quality: Int): Pair<Int, Float> {
-        if (quality < 3) {
-            return 1 to max(1.3f, easeFactor - 0.2f)
+    /**
+     * Authentic SuperMemo SM-2 algorithm:
+     * - If quality < 3: repetitionCount resets to 0, intervalDays resets to 1
+     * - If quality >= 3:
+     *     n = 1 -> interval = 1 day
+     *     n = 2 -> interval = 6 days
+     *     n > 2 -> interval = round(previousInterval * easeFactor)
+     * - EF' = max(1.3, EF + (0.1 - (5 - q) * (0.08 + (5 - q) * 0.02)))
+     */
+    fun computeSm2Schedule(
+        currentRepetitionCount: Int,
+        currentIntervalDays: Int,
+        easeFactor: Float,
+        quality: Int
+    ): Sm2ScheduleResult {
+        val clampedQ = quality.coerceIn(0, 5)
+        val newEase = max(
+            1.3f,
+            easeFactor + (0.1f - (5 - clampedQ) * (0.08f + (5 - clampedQ) * 0.02f))
+        ).coerceAtMost(3.0f)
+
+        return if (clampedQ < 3) {
+            Sm2ScheduleResult(
+                repetitionCount = 0,
+                intervalDays = 1,
+                easeFactor = newEase
+            )
+        } else {
+            val nextRep = currentRepetitionCount + 1
+            val nextInterval = when (nextRep) {
+                1 -> 1
+                2 -> 6
+                else -> max(1, (currentIntervalDays * newEase).roundToInt())
+            }
+            Sm2ScheduleResult(
+                repetitionCount = nextRep,
+                intervalDays = nextInterval,
+                easeFactor = newEase
+            )
         }
-        val nextInterval = when {
-            currentIntervalDays <= 1 -> 3
-            currentIntervalDays <= 3 -> 7
-            else -> (currentIntervalDays * easeFactor).roundToInt()
-        }
-        val newEase = (easeFactor + (0.1f - (5 - quality) * (0.08f + (5 - quality) * 0.02f))).coerceIn(1.3f, 3.0f)
-        return nextInterval to newEase
     }
 
     suspend fun recordAttempt(
@@ -56,9 +91,19 @@ class AdaptiveLearningEngine(private val dao: RiaziDao) {
         }
         val newScore = (current.masteryScore + delta).coerceIn(0.0f, 1.0f)
         val newConsecErrors = if (isCorrect) 0 else current.consecutiveErrors + 1
-        val (nextInterval, nextEase) = computeSm2NextInterval(current.reviewIntervalDays, current.easeFactor, quality)
-        val nextReviewMs = nowMs + nextInterval * 86_400_000L
-        val needsRemedial = newConsecErrors >= 2 || (current.attemptsCount >= 3 && newScore < 0.50f)
+        val sm2 = computeSm2Schedule(
+            currentRepetitionCount = current.repetitionCount,
+            currentIntervalDays = current.reviewIntervalDays,
+            easeFactor = current.easeFactor,
+            quality = quality
+        )
+        // If remediation is needed or answer was wrong, review is due immediately (nowMs) so child can practice it
+        val nextReviewMs = if (isCorrect) {
+            nowMs + sm2.intervalDays * 86_400_000L
+        } else {
+            nowMs
+        }
+        val needsRemedial = newConsecErrors >= 2 || (current.attemptsCount + 1 >= 3 && newScore < 0.50f)
         val difficulty = when {
             newScore < 0.45f -> "EASY"
             newScore < 0.80f -> "MEDIUM"
@@ -73,22 +118,14 @@ class AdaptiveLearningEngine(private val dao: RiaziDao) {
             totalResponseTimeMs = current.totalResponseTimeMs + responseTimeMs,
             hintsUsedTotal = current.hintsUsedTotal + hintsUsed,
             consecutiveErrors = newConsecErrors,
-            easeFactor = nextEase,
-            reviewIntervalDays = nextInterval,
+            repetitionCount = sm2.repetitionCount,
+            easeFactor = sm2.easeFactor,
+            reviewIntervalDays = sm2.intervalDays,
             nextReviewEpochMs = nextReviewMs,
             lastMisconceptionCode = if (isCorrect) null else misconceptionCode,
             difficultyLevel = difficulty,
             remedialRecommended = needsRemedial,
             updatedAtEpochMs = nowMs
-        )
-        dao.upsertSkillMastery(updated)
-        dao.insertAttemptLog(
-            AttemptLogEntity(
-                lessonId = lessonId, skillId = skillId, questionId = questionId,
-                interactionType = interactionType, isCorrect = isCorrect,
-                misconceptionCode = misconceptionCode, hintsUsed = hintsUsed,
-                responseTimeMs = responseTimeMs, timestampEpochMs = nowMs
-            )
         )
 
         val errCat = if (isCorrect) null else ErrorTaxonomy.classify(misconceptionCode)
@@ -101,24 +138,81 @@ class AdaptiveLearningEngine(private val dao: RiaziDao) {
         }
 
         val reasonFa = when {
-            needsRemedial -> "خطای تکراری در «${errCat?.titleFa ?: "مفهوم"}»؛ پیشنهاد: ${errCat?.remedialStrategyFa ?: "تمرین جبرانی"}."
-            newScore >= 0.85f -> "تسلط ${(newScore * 100).roundToInt()}٪ حاصل شد؛ آماده سنجش پایانی و مرور در $nextInterval روز آینده."
-            else -> "ادامه تمرین در سطح $difficulty (تسلط فعلی: ${(newScore * 100).roundToInt()}٪)."
+            needsRemedial -> "نیاز به مرور فوری در «${errCat?.titleFa ?: "مفهوم"}»؛ راهبرد: ${errCat?.remedialStrategyFa ?: "تمرین جبرانی"}."
+            !isCorrect -> "مرور تقویتی برای رفع «${errCat?.titleFa ?: "خطا"}»."
+            newScore >= 0.85f -> "تسلط ${(newScore * 100).roundToInt()}٪؛ مرور بعدی طبق الگوریتم SM-2 در ${sm2.intervalDays} روز آینده."
+            else -> "سطح فعلی: $difficulty (تسلط: ${(newScore * 100).roundToInt()}٪)."
         }
 
-        dao.upsertReviewQueue(
-            ReviewQueueEntity(
-                skillId = skillId,
-                lessonId = lessonId,
-                dueEpochMs = nextReviewMs,
-                priorityReasonFa = reasonFa
-            )
+        val logEntity = AttemptLogEntity(
+            lessonId = lessonId,
+            skillId = skillId,
+            questionId = questionId,
+            interactionType = interactionType,
+            isCorrect = isCorrect,
+            misconceptionCode = misconceptionCode,
+            hintsUsed = hintsUsed,
+            responseTimeMs = responseTimeMs,
+            timestampEpochMs = nowMs
         )
+        val reviewEntity = ReviewQueueEntity(
+            skillId = skillId,
+            lessonId = lessonId,
+            dueEpochMs = nextReviewMs,
+            priorityReasonFa = reasonFa
+        )
+        val achievementEntity = if (newScore >= 0.85f) {
+            AchievementEntity("ach_${lessonId}_$skillId", "تسلط بر مهارت $skillId در درس $lessonId", nowMs)
+        } else null
 
-        if (newScore >= 0.85f) {
-            dao.insertAchievement(AchievementEntity("ach_$lessonId", "تسلط بر درس $lessonId", nowMs))
-        }
+        dao.recordAttemptTransaction(updated, logEntity, reviewEntity, achievementEntity)
 
         return AdaptiveDecision(updated, action, errCat, reasonFa)
+    }
+
+    companion object {
+        /**
+         * Pure function to compute real lesson completion and stars (0..3) without any hardcoded values.
+         */
+        fun evaluateLessonCompletion(
+            existing: LessonProgressEntity?,
+            lessonId: String,
+            totalPracticeQuestions: Int,
+            practiceAnsweredCount: Int,
+            practiceCorrectCount: Int,
+            examplesViewed: Boolean,
+            guidedCompleted: Boolean,
+            assessmentScorePercent: Int,
+            passingThresholdPercent: Int = 80,
+            nowMs: Long = System.currentTimeMillis()
+        ): LessonProgressEntity {
+            val safeTotal = max(1, totalPracticeQuestions)
+            val assessmentPassed = assessmentScorePercent >= passingThresholdPercent
+            val allPracticeDone = practiceAnsweredCount >= safeTotal
+            val completed = examplesViewed && guidedCompleted && allPracticeDone && assessmentPassed
+
+            val practiceAccuracy = (practiceCorrectCount.toFloat() / safeTotal.toFloat()).coerceIn(0f, 1f)
+            val stars = when {
+                !completed -> 0
+                assessmentScorePercent >= 95 && practiceAccuracy >= 0.90f -> 3
+                assessmentScorePercent >= 85 && practiceAccuracy >= 0.75f -> 2
+                else -> 1
+            }
+
+            return LessonProgressEntity(
+                lessonId = lessonId,
+                currentQuestionIndex = (existing?.currentQuestionIndex ?: 0).coerceAtMost(safeTotal - 1),
+                totalQuestionsCount = safeTotal,
+                practiceAnsweredCount = practiceAnsweredCount,
+                practiceCorrectCount = practiceCorrectCount,
+                examplesViewed = examplesViewed,
+                guidedCompleted = guidedCompleted,
+                assessmentScorePercent = assessmentScorePercent,
+                assessmentPassed = assessmentPassed,
+                completed = completed,
+                starsEarned = max(existing?.starsEarned ?: 0, stars),
+                lastVisitedEpochMs = nowMs
+            )
+        }
     }
 }
